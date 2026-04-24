@@ -1,0 +1,73 @@
+# Chapter 1 Progress
+
+## 范围
+
+| 项目 | 内容 |
+|---|---|
+| 原书 | Engineering Data II |
+| 章节 | Chapter 1 Basic Heat Transfer |
+| 当前完成范围 | Chapter 1 全章译文、解读、术语联动、图表公式资产 |
+| 当前页码 | PDF 8-58；书内页码 6-56 |
+| 源 PDF | `D:\Knowledge-base\books\Engineering_Data_book\第二部\Engineering Data II OCR.pdf` |
+
+## 文件状态
+
+| 文件 | 用途 | 状态 |
+|---|---|---|
+| [translation.md](./translation.md) | 忠实译文；图表随文插入；公式用 LaTeX 转写并链接原式截图 | 第 1 章完整草案完成 |
+| [commentary.md](./commentary.md) | 面向有基础传热和数学背景读者的深入解读 | 第 1 章完整草案完成 |
+| [assets/](./assets/) | 原页、公式、图、表、符号表和参考文献截图 | 已生成本章所需资产；当前 165 个文件 |
+
+## 翻译进度
+
+| 节 | 英文标题 | 中文标题 | 译文 | 解读 | 状态说明 |
+|---|---|---|---|---|---|
+| 1.1 | Basic Mechanisms of Heat Transfer | 传热的基本机制 | 完成 | 完成 | 公式、图、术语联动已整理。 |
+| 1.2 | Basic Heat Exchanger Equations | 换热器基本方程 | 完成 | 完成 | 传热总系数、污垢热阻和平均温差关系已转写。 |
+| 1.3 | The Mean Temperature Difference | 平均温差 | 完成 | 完成 | F 校正图已随文插入，公式原式截图已分离。 |
+| 1.4 | Construction of Shell and Tube Heat Exchangers | 管壳式换热器的结构 | 完成 | 完成 | 管壳式结构图已按说明位置随文放置。 |
+| 1.5 | Application of Extended Surfaces to Heat Exchangers | 扩展表面在换热器中的应用 | 完成 | 完成 | 翅片效率、翅片等效面积、翅片热阻公式已转写。 |
+| 1.6 | Fouling in Heat Exchangers | 换热器中的污垢 | 完成 | 完成 | 表 1.1、表 1.2 已转写并保留原表截图链接。 |
+| Nomenclature | Nomenclature | 符号说明 | 完成 | 不单独解读 | 已译入 `translation.md`。 |
+| Bibliography | Bibliography | 参考文献 | 完成 | 不单独解读 | 保留英文文献信息。 |
+
+## 公式状态
+
+| 编号 | 位置 | 转写状态 | 原式对照 |
+|---|---|---|---|
+| (1.1)-(1.12) | 1.1 | 已转写 | `eq-1-1-original.png` 至 `eq-1-12-original.png` |
+| (1.13)-(1.31b) | 1.2-1.3 | 已转写 | `eq-1-13-original.png` 至 `eq-1-31-original.png` |
+| (1.33)-(1.49) | 1.5 | 已转写 | `eq-1-33-original.png` 至 `eq-1-49-original.png` |
+| 表 1.1 速度修正式 | 1.6 后表 | 已转写 | `eq-table-1-1-liquid-velocity-original.png`、`eq-table-1-1-gas-velocity-original.png` |
+
+## 图表状态
+
+| 类型 | 范围 | 状态 |
+|---|---|---|
+| 1.1 图示 | Fig. 1.1-Fig. 1.17 | 已随文插入。 |
+| 换热器与平均温差图 | Fig. 1.18-Fig. 1.31 | 已随文插入。 |
+| 管壳式结构图 | Fig. 1.34-Fig. 1.47 | 已随文插入。 |
+| 扩展表面图 | Fig. 1.48-Fig. 1.52c | 已随文插入。 |
+| 表格 | Table 1.1、Table 1.2 | 已转写；原表截图按表块链接。 |
+| 附录性页 | Nomenclature、Bibliography | 已转写；原页截图保留。 |
+
+## 已核修事项
+
+| 项目 | 处理 |
+|---|---|
+| 式 (1.33) | 已从原式截图人工转写，不再保留空缺说明。 |
+| 式 (1.34) | 已按原式补回前置系数 H。 |
+| 翅片效率符号 | 已按原书统一为 φ。 |
+| 表 1.2 水侧首两行 | 已按原表修正海水、微咸水四列数值。 |
+| 表 1.2 原油温度栏 | 原表扫描疑似第二组栏头重复；正文已加译者注，按脚注和数值排列处理为 200-299°F。 |
+| 图表阅读位置 | 图不再集中放在图示层，已尽量放在首次说明或紧随引用处。 |
+
+## 校对提示
+
+第 1 章当前已经形成可阅读、可追溯、可继续迭代的完整草案。正式发布前仍建议按工程资料书的正常流程复读公式和表格数值，尤其是面积基准、污垢热阻表和翅片热阻推导；这属于质量复核，不是本章结构或内容缺口。
+
+## 验证记录
+
+| 日期 | 检查 | 结果 |
+|---|---|---|
+| 2026-04-25 | Markdown UTF-8、本地链接、术语锚点、行内数学检查 | 通过 |
