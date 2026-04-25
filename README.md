@@ -4,21 +4,35 @@
 
 核心目标是形成忠实、可校对、可长期维护的中文工程阅读资料。`D:\codehub\AirCooledUnitSelection` 是重要应用背景，但不是本仓库的主线；它只用于帮助判断哪些章节需要优先理解、哪些概念需要解释得更扎实。
 
-## 当前样板章
+## 当前完成章节
 
-已用 `Engineering Data II` 第 1 章形成 Markdown 样板章：
+已用 `Engineering Data II` 第 1 章形成 Markdown 样板章，并按同一规格覆盖当前 OCR PDF 的第 1-5 章全部正文：
 
 - [第 1 章译文](translations/book-ii/ch01-basic-heat-transfer/translation.md)
 - [第 1 章解读](translations/book-ii/ch01-basic-heat-transfer/commentary.md)
 - [第 1 章进度记录](translations/book-ii/ch01-basic-heat-transfer/progress.md)
+- [第 2 章译文](translations/book-ii/ch02-sensible-heat-transfer/translation.md)
+- [第 2 章解读](translations/book-ii/ch02-sensible-heat-transfer/commentary.md)
+- [第 2 章进度记录](translations/book-ii/ch02-sensible-heat-transfer/progress.md)
+- [第 3 章译文](translations/book-ii/ch03-condensing-heat-transfer/translation.md)
+- [第 3 章解读](translations/book-ii/ch03-condensing-heat-transfer/commentary.md)
+- [第 3 章进度记录](translations/book-ii/ch03-condensing-heat-transfer/progress.md)
+- [第 4 章译文](translations/book-ii/ch04-air-cool-heat-exchangers/translation.md)
+- [第 4 章解读](translations/book-ii/ch04-air-cool-heat-exchangers/commentary.md)
+- [第 4 章进度记录](translations/book-ii/ch04-air-cool-heat-exchangers/progress.md)
+- [第 5 章译文](translations/book-ii/ch05-boiling-heat-transfer/translation.md)
+- [第 5 章解读](translations/book-ii/ch05-boiling-heat-transfer/commentary.md)
+- [第 5 章进度记录](translations/book-ii/ch05-boiling-heat-transfer/progress.md)
 
 ## 工作流文档
 
+- [Engineering Data II 目录索引](sources/book-ii-toc.md)
+- [Engineering Data Book III 目录索引](sources/book-iii-toc.md)
 - [翻译工作流](docs/workflow.md)
 - [后续章节开发计划](docs/development-plan.md)
 - [验证清单](docs/verification.md)
 
-这个样板章已经验证 Markdown 可以承载以下内容：
+当前章节实践已经验证 Markdown 可以承载以下内容：
 
 - 忠实译文
 - 独立的章节理解和解读

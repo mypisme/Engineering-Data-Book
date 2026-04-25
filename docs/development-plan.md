@@ -4,7 +4,7 @@
 
 ## 当前基准
 
-已确认以 `Engineering Data II` 第 1 章作为格式基准：
+已确认以 `Engineering Data II` 第 1 章作为格式基准，并以第 2-5 章验证了更长章节、更多图表公式、相变专题和例题页追溯的可行性：
 
 - 章节级组织，而不是小节级目录。
 - `translation.md`、`commentary.md`、`progress.md` 分离。
@@ -18,6 +18,18 @@
 - [Book II Chapter 1 translation](../translations/book-ii/ch01-basic-heat-transfer/translation.md)
 - [Book II Chapter 1 commentary](../translations/book-ii/ch01-basic-heat-transfer/commentary.md)
 - [Book II Chapter 1 progress](../translations/book-ii/ch01-basic-heat-transfer/progress.md)
+- [Book II Chapter 2 translation](../translations/book-ii/ch02-sensible-heat-transfer/translation.md)
+- [Book II Chapter 2 commentary](../translations/book-ii/ch02-sensible-heat-transfer/commentary.md)
+- [Book II Chapter 2 progress](../translations/book-ii/ch02-sensible-heat-transfer/progress.md)
+- [Book II Chapter 3 translation](../translations/book-ii/ch03-condensing-heat-transfer/translation.md)
+- [Book II Chapter 3 commentary](../translations/book-ii/ch03-condensing-heat-transfer/commentary.md)
+- [Book II Chapter 3 progress](../translations/book-ii/ch03-condensing-heat-transfer/progress.md)
+- [Book II Chapter 4 translation](../translations/book-ii/ch04-air-cool-heat-exchangers/translation.md)
+- [Book II Chapter 4 commentary](../translations/book-ii/ch04-air-cool-heat-exchangers/commentary.md)
+- [Book II Chapter 4 progress](../translations/book-ii/ch04-air-cool-heat-exchangers/progress.md)
+- [Book II Chapter 5 translation](../translations/book-ii/ch05-boiling-heat-transfer/translation.md)
+- [Book II Chapter 5 commentary](../translations/book-ii/ch05-boiling-heat-transfer/commentary.md)
+- [Book II Chapter 5 progress](../translations/book-ii/ch05-boiling-heat-transfer/progress.md)
 
 ## 第一阶段：完成 Book II Chapter 1
 
@@ -49,6 +61,8 @@
 
 目标：在大规模翻译前建立可导航的目录索引。
 
+当前状态：已完成，见 [Engineering Data II 目录索引](../sources/book-ii-toc.md) 和 [Engineering Data Book III 目录索引](../sources/book-iii-toc.md)。
+
 交付物：
 
 ```text
@@ -77,11 +91,11 @@ sources/book-iii-toc.md
 
 Book II 更适合做基础主线，推荐按章节顺序推进：
 
-1. Chapter 1 Basic Heat Transfer
-2. Chapter 2 Sensible Heat Transfer
-3. Chapter 3 Condensing Heat Transfer
-4. Chapter 4 Trufin Tubes in Air-Cool Heat Exchangers
-5. Chapter 5 Trufin Tubes in Boiling Heat Transfer
+1. Chapter 1 Basic Heat Transfer（完成）
+2. Chapter 2 Sensible Heat Transfer（完成）
+3. Chapter 3 Condensing Heat Transfer（完成）
+4. Chapter 4 Trufin Tubes in Air-Cool Heat Exchangers（完成）
+5. Chapter 5 Trufin Tubes in Boiling Heat Transfer（完成）
 
 每章都沿用同一结构：
 
@@ -127,16 +141,19 @@ Book III 每章仍按章节目录组织，但可以按小节逐步填充 `transl
 
 ## 下一步
 
-下一步推进两条线：
+Book II 第 1-5 章已形成连续主线，两本书目录索引也已补齐。下一步建议从 Book III 的 P1 专题中选择一个章节进入翻译：
 
 ```text
-sources/book-ii-toc.md
-sources/book-iii-toc.md
+Chapter 6  Heat Transfer to Air-Cooled Heat Exchangers
+Chapter 8  Condensation Inside Tubes
+Chapter 10 Boiling Heat Transfer Inside Plain Tubes
+Chapter 12 Two-Phase Flow Patterns
+Chapter 13 Two-Phase Pressure Drop
 ```
 
-先建立两本书的目录索引、页码范围、关键词和优先级，再进入 `Engineering Data II` Chapter 2。
+优先选择与 `D:\codehub\AirCooledUnitSelection` 当前问题最接近的章节；若主线仍围绕空冷器，建议先做 Chapter 6。
 
-进入 Chapter 2 前保留一条质量复核原则：
+进入后续章节前保留一条质量复核原则：
 
 - 新章节按 Chapter 1 的文件结构和公式/图表格式执行。
 - 每章完成时运行 [验证清单](./verification.md)。
