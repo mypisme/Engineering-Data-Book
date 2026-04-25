@@ -56,7 +56,7 @@
 | S<sub>m</sub> | 横掠段最小流通面积 | 壳侧主横掠流面积。 |
 | S<sub>w</sub> | 窗口流通面积 | Delaware 法窗口流面积。 |
 | R<sub>b</sub> | 旁路修正因子 | Delaware 法壳侧传热或压降修正。 |
-| R<sub>l</sub> | 泄漏修正因子 | Delaware 法壳侧压降修正。 |
+| R<sub>l</sub> (Delaware) | 泄漏修正因子 | Delaware 法壳侧压降修正；与两相压降倍率同符号，使用时按章节语境区分。 |
 | J<sub>c</sub> | 折流构型修正因子 | Delaware 法传热修正。 |
 | J<sub>l</sub> | 折流板泄漏修正因子 | Delaware 法传热修正。 |
 | J<sub>b</sub> | 管束旁路修正因子 | Delaware 法传热修正。 |
@@ -66,7 +66,7 @@
 | β | 均相流空隙率 | 按气液相无滑移估计的气相体积分数。 |
 | S | 流通截面积 | 两相流和管内流动计算中使用。 |
 | X<sub>tt</sub> | Lockhart-Martinelli 参数 | 常用于两相压降和流型关联。 |
-| R<sub>l</sub> | 液相两相压降倍率 | Martinelli-Nelson 型两相压降关联参数。 |
+| R<sub>l</sub> (two-phase) | 液相两相压降倍率 | Martinelli-Nelson 型两相压降关联参数；与 Delaware 泄漏修正因子同符号，使用时按章节语境区分。 |
 | R<sub>v</sub> | 气相两相压降倍率 | Martinelli-Nelson 型两相压降关联参数。 |
 | ΔP<sub>a</sub> | 加速压降 | 两相流因密度和速度变化造成的压降项。 |
 | ΔP<sub>f</sub> | 摩擦压降 | 两相或单相流动的摩擦压降项。 |

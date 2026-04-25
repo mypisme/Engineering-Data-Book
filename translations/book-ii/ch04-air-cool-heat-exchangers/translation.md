@@ -411,7 +411,7 @@ $$
 
 $$
 f_r =
-\frac{2\Delta P_{air}g_c}{n\rho_{air}V_{max}^2}
+\frac{\Delta P_{air}g_c}{2n\rho_{air}V_{max}^2}
 \tag{4.14}
 $$
 
