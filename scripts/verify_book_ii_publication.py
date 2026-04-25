@@ -39,6 +39,7 @@ def check_links(errors: list[str]) -> None:
     files = [ROOT / "README.md"]
     files += sorted((ROOT / "docs").glob("*.md"))
     files += sorted((ROOT / "sources").glob("*.md"))
+    files += sorted(BOOK.glob("*.md"))
     files += sorted(BOOK.glob("ch*/*.md"))
     files += sorted(GLOSSARY.glob("*.md"))
 

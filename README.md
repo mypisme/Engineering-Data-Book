@@ -8,6 +8,7 @@
 
 已用 `Engineering Data II` 第 1 章形成 Markdown 样板章，并按同一规格覆盖当前 OCR PDF 的第 1-5 章全部正文：
 
+- [Engineering Data II 总导航](translations/book-ii/README.md)：按章节、逐节和工程问题组织的可点击阅读地图。
 - [第 1 章译文](translations/book-ii/ch01-basic-heat-transfer/translation.md)
 - [第 1 章解读](translations/book-ii/ch01-basic-heat-transfer/commentary.md)
 - [第 1 章进度记录](translations/book-ii/ch01-basic-heat-transfer/progress.md)
