@@ -5,6 +5,7 @@
 | English | 中文译名 | 备注 |
 |---|---|---|
 | <a id="term-heat-transfer"></a>heat transfer | 传热 | 泛指热量由一处向另一处转移的过程。 |
+| <a id="term-heat-transfer-augmentation"></a>heat transfer augmentation | 传热强化 | 通过几何、表面或流动扰动提高传热能力的工程方法。 |
 | <a id="term-conduction"></a>conduction | 导热 | 由温度梯度引起的热传递，常见于固体或静止流体。 |
 | <a id="term-convection"></a>convection | 对流换热 | 流体宏观运动和热扩散共同导致的传热。 |
 | <a id="term-boiling"></a>boiling | 沸腾 | 液体向蒸汽相变并伴随传热的过程。 |
@@ -42,6 +43,10 @@
 | <a id="term-fin-resistance-method"></a>fin resistance method | 翅片热阻法 | 用等效翅片热阻表示扩展表面传热有效性的方法。 |
 | <a id="term-sensible-heat-transfer"></a>sensible heat transfer | 显热传热 | 不发生相变、由流体温度变化承担热负荷的传热过程。 |
 | <a id="term-trufin-tube"></a>Trufin tube | Trufin 管 / Trufin 翅片管 | Wolverine 的整体轧制翅片管产品名；译文保留商标名。 |
+| <a id="term-enhanced-tube"></a>enhanced tube | 强化管 | 通过内肋、微翅片、外翅片、涂层或其他几何强化传热的换热管。 |
+| <a id="term-doubly-enhanced-tube"></a>doubly-enhanced tube | 双侧强化管 | 管侧和壳侧或外侧同时带有传热强化结构的换热管。 |
+| <a id="term-tube-insert"></a>tube insert | 管内插入件 | 插入管内以改变流动、增强混合或破坏边界层的强化附件。 |
+| <a id="term-twisted-tape-insert"></a>twisted tape insert | 扭带插入件 | 放入管内形成旋流的带状插入件，常用于层流或低雷诺数工况强化传热。 |
 | <a id="term-low-finned-tube"></a>low-finned tube | 低翅片管 | 翅片高度较低、用于中等面积强化的整体翅片管。 |
 | <a id="term-medium-finned-tube"></a>medium-finned tube | 中翅片管 | 翅片高度和面积比高于低翅片管的整体翅片管。 |
 | <a id="term-shell-side"></a>shell side | 壳侧 | 管壳式换热器中管束外、壳体内一侧的流动空间。 |
@@ -63,11 +68,17 @@
 | <a id="term-lockhart-martinelli-parameter"></a>Lockhart-Martinelli parameter | Lockhart-Martinelli 参数 | 两相压降关联中表征液相与气相相对作用的参数。 |
 | <a id="term-annular-flow"></a>annular flow | 环状流 | 液体主要以壁面液膜形式流动，气相在核心区流动的两相流型。 |
 | <a id="term-slug-flow"></a>slug flow | 弹状流 / slug 流 | 气液交替形成大气泡和液塞的两相流型。 |
+| <a id="term-stratified-flow"></a>stratified flow | 分层流 | 水平管内气液因重力分层，液体主要位于底部、气体位于上部的两相流型。 |
+| <a id="term-stratified-wavy-flow"></a>stratified-wavy flow | 分层波状流 | 分层流界面存在波动，但液体尚未形成贯穿截面的间歇液塞的两相流型。 |
 | <a id="term-mist-flow"></a>mist flow | 雾状流 | 液体主要以液滴形式夹带在气相中的两相流型。 |
 | <a id="term-non-condensable-gas"></a>non-condensable gas | 非凝气 | 在冷凝工况下不发生冷凝、并可能增加传质阻力的气体。 |
 | <a id="term-partial-condenser"></a>partial condenser | 部分冷凝器 | 只冷凝进料中一部分可冷凝组分或只完成部分冷凝任务的冷凝器。 |
 | <a id="term-subcooling"></a>subcooling | 过冷 | 冷凝液被进一步冷却到其饱和温度以下的过程。 |
 | <a id="term-vapor-shear"></a>vapor shear | 蒸汽剪切 | 蒸汽流动对冷凝液膜施加的切向剪切作用。 |
+| <a id="term-microfin-tube"></a>microfin tube | 微翅片管 | 管内壁带有低高度螺旋或轴向微翅片的强化换热管，常用于强化蒸发和冷凝。 |
+| <a id="term-zeotropic-mixture"></a>zeotropic mixture | 非共沸混合物 | 冷凝或蒸发过程中温度随相变进程变化、存在温度滑移的混合物。 |
+| <a id="term-temperature-glide"></a>temperature glide | 温度滑移 | 非共沸混合物在给定压力和组成下露点与泡点温度之间的差值。 |
+| <a id="term-silver-bell-ghaly-method"></a>Silver-Bell-Ghaly method | Silver-Bell-Ghaly 方法 | 将混合物冷凝中的蒸汽相显热冷却和传质影响折算为附加热阻的工程方法。 |
 | <a id="term-inundation"></a>inundation | 淹没 / 液泛覆盖 | 上排管冷凝液流到下排管并覆盖其表面，影响冷凝传热的现象。 |
 | <a id="term-air-cooled-heat-exchanger"></a>air-cooled heat exchanger | 空气冷却换热器 | 用空气作为最终冷却介质、通常由风机驱动空气横掠高翅片管束的换热器。 |
 | <a id="term-high-finned-trufin"></a>high-finned Trufin | 高翅片 Trufin | 翅片高度和面积比显著高于低/中翅片 Trufin 的整体翅片管。 |
@@ -90,3 +101,21 @@
 | <a id="term-forced-convection-boiling"></a>forced convection boiling | 强制对流沸腾 | 外部流动或泵送流动显著影响气泡生成、脱离和两相传热的沸腾。 |
 | <a id="term-mixture-boiling"></a>mixture boiling | 混合物沸腾 | 多组分液体沸腾时伴随局部组成变化、泡点露点差和传质影响的相变传热。 |
 | <a id="term-two-phase-pressure-drop"></a>two-phase pressure drop | 两相压降 | 汽液或气液两相共同流动时由静压、动量变化和摩擦共同造成的压降。 |
+| <a id="term-nusselt-number"></a>Nusselt number | Nusselt 数 / 努塞尔数 | 对流传热的无量纲数，通常写作 Nu。 |
+| <a id="term-fin-and-tube-heat-exchanger"></a>fin-and-tube heat exchanger | 翅片管换热器 | 由管子和翅片组合形成扩展表面的换热器，空气侧紧凑换热器常见。 |
+| <a id="term-round-tube-and-fin-heat-exchanger"></a>round-tube-and-fin heat exchanger | 圆管翅片换热器 | 以圆管穿过板翅片或配合间断翅片构成的空气侧换热器。 |
+| <a id="term-flat-tube-and-fin-heat-exchanger"></a>flat-tube-and-fin heat exchanger | 扁管翅片换热器 | 以扁管和百叶、开缝、波纹或错列条翅片构成的紧凑换热器。 |
+| <a id="term-louvered-fin"></a>louvered fin | 百叶翅片 | 带百叶切口或百叶片组的翅片，通过导流和边界层再启动强化空气侧传热。 |
+| <a id="term-wavy-fin"></a>wavy fin | 波纹翅片 | 具有波形通道或波纹路径的翅片，用几何扰动强化空气侧换热。 |
+| <a id="term-slit-fin"></a>slit fin | 开缝翅片 | 通过开缝或切口打断边界层的翅片几何。 |
+| <a id="term-offset-strip-fin"></a>offset-strip fin | 错列条翅片 | 矩形短条交错排列形成的紧凑式强化翅片几何。 |
+| <a id="term-overall-surface-efficiency"></a>overall surface efficiency | 总表面效率 | 将翅片效率和非翅片面积合并后的整体表面有效性，常记为 η<sub>o</sub>。 |
+| <a id="term-heat-exchanger-effectiveness"></a>heat exchanger effectiveness | 换热器有效度 | 实际传热率与最大可能传热率之比，常记为 ε。 |
+| <a id="term-number-of-transfer-units"></a>number of transfer units | 传热单元数 | NTU，通常为 UA 与最小热容率之比。 |
+| <a id="term-dehumidification"></a>dehumidification | 除湿 | 空气冷却到露点以下并析出水分的过程。 |
+| <a id="term-wet-surface-condition"></a>wet-surface condition | 湿表面工况 | 空气侧表面存在冷凝液或水膜的运行状态。 |
+| <a id="term-frosting"></a>frosting | 结霜 | 空气侧表面温度低于冰点且有水分沉积形成霜层的过程。 |
+| <a id="term-contact-angle"></a>contact angle | 接触角 | 描述液体在固体表面润湿性的角度参数，会影响冷凝液滞留和排水。 |
+| <a id="term-hydrophilic-coating"></a>hydrophilic coating | 亲水涂层 | 用于改善冷凝液铺展和排水的表面处理。 |
+| <a id="term-boundary-layer-restarting"></a>boundary-layer restarting | 边界层再启动 | 间断翅片或百叶几何反复打断并重新发展边界层的强化机制。 |
+| <a id="term-vortex-generator"></a>vortex generator | 涡发生器 | 通过诱导二次流或涡结构增强混合和传热的几何附件。 |

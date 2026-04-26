@@ -94,3 +94,19 @@
 | G<sub>mm</sub> | 雾状流起始质量速度 | 第 5 章管内沸腾中用于判断雾状流开始。 |
 | V<sub>L</sub> | 蒸汽负荷 | 第 5 章釜式再沸器夹带校核中使用。 |
 | N<sub>n</sub> | 蒸汽喷嘴数 | 第 5 章釜式再沸器喷嘴初估。 |
+| Nu | Nusselt 数 | 第 6 章空气侧 j 因子定义中使用。 |
+| j | Colburn j 因子 | 第 6 章空气侧传热关联式中使用，j = Nu/(RePr<sup>1/3</sup>)。 |
+| f | Fanning 摩擦因子 | 第 6 章空气侧压降关联式中使用。 |
+| NTU | 传热单元数 | 第 6 章 ε-NTU 方法中使用，NTU = UA/(Wc)<sub>min</sub>。 |
+| C<sub>r</sub> | 热容率比 | 第 6 章 ε-NTU 方法中使用，(Wc)<sub>min</sub>/(Wc)<sub>max</sub>。 |
+| ε (effectiveness) | 换热器有效度 | 第 6 章 ε-NTU 方法中为 Q/Q<sub>max</sub>；区别于第 1 章辐射发射率 ε。 |
+| η<sub>f</sub> | 翅片效率 | 第 6 章紧凑式翅片换热器中使用。 |
+| η<sub>o</sub> | 总表面效率 | 第 6 章把翅片面积和非翅片面积合并后的表面效率。 |
+| A<sub>fr</sub> | 迎风面积 | 第 6 章空气入口面上游截面面积。 |
+| A<sub>min</sub> | 最小流通截面积 | 第 6 章空气侧质量通量和压降计算中使用。 |
+| A<sub>T</sub> | 总传热面积 | 第 6 章紧凑换热器空气侧总面积。 |
+| D<sub>h</sub> | 空气侧水力直径 | 第 6 章通常写作 4A<sub>min</sub>L/A<sub>T</sub>。 |
+| Δi<sub>lm,cf</sub> | 逆流对数平均焓差 | 第 6 章湿空气焓势法中使用。 |
+| K<sub>c</sub> | 收缩压降系数 | 第 6 章紧凑换热器完整压降式中使用。 |
+| K<sub>e</sub> | 扩张压降系数 | 第 6 章紧凑换热器完整压降式中使用。 |
+| σ (contraction ratio) | 收缩比 | 第 6 章为空气侧 A<sub>min</sub>/A<sub>fr</sub>，区别于辐射常数 σ。 |
