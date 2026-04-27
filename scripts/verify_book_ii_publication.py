@@ -93,6 +93,7 @@ def check_chapter_assets(errors: list[str], warnings: list[str]) -> None:
         ("book-ii", "ch04-air-cool-heat-exchangers"): (210, 241),
         ("book-ii", "ch05-boiling-heat-transfer"): (242, 305),
         ("book-iii", "ch02-design-considerations-for-enhanced-heat-exchangers"): (37, 46),
+        ("book-iii", "ch03-single-phase-shell-side-flows-and-heat-transfer"): (47, 66),
         ("book-iii", "ch06-heat-transfer-to-air-cooled-heat-exchangers"): (121, 160),
         ("book-iii", "ch08-condensation-inside-tubes"): (213, 239),
     }

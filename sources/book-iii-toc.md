@@ -17,12 +17,12 @@
 |---|---|---|---|---|---|---|---|
 | 1 | Video Gallery of Flow Phenomena | 流动现象视频图集 | 9-36 | 1-1 到 1-28 | P2 | 未开始 | 两相流可视化、流型、冷凝、沸腾 |
 | 2 | Design Considerations for Enhanced Heat Exchangers | 强化换热器设计考虑 | 37-46 | 2-1 到 2-10 | P1 | 工程阅读草稿完成 | 强化换热、设计权衡、压降、成本、污垢 |
-| 3 | Single-Phase Shell-Side Flows and Heat Transfer | 单相壳侧流动与传热 | 47-66 | 3-1 到 3-20 | P1 | 未开始 | Taborek、Delaware、壳侧流路、折流板、压降 |
+| 3 | Single-Phase Shell-Side Flows and Heat Transfer | 单相壳侧流动与传热 | 47-66 | 3-1 到 3-20 | P1 | 工程阅读草稿完成 | Taborek、Delaware、壳侧流路、折流板、压降 |
 | 4 | Enhanced Single-Phase Laminar Tube-Side Flows and Heat Transfer | 强化单相层流管内流动与传热 | 67-93 | 4-1 到 4-27 | P2 | 未开始 | 层流、内翅片、螺旋槽、扭带、微尺度 |
 | 5 | Enhanced Single-Phase Turbulent Tube-Side Flows and Heat Transfer | 强化单相湍流管内流动与传热 | 94-120 | 5-1 到 5-27 | P2 | 未开始 | 湍流、粗糙管、内肋、扭带、摩擦因子 |
 | 6 | Heat Transfer to Air-Cooled Heat Exchangers | 空冷换热器传热 | 121-160 | 6-1 到 6-40 | P1 | 工程阅读草稿完成 | 空冷器、空气侧、波纹翅片、百叶翅片、压降、Jacobi |
 | 7 | Condensation on External Surfaces | 外表面冷凝 | 161-212 | 7-1 到 7-52 | P2 | 未开始 | 水平管、管束、低翅片、强化冷凝管、非凝气 |
-| 8 | Condensation Inside Tubes | 管内冷凝 | 213-239 | 8-1 到 8-27 | P1 | 工程阅读草稿启动 | 水平管、流型、微翅片管、混合物冷凝、过热蒸汽 |
+| 8 | Condensation Inside Tubes | 管内冷凝 | 213-239 | 8-1 到 8-27 | P1 | 工程阅读草稿完成 | 水平管、流型、微翅片管、混合物冷凝、过热蒸汽 |
 | 9 | Boiling Heat Transfer on External Surfaces | 外表面沸腾传热 | 240-277 | 9-1 到 9-38 | P2 | 未开始 | 池沸腾、管束沸腾、强化管、临界热通量 |
 | 10 | Boiling Heat Transfer Inside Plain Tubes | 光管管内沸腾传热 | 278-306 | 10-1 到 10-29 | P1 | 未开始 | 垂直管、水平管、蒸发、流型、混合物、局部换热系数 |
 | 11 | Boiling Heat Transfer Inside Enhanced Tubes | 强化管管内沸腾传热 | 307-328 | 11-1 到 11-22 | P2 | 未开始 | 微翅片管、扭带、波纹管、多孔涂层、强化蒸发 |

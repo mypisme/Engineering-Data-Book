@@ -60,6 +60,14 @@
 | <a id="term-fanning-friction-factor"></a>Fanning friction factor | Fanning 摩擦因子 | 压降计算中使用的摩擦因子，区别于 Darcy 摩擦因子。 |
 | <a id="term-bypass-flow"></a>bypass flow | 旁路流 | 壳侧流体绕过主横掠管束通道的流动。 |
 | <a id="term-baffle-leakage"></a>baffle leakage | 折流板泄漏 | 壳-折流板间隙或管-折流板孔间隙导致的壳侧泄漏流。 |
+| <a id="term-segmental-baffle"></a>segmental baffle | 弓形折流板 | 管壳式换热器中由圆板切去一段形成窗口区的常见折流板。 |
+| <a id="term-baffle-cut"></a>baffle cut | 折流板切口 | 折流板窗口高度相对壳体内径的比例，通常用百分数表示。 |
+| <a id="term-tube-bundle"></a>tube bundle | 管束 | 管壳式换热器中由多根换热管、折流板和管板组成的组件。 |
+| <a id="term-window-flow"></a>window flow | 窗口流 | 壳侧流体通过折流板切口窗口区的流动。 |
+| <a id="term-sealing-strip"></a>sealing strip | 密封条 | 安装在管束周边、用于阻挡壳侧管束旁路流的条状结构。 |
+| <a id="term-pass-partition-lane"></a>pass partition lane | 管程隔板通道 | 多管程换热器为布置封头管程隔板而在管束中形成的无管通道。 |
+| <a id="term-tube-layout"></a>tube layout | 布管形式 | 管束中管子的几何排列方式，如 30°、45° 或 90° 布管。 |
+| <a id="term-tube-pitch"></a>tube pitch | 管间距 | 管束中相邻管中心之间的距离。 |
 | <a id="term-direct-contact-condensation"></a>direct contact condensation | 直接接触冷凝 | 蒸汽直接与喷入或接触的冷却液表面冷凝。 |
 | <a id="term-homogeneous-condensation"></a>homogeneous condensation | 均相冷凝 | 过饱和蒸汽在远离宏观表面的空间中形成液相。 |
 | <a id="term-quality"></a>quality | 干度 | 两相流中蒸汽质量流量占总质量流量的比例。 |
@@ -75,6 +83,11 @@
 | <a id="term-partial-condenser"></a>partial condenser | 部分冷凝器 | 只冷凝进料中一部分可冷凝组分或只完成部分冷凝任务的冷凝器。 |
 | <a id="term-subcooling"></a>subcooling | 过冷 | 冷凝液被进一步冷却到其饱和温度以下的过程。 |
 | <a id="term-vapor-shear"></a>vapor shear | 蒸汽剪切 | 蒸汽流动对冷凝液膜施加的切向剪切作用。 |
+| <a id="term-mass-velocity"></a>mass velocity | 质量通量 | 单位截面积质量流率，原书常用 kg/m<sup>2</sup>s；也可称质量流速。 |
+| <a id="term-desuperheating-zone"></a>desuperheating zone | 去过热区 | 过热蒸汽被冷却到接近饱和状态的换热区域；若壁温低于饱和温度，边界层中可同时发生冷凝。 |
+| <a id="term-interfacial-roughness"></a>interfacial roughness | 界面粗糙度 | 汽液界面波动、涟波和液滴夹带共同造成的等效粗糙度，会影响液膜冷凝传热。 |
+| <a id="term-dew-point"></a>dew point | 露点 | 给定压力和组成下蒸汽开始冷凝的温度。 |
+| <a id="term-bubble-point"></a>bubble point | 泡点 | 给定压力和组成下液体开始沸腾或产生第一泡蒸汽的温度。 |
 | <a id="term-microfin-tube"></a>microfin tube | 微翅片管 | 管内壁带有低高度螺旋或轴向微翅片的强化换热管，常用于强化蒸发和冷凝。 |
 | <a id="term-zeotropic-mixture"></a>zeotropic mixture | 非共沸混合物 | 冷凝或蒸发过程中温度随相变进程变化、存在温度滑移的混合物。 |
 | <a id="term-temperature-glide"></a>temperature glide | 温度滑移 | 非共沸混合物在给定压力和组成下露点与泡点温度之间的差值。 |

@@ -15,9 +15,9 @@
 | 文件 | 用途 | 状态 |
 |---|---|---|
 | [README.md](./README.md) | 章节入口和阅读说明 | 完成 |
-| [translation.md](./translation.md) | 忠实译文；原页随文放置；Table 2.1 已按原页复核 | 工程阅读草稿 |
+| [translation.md](./translation.md) | 忠实译文；正文展示 Table 2.1 局部表格；完整源页保留在 assets 中 | 工程阅读草稿 |
 | [commentary.md](./commentary.md) | 面向换热器选型和工程改造读者的深入解读 | 完整解读草稿 |
-| [assets/](./assets/) | 原页截图 | 已生成 10 张源页 |
+| [assets/](./assets/) | 原页截图和 Table 2.1 局部表格截图 | 已生成 10 张源页和 1 张局部表格图 |
 
 ## 翻译进度
 
@@ -39,21 +39,22 @@
 
 | 编号 | 位置 | 内容 | 原页 | 状态 |
 |---|---|---|---|---|
-| Table 2.1 | 2.10 | 316L 不锈钢管地热冷凝器设计案例 | [source-page-46.png](./assets/source-page-46.png) | 已转写，并按原页复核列头与关键数值 |
+| Table 2.1 | 2.10 | 316L 不锈钢管地热冷凝器设计案例 | [table-2-1-original.png](./assets/table-2-1-original.png)、[source-page-46.png](./assets/source-page-46.png) | 已裁切、转写，并按原页复核列头与关键数值 |
 
 ## 图表和原页清单
 
 | 范围 | 文件 | 状态 |
 |---|---|---|
-| PDF 37-46 | `source-page-37.png` 到 `source-page-46.png` | 已生成并随文引用 |
+| PDF 37-46 | `source-page-37.png` 到 `source-page-46.png` | 已生成并保留在 assets 中作二校底稿；正文不嵌入整页原文图 |
+| Table 2.1 | `table-2-1-original.png` | 已生成并随文引用 |
 
 ## 已核修事项
 
 | 项目 | 处理 |
 |---|---|
 | 章节结构 | 沿用 Book II 标准建立 README、translation、commentary、progress、assets |
-| 原页追溯 | 已生成 PDF 37-46 全部原页截图 |
-| 表格处理 | Table 2.1 已转写为 Markdown 表格，并按原页截图复核列头、翅高/翅厚和主要数值 |
+| 原页追溯 | 已生成 PDF 37-46 全部原页截图；完整源页只保留在 assets 中，不再插入正文 |
+| 表格处理 | Table 2.1 已转写为 Markdown 表格，并按局部表格图与原页截图复核列头、翅高/翅厚和主要数值 |
 | 术语联动 | 强化换热、强化管、管内插入件、扭带插入件、污垢热阻、微翅片管等术语已链接或补充 |
 | 行内数学 | 正文避免行内美元数学写法，单位和简单符号使用 HTML 或纯文本 |
 
@@ -64,6 +65,7 @@
 | 2026-04-26 | 第三部第 2 章落地 | 章节结构、源页截图、译文、解读、进度和 Table 2.1 转写已建立 |
 | 2026-04-26 | OCR 风险评估 | 正文 OCR 可用；Table 2.1 已以原页截图完成本轮数值复核，发布前可再安排第二人复校 |
 | 2026-04-26 | 逐页完整性复核 | 对 PDF 37-46 与译文逐节对照，补齐制造商报价、U 形管制造商弯曲建议、微翅片制造商说明和产品表提示；Table 2.1 已按原页修正 19 fpi 列翅高/翅厚 |
+| 2026-04-27 | 正文图像清理 | 移除正文中的整页源图引用，新增 Table 2.1 局部表格图；完整源页保留在 assets 中用于追溯 |
 
 ## 校对提示
 
@@ -79,3 +81,5 @@
 |---|---|---|
 | 2026-04-26 | 章节资产生成 | 已生成 10 张源页截图 |
 | 2026-04-26 | `python scripts\verify_book_ii_publication.py` | Publication verification passed |
+| 2026-04-27 | 正文图片引用审计 | `translation.md` 仅保留 1 个局部表格图引用，source-page 整页图引用为 0 |
+| 2026-04-27 | `python scripts\verify_book_ii_publication.py` | Publication verification passed |

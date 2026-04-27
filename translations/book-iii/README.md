@@ -7,6 +7,7 @@
 | 章节 | 主题 | 工程上主要解决的问题 | 快速入口 |
 |---|---|---|---|
 | Chapter 2 | 强化换热器设计考虑 | 强化管和插入件的热工收益、经济性、机械约束、行业应用和设计优化边界 | [译文](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md) / [解读](./ch02-design-considerations-for-enhanced-heat-exchangers/commentary.md) / [进度](./ch02-design-considerations-for-enhanced-heat-exchangers/progress.md) |
+| Chapter 3 | 单相壳侧流动与传热 | Taborek/Delaware 壳侧流路分析、折流板管束几何、传热和压降修正、低翅片管束扩展 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md) / [解读](./ch03-single-phase-shell-side-flows-and-heat-transfer/commentary.md) / [进度](./ch03-single-phase-shell-side-flows-and-heat-transfer/progress.md) |
 | Chapter 6 | 空冷换热器传热 | 空气侧传热和压降、圆管/扁管翅片换热器关联式、湿工况与结霜工况的性能处理 | [译文](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md) / [解读](./ch06-heat-transfer-to-air-cooled-heat-exchangers/commentary.md) / [进度](./ch06-heat-transfer-to-air-cooled-heat-exchangers/progress.md) |
 | Chapter 8 | 管内冷凝 | 水平管内冷凝流型、局部冷凝传热系数、微翅片管、可凝混合物、过热区与过冷区 | [译文](./ch08-condensation-inside-tubes/translation.md) / [解读](./ch08-condensation-inside-tubes/commentary.md) / [进度](./ch08-condensation-inside-tubes/progress.md) |
 
@@ -21,6 +22,17 @@
 | 2.3 | 热工设计和优化考虑 | 避免用光管约束限制强化设备，正确处理污垢面积比和软件输入 | [译文](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md#23-thermal-design-and-optimization-considerations) |
 | 2.4 | 机械设计和制造考虑 | 检查壁厚、胀接/焊接、U 形弯曲和固定管板平均金属温差 | [译文](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md#24-mechanical-design-and-construction-considerations) |
 | 2.5-2.11 | 行业应用 | 对照制冷空调、石化、电厂、地热和食品加工等场景识别强化机会 | [译文](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md#25-refrigeration-and-air-conditioning-system-applications) |
+
+### Chapter 3 单相壳侧流动与传热
+
+| 节 | 主要内容 | 工程用途 | 入口 |
+|---|---|---|---|
+| 3.1 | Taborek/Delaware 法背景和适用边界 | 明确本章适用于单弓形折流板主线壳侧设计 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#31-introduction) |
+| 3.2 | A/B/C/E/F 壳侧流股 | 识别横掠流、泄漏流、管束旁路和管程隔板旁路的作用 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#32-stream-analysis-of-flow-distribution-in-a-baffled-heat-exchanger) |
+| 3.3 | 管束和壳体几何 | 建立壳径、管束限径、折流板切口、间隙、布管和管数估算输入 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#33-definition-of-bundle-and-shell-geometries) |
+| 3.4 | 壳侧传热流路分析 | 用 J 修正因子从理想管束传热系数得到实际壳侧系数 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#34-stream-analysis-of-heat-transfer-in-a-baffled-heat-exchanger) |
+| 3.5 | 壳侧压降流路分析 | 分解横掠流、窗口流和端区压降并施加 R 修正因子 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#35-stream-analysis-of-shell-side-pressure-drop-in-a-baffled-heat-exchanger) |
+| 3.6 | 低翅片管束扩展 | 把光管 Taborek 方法扩展到整体低翅片管束 | [译文](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#36-stream-analysis-applied-to-low-finned-tube-bundles) |
 
 ### Chapter 6 空冷换热器传热
 
@@ -53,6 +65,8 @@
 |---|---|
 | 强化管贵，为什么整台设备反而可能更便宜？ | [第 2 章译文 2.2](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md#22-thermal-and-economic-advantages-of-heat-transfer-augmentations)、[第 2 章解读](./ch02-design-considerations-for-enhanced-heat-exchangers/commentary.md#设计判断主线) |
 | 强化换热器设计时最容易犯什么软件输入错误？ | [第 2 章译文 2.3](./ch02-design-considerations-for-enhanced-heat-exchangers/translation.md#23-thermal-design-and-optimization-considerations)、[第 2 章解读](./ch02-design-considerations-for-enhanced-heat-exchangers/commentary.md#污垢处理是常见错误点) |
+| 壳侧 Delaware/Taborek 法中为什么要分 A/B/C/E/F 流股？ | [第 3 章译文 3.2](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#32-stream-analysis-of-flow-distribution-in-a-baffled-heat-exchanger)、[第 3 章解读](./ch03-single-phase-shell-side-flows-and-heat-transfer/commentary.md#设计判断主线) |
+| 折流板间隙、旁路和密封条会怎样影响壳侧传热与压降？ | [第 3 章译文 3.4](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#34-stream-analysis-of-heat-transfer-in-a-baffled-heat-exchanger)、[第 3 章译文 3.5](./ch03-single-phase-shell-side-flows-and-heat-transfer/translation.md#35-stream-analysis-of-shell-side-pressure-drop-in-a-baffled-heat-exchanger) |
 | 为什么空气侧文献常用 Colburn j 因子而不是直接用 Nu？ | [6.1 引言与背景](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md#61-introduction-and-background)、[第 6 章解读](./ch06-heat-transfer-to-air-cooled-heat-exchangers/commentary.md#j-因子是空气侧文献的通用接口) |
 | 空冷器用 LMTD 还是 ε-NTU？ | [6.1 换热器模型方程](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md#换热器模型方程)、[Example 6.1](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md#example-61) |
 | 湿表面为什么可能增加压降、但不一定提高显热 j 因子？ | [6.2 平片圆管](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md#62-performance-of-plain-fin-round-tube-heat-exchangers)、[第 6 章解读](./ch06-heat-transfer-to-air-cooled-heat-exchangers/commentary.md#湿工况不是简单的粗糙度修正) |
@@ -66,6 +80,7 @@
 | 范围 | 入口 |
 |---|---|
 | Chapter 2 进度与校对风险 | [progress.md](./ch02-design-considerations-for-enhanced-heat-exchangers/progress.md) |
+| Chapter 3 进度与校对风险 | [progress.md](./ch03-single-phase-shell-side-flows-and-heat-transfer/progress.md) |
 | Chapter 6 进度与校对风险 | [progress.md](./ch06-heat-transfer-to-air-cooled-heat-exchangers/progress.md) |
 | Chapter 8 进度与校对风险 | [progress.md](./ch08-condensation-inside-tubes/progress.md) |
 | 第三部目录索引 | [book-iii-toc.md](../../sources/book-iii-toc.md) |

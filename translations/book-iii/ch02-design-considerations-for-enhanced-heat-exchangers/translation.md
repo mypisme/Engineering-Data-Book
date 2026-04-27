@@ -9,7 +9,7 @@ source_book_pages: "2-1 到 2-10"
 status: complete_engineering_reading_draft
 ocr_quality: usable_for_prose_table_requires_visual_check
 formula_check: no_numbered_equations_table_2_1_transcribed
-figure_check: source_pages_inserted_table_transcribed
+figure_check: full_source_pages_kept_in_assets_table_2_1_local_crop_inserted
 translation_scope: "第 2 章：强化换热器设计收益、优化、机械制造约束和行业应用"
 ---
 
@@ -27,6 +27,8 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 | 书内页码 | 2-1 到 2-10 |
 | 进度记录 | [progress.md](./progress.md) |
 
+完整源页截图保留在 `assets/source-page-37.png` 到 `assets/source-page-46.png`，用于逐页二校和表格复核。正文只展示必要的局部表格资产，避免整页原文图打断阅读。
+
 ## 摘要
 
 本章聚焦管式换热器的[传热强化](../../../glossary/terms.md#term-heat-transfer-augmentation)，说明现有和潜在的管式强化技术在多个工业领域中的应用，并讨论热工、机械和经济方面的关键考虑。
@@ -40,8 +42,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 采用强化管设计管式换热器，通常能得到比常规光管设备更紧凑的设计。紧凑化不仅会带来换热器本体的热工、机械和经济优势，还会降低支撑结构、管道、撬装单元、运输和安装成本。在石化应用中，安装总成本常常达到换热器本体价格的 2 到 3 倍，因此这种外部成本下降很重要。紧凑强化设计还显著减少两种流体在换热器内的滞留量，在某些场合这是重要的安全因素。
 
 本章说明管式换热器中使用强化管和[管内插入件](../../../glossary/terms.md#term-tube-insert)时的实际考虑、优势和应用识别原则。
-
-![第 2 章首页原页](./assets/source-page-37.png)
 
 ## 2.2 Thermal and Economic Advantages of Heat Transfer Augmentations
 
@@ -87,10 +87,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 总体上，最好让制造厂对常规光管设备和强化管设备分别报价，并且两者都要针对应用条件优化。即使总管材成本相同，典型节省仍可达到 15% 到 40%。如果粗略假设管材、其他材料加固定成本、人工成本各占换热器总成本的三分之一，则当设备变小后，后两类成本会显著下降。因此，最简单的经济尺度是尺寸缩减：如果强化设备少用三分之一管数，通常也会比常规设备便宜约三分之一，即使强化管单价更高。
 
-![第 2.2 节原页续](./assets/source-page-38.png)
-
-![第 2.2 节成本比较原页](./assets/source-page-39.png)
-
 ## 2.3 Thermal Design and Optimization Considerations
 
 ## 2.3 热工设计和优化考虑
@@ -120,8 +116,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 由于管侧和壳侧污垢系数应作用在各自实际总润湿面积上，常规光管设计软件通常会错误地把强化表面的污垢系数施加到管的名义内外表面积上。正确处理方式是先将污垢系数除以对应面积比，再输入软件。例如，若内螺旋肋管相对于肋根名义面积的内表面积比为 1.8，则管侧污垢系数输入前应除以 1.8，才能在总传热系数计算中反映正确污垢热阻。
 
-![第 2.3 节原页](./assets/source-page-40.png)
-
 ## 2.4 Mechanical Design and Construction Considerations
 
 ## 2.4 机械设计和制造考虑
@@ -148,8 +142,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 无论如何，对固定管板换热器，都应检查强化结构对平均金属温差的影响。在既有固定管板设备中安装插入件时，应把新的平均金属温差与原机械设计采用的数值比较。
 
-![第 2.4 节原页](./assets/source-page-41.png)
-
 ## 2.5 Refrigeration and Air-Conditioning System Applications
 
 ## 2.5 制冷和空调系统应用
@@ -165,8 +157,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 对满液蒸发器，已有许多商业外部强化结构，多数也可采用双侧强化版本，即管侧为冷冻水、冷却水或盐水强化。比较这些强化结构时，不应只比较单管性能，而应比较管束性能，并计入水侧强化和内表面积比降低污垢热阻的正面效果。
 
 对于管内冷冻水，高效内肋和内翅片设计能在传热与压降之间提供良好折中。若冷冻水在壳侧，例如直接膨胀蒸发器水冷机组，较优管型可能是外低翅片加内微翅片管；虽然每米管材金属量更高，但总管长可能只有约一半。
-
-![第 2.5 节原页](./assets/source-page-42.png)
 
 ## 2.6 Refinery and Petrochemical Plant Applications
 
@@ -207,10 +197,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 其他重要应用还包括胶黏剂生产中的工艺流加热和冷却，以及塑料工业中 PVC、醋酸酯和聚苯乙烯等聚合物熔体的加热和冷却。真空蒸馏装置、润滑油装置和重油生产设施中也常见强化机会，因为这些场合有许多黏性流体，层流持续存在。
 
-![第 2.6 节原页](./assets/source-page-43.png)
-
-![第 2.6 节行业应用原页续](./assets/source-page-44.png)
-
 ## 2.7 Air-Separation and Liquified Natural Gas Plant Applications
 
 ## 2.7 空分和液化天然气装置应用
@@ -233,10 +219,6 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 某些蒸汽发生器制造商在化石燃料电站锅炉中采用内肋管。内肋产生的旋流可在非对称热流环境中使管壁更好润湿，从而提高进入膜态沸腾前的临界热流密度。对既有光滑内壁设备中容易出现该问题的管段，也可安装扭带插入件。
 
-![第 2.7-2.9 节原页](./assets/source-page-44.png)
-
-![第 2.9 节续和第 2.10 节原页](./assets/source-page-45.png)
-
 ## 2.10 Geothermal and Ocean-Thermal Power Plant Applications
 
 ## 2.10 地热和海洋温差电站应用
@@ -249,7 +231,7 @@ translation_scope: "第 2 章：强化换热器设计收益、优化、机械制
 
 强化蒸发器和冷凝器可使用更大的管侧水速，从而提高内部传热系数并减少污垢和结垢。表 2.1 给出了一个实际地热冷凝器优化案例，采用 316L 不锈钢管。该设计由 ENHANCED HEAT TRANSFER 软件优化，软件由 J. R. Thome 编写并通过 HTRI 授权。由于应用要求是可由卡车运输的便携设备，管长固定为 9.9 m。强化设计显著减少管数和壳体尺寸。其可靠性因子也更高，因为清洁总传热系数与污垢工况总传热系数之比从光管的 1.34 提高到约 1.62。
 
-![第 2.10 节和表 2.1 原页](./assets/source-page-46.png)
+![Table 2.1 采用 316L 不锈钢管的地热冷凝器设计案例局部图](./assets/table-2-1-original.png)
 
 ### Table 2.1 Geothermal Condenser Design Case Study with 316L Stainless Tubing
 
