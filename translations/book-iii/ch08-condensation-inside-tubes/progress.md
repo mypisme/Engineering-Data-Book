@@ -39,7 +39,7 @@
 | (8.1.32)-(8.1.43) | 8.1.2 | 对流液膜、液膜厚度、界面粗糙度、Nusselt 降膜冷凝和热流密度形式 | [source-page-222.png](./assets/source-page-222.png) 至 [source-page-224.png](./assets/source-page-224.png) | 已按原页转写 |
 | (8.3.1)-(8.3.2) | 8.3 | Silver-Bell-Ghaly 有效冷凝系数和蒸汽显热冷却比例 | [source-page-231.png](./assets/source-page-231.png) 至 [source-page-232.png](./assets/source-page-232.png) | 已按原页转写 |
 | (8.3.3)-(8.3.9) | 8.3 | Del Col-Cavallini-Thome 混合物周向平均系数、Bell-Ghaly 热阻、蒸汽相系数和非平衡因子 | [source-page-234.png](./assets/source-page-234.png) 至 [source-page-235.png](./assets/source-page-235.png) | 已按原页转写 |
-| 算例 | 8.3 | 丙烷与 5 °C 线性温度滑移烃类混合物冷凝局部系数 | [source-page-236.png](./assets/source-page-236.png) 至 [source-page-238.png](./assets/source-page-238.png) | 已整理关键中间量；Shah 算例 Re<sub>L</sub> 数值按原书保留 |
+| 算例 | 8.3 | 丙烷与 5 °C 线性温度滑移烃类混合物冷凝局部系数 | [source-page-236.png](./assets/source-page-236.png) 至 [source-page-238.png](./assets/source-page-238.png) | 已整理关键中间量；Shah 算例 Re<sub>L</sub> 已按源页与复算修正为 22305 |
 
 ## 图表清单
 
@@ -81,13 +81,13 @@
 | 2026-04-27 | 高标准开发复核 | 对 PDF 213-239 逐页抽取源文，补齐公式链、微翅片实验清单、Table 8.1、混合物模型和算例；新增局部图表资产 |
 | 2026-04-27 | 局部图表裁切复核 | 重裁 Fig. 8.1-Fig. 8.14，移除误入的英文正文段落，正文仅保留局部图表资产 |
 | 2026-04-27 | 最终二校检查 | 核对 54 个公式 tag、14 张 Fig. 局部图和 Table 8.1；原书式（8.1.18）和式（8.1.19）分为 a/b 两个子式，译文保留该编号 |
+| 2026-04-27 | Shah 算例 Re<sub>L</sub> 复核 | 源页为 22305；按 200(0.015)/0.0001345 复算为 22304.83，式（8.1.6）结果仍为约 4283 W/(m<sup>2</sup>K)；此前异常数值属译文转写错误 |
 
 ## 校对提示
 
 第 8 章当前版本是完整工程阅读草稿。正式发布前建议继续：
 
 - 由第二人逐式复核式（8.1.29）和式（8.1.31）这类长公式，避免排版层级误读。
-- 复核算例中 Shah 方法的 Re<sub>L</sub> 数值；译文按原书给出的 55395 保留，但该行显示的代入式与数值存在可疑不一致。
 - 若后续开发第 12 章和第 13 章，应回链本章流型图、空隙率和压降相关符号。
 
 ## 验证记录
@@ -100,3 +100,4 @@
 | 2026-04-27 | `git diff --check` | 通过；仅出现 Windows 换行提示 |
 | 2026-04-27 | 公式编号审计 | 公式 tag 共 54 个且无重复；式（8.1.18a/b）和式（8.1.19a/b）按原书子编号保留 |
 | 2026-04-27 | 最终二校后 `python scripts\verify_book_ii_publication.py` | Publication verification passed |
+| 2026-04-27 | Shah 算例数值复算 | Re<sub>L</sub> = 200(0.015)/0.0001345 = 22304.83，译文修正为源页值 22305；α(x) = 4283 W/(m<sup>2</sup>K) 保持一致 |
