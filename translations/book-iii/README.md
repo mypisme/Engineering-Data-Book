@@ -11,6 +11,15 @@
 | Chapter 6 | 空冷换热器传热 | 空气侧传热和压降、圆管/扁管翅片换热器关联式、湿工况与结霜工况的性能处理 | [译文](./ch06-heat-transfer-to-air-cooled-heat-exchangers/translation.md) / [解读](./ch06-heat-transfer-to-air-cooled-heat-exchangers/commentary.md) / [进度](./ch06-heat-transfer-to-air-cooled-heat-exchangers/progress.md) |
 | Chapter 8 | 管内冷凝 | 水平管内冷凝流型、局部冷凝传热系数、微翅片管、可凝混合物、过热区与过冷区 | [译文](./ch08-condensation-inside-tubes/translation.md) / [解读](./ch08-condensation-inside-tubes/commentary.md) / [进度](./ch08-condensation-inside-tubes/progress.md) |
 
+## 收口状态
+
+| 章节 | 当前质量状态 | 说明 |
+|---|---|---|
+| Chapter 2 | 本轮总收口完成 | Table 2.1 已逐项对照局部源图复核；正文无整页原文图嵌入 |
+| Chapter 3 | 本轮总收口完成 | Table 3.1、式（3.4.13）和式（3.5.7）已对照源图复核；正文无整页原文图嵌入 |
+| Chapter 6 | 本轮出版级收口完成 | 主公式、Table 6.1、Table 6.2/6.3 和参考文献已收口；Table 6.1 实际计算前仍应回看局部源图核对跨页常数和适用范围 |
+| Chapter 8 | 本轮总收口完成 | Shah 算例、式（8.1.29）和式（8.1.31）已对照源页复核；正文无整页原文图嵌入 |
+
 ## 逐节地图
 
 ### Chapter 2 强化换热器设计考虑

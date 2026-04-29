@@ -35,7 +35,7 @@
 |---|---|---|---|---|
 | (8.1.1)-(8.1.6) | 8.1.2 | Chato 分层冷凝、Nusselt 膜冷凝、Zivi 空隙率、Akers 与 Shah 关联式 | [source-page-214.png](./assets/source-page-214.png) 至 [source-page-215.png](./assets/source-page-215.png) | 已按原页转写 |
 | (8.1.7)-(8.1.22) | 8.1.2 | Dobson-Chato 环状流/分层波状流关联、Soliman 转变数、Tang 环状流关联 | [source-page-216.png](./assets/source-page-216.png) 至 [source-page-218.png](./assets/source-page-218.png) | 已按原页转写 |
-| (8.1.23)-(8.1.31) | 8.1.2 | Thome-El Hajal-Cavallini 周向平均系数、截面积几何、空隙率和分层角 | [source-page-220.png](./assets/source-page-220.png) 至 [source-page-222.png](./assets/source-page-222.png) | 已按原页转写，8.1.31 建议发布前第二人复核 |
+| (8.1.23)-(8.1.31) | 8.1.2 | Thome-El Hajal-Cavallini 周向平均系数、截面积几何、空隙率和分层角 | [source-page-220.png](./assets/source-page-220.png) 至 [source-page-222.png](./assets/source-page-222.png) | 已按原页复核转写，式（8.1.29）和式（8.1.31）长公式已复核 |
 | (8.1.32)-(8.1.43) | 8.1.2 | 对流液膜、液膜厚度、界面粗糙度、Nusselt 降膜冷凝和热流密度形式 | [source-page-222.png](./assets/source-page-222.png) 至 [source-page-224.png](./assets/source-page-224.png) | 已按原页转写 |
 | (8.3.1)-(8.3.2) | 8.3 | Silver-Bell-Ghaly 有效冷凝系数和蒸汽显热冷却比例 | [source-page-231.png](./assets/source-page-231.png) 至 [source-page-232.png](./assets/source-page-232.png) | 已按原页转写 |
 | (8.3.3)-(8.3.9) | 8.3 | Del Col-Cavallini-Thome 混合物周向平均系数、Bell-Ghaly 热阻、蒸汽相系数和非平衡因子 | [source-page-234.png](./assets/source-page-234.png) 至 [source-page-235.png](./assets/source-page-235.png) | 已按原页转写 |
@@ -82,12 +82,12 @@
 | 2026-04-27 | 局部图表裁切复核 | 重裁 Fig. 8.1-Fig. 8.14，移除误入的英文正文段落，正文仅保留局部图表资产 |
 | 2026-04-27 | 最终二校检查 | 核对 54 个公式 tag、14 张 Fig. 局部图和 Table 8.1；原书式（8.1.18）和式（8.1.19）分为 a/b 两个子式，译文保留该编号 |
 | 2026-04-27 | Shah 算例 Re<sub>L</sub> 复核 | 源页为 22305；按 200(0.015)/0.0001345 复算为 22304.83，式（8.1.6）结果仍为约 4283 W/(m<sup>2</sup>K)；此前异常数值属译文转写错误 |
+| 2026-04-28 | 已完成章节总收口检查 | 式（8.1.29）Rouhani 空隙率和式（8.1.31）Biberg 分层角显式式已对照源页复核；正文未嵌入整页 source-page 原文图 |
 
 ## 校对提示
 
-第 8 章当前版本是完整工程阅读草稿。正式发布前建议继续：
+第 8 章当前版本已完成本轮总收口。后续维护提示：
 
-- 由第二人逐式复核式（8.1.29）和式（8.1.31）这类长公式，避免排版层级误读。
 - 若后续开发第 12 章和第 13 章，应回链本章流型图、空隙率和压降相关符号。
 
 ## 验证记录
@@ -101,3 +101,4 @@
 | 2026-04-27 | 公式编号审计 | 公式 tag 共 54 个且无重复；式（8.1.18a/b）和式（8.1.19a/b）按原书子编号保留 |
 | 2026-04-27 | 最终二校后 `python scripts\verify_book_ii_publication.py` | Publication verification passed |
 | 2026-04-27 | Shah 算例数值复算 | Re<sub>L</sub> = 200(0.015)/0.0001345 = 22304.83，译文修正为源页值 22305；α(x) = 4283 W/(m<sup>2</sup>K) 保持一致 |
+| 2026-04-28 | 长公式视觉复核 | 式（8.1.29）与源页 221 一致；式（8.1.31）与源页 222 一致 |

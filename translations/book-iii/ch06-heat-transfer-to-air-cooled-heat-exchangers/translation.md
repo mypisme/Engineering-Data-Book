@@ -6,9 +6,9 @@ chapter_title_en: Heat Transfer to Air-Cooled Heat Exchangers
 chapter_title_zh: 空冷换热器传热
 source_pdf_pages: "121-160"
 source_book_pages: "6-1 到 6-40"
-status: complete_engineering_reading_draft_with_formula_transcription
+status: publication_closure_complete
 ocr_quality: usable_for_prose_unreliable_for_large_formula_tables
-formula_check: main_equations_and_large_formula_tables_transcribed_as_review_draft
+formula_check: main_equations_verified_example_tables_verified_table_6_1_image_backed_transcription
 figure_check: draft_assets_inserted
 translation_scope: "第 6 章：空气侧传热压降、圆管/扁管翅片换热器性能、关联式选择和环形翅片管算例"
 ---
@@ -115,12 +115,20 @@ $$
 原式截图：[eq-6-6-original.png](./assets/eq-6-6-original.png)
 
 $$
-Q=\varepsilon Q_{\max}
+Q=
+\varepsilon(Wc)_{\min}(T_{a,i}-T_{t,i})
 \tag{6.1.6a}
 $$
 
 $$
-\varepsilon=f(NTU,C_r)
+\varepsilon
+=
+f\left[
+\frac{UA}{(Wc)_{\min}},
+\frac{(Wc)_{\min}}{(Wc)_{\max}}
+\right]
+=
+f(N_{TU},C_r)
 \tag{6.1.6b}
 $$
 
@@ -133,9 +141,8 @@ $$
 $$
 UA=
 \left[
-\frac{1}{(\eta h A_T)_t}
-+R_{\mathrm{contact}}
-+R_{\mathrm{foul}}
+\frac{1}{(\eta_o h A_T)_t}
++R_{\mathrm{contact+foul}}
 +R_{\mathrm{wall}}
 +\frac{1}{(\eta_o h A_T)_a}
 \right]^{-1}
@@ -148,10 +155,11 @@ $$
 
 $$
 UA=
-\left[
-\frac{1}{(\eta h A_T)_t}
-+\frac{1}{(\eta_o h A_T)_a}
-\right]^{-1}
+\frac{
+(\eta_o hA_T)_t(\eta_o hA_T)_a
+}{
+(\eta_o hA_T)_a+(\eta_o hA_T)_t
+}
 \tag{6.1.8}
 $$
 
@@ -188,19 +196,19 @@ $$
 
 $$
 \Delta i_{\mathrm{lm,cf}}=
-\frac{(i_{a,i}-i_{s,o})-(i_{a,o}-i_{s,i})}
-{\ln\left[(i_{a,i}-i_{s,o})/(i_{a,o}-i_{s,i})\right]}
+\frac{(i_{a,i}-i_{t,o})-(i_{a,o}-i_{t,i})}
+{\ln\left[(i_{a,i}-i_{t,o})/(i_{a,o}-i_{t,i})\right]}
 \tag{6.1.11b}
 $$
 
-其中 i<sub>a,i</sub> 和 i<sub>a,o</sub> 为空气入口和出口湿空气焓；i<sub>s,i</sub> 和 i<sub>s,o</sub> 为在管侧入口和出口温度下饱和湿空气的焓。式 (6.1.11) 类似式 (6.1.5)，只是用对数平均焓差作为同时传热传质的驱动力。焓势法适合许多空气冷却应用，但在部分湿表面换热器中可能失效；当传质效应改变输运系数时，它也会失效。
+其中 i<sub>a,i</sub> 和 i<sub>a,o</sub> 为空气入口和出口湿空气焓；i<sub>t,i</sub> 和 i<sub>t,o</sub> 为在管侧入口和出口温度下饱和湿空气的焓。式 (6.1.11) 类似式 (6.1.5)，只是用对数平均焓差作为同时传热传质的驱动力。焓势法适合许多空气冷却应用，但在部分湿表面换热器中可能失效；当传质效应改变输运系数时，它也会失效。
 
 至此重点一直在传热计算。但在某些情况下，传热计算会与压降计算耦合，或受到压降约束。为计算流量、压降或风机功率，必须知道摩擦因子。类比传热关联式，可预期摩擦因子也遵循幂律形式：
 
 原式截图：[eq-6-12-original.png](./assets/eq-6-12-original.png)
 
 $$
-f=CRe^{-n}
+f=CRe^{-D}
 \tag{6.1.12}
 $$
 
@@ -224,14 +232,16 @@ $$
 
 其中 σ 为自由流通面积比，K<sub>c</sub> 和 K<sub>e</sub> 分别为入口收缩与出口膨胀损失系数，ρ<sub>i</sub>、ρ<sub>o</sub> 和平均密度分别对应入口、出口与核心平均状态。这个式子用于从实测压降反求核心摩擦因子，或在已知摩擦因子时估算总压降。
 
-空气侧流动中，入口和出口效应常较小，密度变化也常可忽略。在这种情形下，原式可简化为核心摩擦压降形式：
+空气侧流动中，入口和出口效应常较小，密度变化也常可忽略。在这种情形下，原式可简化为由压降反求核心摩擦因子的形式：
 
 原式截图：[eq-6-14-original.png](./assets/eq-6-14-original.png)
 
 $$
-\Delta p \approx
-\frac{G^2}{2\rho}
-\frac{A_T}{A_{\min}}f
+f=
+\frac{A_{\min}\rho}{A_T}
+\left[
+\frac{2\Delta p}{G^2}
+\right]
 \tag{6.1.14}
 $$
 
@@ -241,7 +251,7 @@ $$
 
 $$
 P_{\mathrm{fan}}=
-\frac{G A_{\min}\Delta p}{\rho\eta_p}
+\frac{G A_{\min}\Delta p}{\rho}
 \tag{6.1.15}
 $$
 
@@ -341,7 +351,7 @@ Kaiser and Jacobi 研究了两台带蛇形开缝翅片的汽车蒸发器在湿�
 
 ### 表 6.1 换热器关联式
 
-原书 Table 6.1 是大型关联式汇总表，跨 PDF 133-151 页。当前草稿保留逐页局部截图，供后续逐式转写和适用范围二校。使用这些关联式时，必须同时核对翅片类型、管型、表面状态、特征长度、Re 范围、几何参数范围和作者给出的注释。
+原书 Table 6.1 是大型关联式汇总表，跨 PDF 133-151 页。本轮收口采用逐页局部截图、中文索引和可检索公式转写并行的处理方式。使用这些关联式时，必须同时核对翅片类型、管型、表面状态、特征长度、Re 范围、几何参数范围和作者给出的注释。
 
 ![表 6.1 第 1 部分](./assets/table-6-1-part-01-original.png)
 
@@ -421,7 +431,7 @@ Kaiser and Jacobi 研究了两台带蛇形开缝翅片的汽车蒸发器在湿�
 
 ### 表 6.1 中文转写索引
 
-下面按原表逐项转写表头、适用对象、作者、关联式类型、参数范围和备注。公式本体仍以紧邻的原表截图为准，后续若要做可计算公式库，应在此索引基础上逐式转写 LaTeX 并复核特征长度。
+下面按原表逐项转写表头、适用对象、作者、关联式类型、参数范围和备注。Table 6.1 是跨 19 页的大型关联式表，本章采用“局部源图 + 中文索引 + 可检索公式转写”的处理方式：阅读和选型以中文索引为主，实际代入计算时应同时回看紧邻的原表局部图，避免把跨页常数或特征长度误用。
 
 | 管型 | 翅片类型 | 表面状态 | 作者 | 关联式内容 | 参数范围和备注 |
 |---|---|---|---|---|---|
@@ -450,9 +460,9 @@ Kaiser and Jacobi 研究了两台带蛇形开缝翅片的汽车蒸发器在湿�
 | 扁管 | 开缝翅片 | 湿、结霜 | 原表未列作者 | N/A | 原表未给出公开关联式 |
 | 扁管 | 波纹翅片 | 干、湿、结霜 | 原表未列作者 | N/A | 原表未给出公开关联式 |
 
-### 表 6.1 公式转写草稿
+### 表 6.1 公式转写与源图追溯记录
 
-下列公式按原表顺序转写，用于检索、复制和后续二校。几何符号的完整定义仍以原表截图和本章符号说明为准；涉及跨页续表的复杂常数，已尽量从旋转源页补齐，但出版级复核时仍应逐式对照 `table-6-1-part-01-original.png` 到 `table-6-1-part-19-original.png`。
+下列公式按原表顺序转写，用于检索和复制。几何符号的完整定义以原表局部截图和本章符号说明为准；涉及跨页续表的复杂常数，已按旋转源页整理，并保留 `table-6-1-part-01-original.png` 到 `table-6-1-part-19-original.png` 作为计算前的图像核对底稿。
 
 #### 圆管平片
 
@@ -1172,7 +1182,7 @@ $$
 
 ## 例 6.1
 
-考虑一台换热器，它由一排四根环形翅片管组成，如图 6.3 所示。热空气向上流过管外表面，水以单程方式流过管内。管内半径和外半径分别为 r<sub>i</sub> = 3.5 mm 和 r<sub>o</sub> = 5.0 mm；管长 L<sub>c</sub> = 0.5 m；管材导热系数 k = 180 W/(m K)。外翅片半径 r<sub>f</sub> = 20 mm，翅片厚度 δ = 0.3 mm，翅片节距 P<sub>f</sub> = 50 fins/m。水以 T<sub>c,i</sub> = 20 °C 进入，总质量流量 m<sub>c</sub> = 0.15 kg/s。空气在换热器迎风面处速度 V<sub>fr</sub> = 3 m/s，以 T<sub>h,i</sub> = 800 °C 进入。
+考虑一台换热器，它由一排四根环形翅片管组成，如图 6.3 所示。热空气向上流过管外表面，水以单程方式流过管内。管内半径和管外半径分别为 r<sub>ii</sub> = 3.5 mm 和 r<sub>i</sub> = 5.0 mm；管长 L<sub>c</sub> = 0.5 m；管材导热系数 k = 180 W/(m K)。外翅片半径 r<sub>o</sub> = 20 mm，翅片厚度 δ = 0.3 mm，翅片节距 P<sub>f</sub> = 50 fins/m。水以 T<sub>c,i</sub> = 20 °C 进入，总质量流量 m<sub>c</sub> = 0.15 kg/s。空气在换热器迎风面处速度 V<sub>fr</sub> = 3 m/s，以 T<sub>h,i</sub> = 800 °C 进入。
 
 在稳态运行条件下，分别用 LMTD 方法和 ε-NTU 方法求总传热率。
 
@@ -1210,7 +1220,7 @@ $$
 
 原书按这一思路在 Table 6.2 中给出 LMTD 法所需方程组。表中列出了每个方程引入的未知量。所有物性都假定已知，但如果考虑物性随温度变化，物性求值本身也可能需要迭代。求解表中 22 个方程，得到 Q = 2430 W，T<sub>c,o</sub> = 23.9 °C，T<sub>h,o</sub> = 773.2 °C。用这些温度图解查得 F 约为 1，因此原书不再继续迭代。
 
-原书还指出，Re<sub>c</sub> = 6810，按此可能需要更精细的管侧传热关联式，例如 Gnielinski 关联式。但计算得到管侧热阻约为 3.1 × 10<sup>-1</sup> K/W，而空气侧热阻约为 4.6 × 10<sup>3</sup> K/W；因此该换热器受空气侧控制，细化管侧模型没有必要。
+原书还指出，Re<sub>c</sub> = 6810，按此可能需要更精细的管侧传热关联式，例如 Gnielinski 关联式。但计算得到空气侧热阻 R<sub>Th</sub> 约为 3.1 × 10<sup>-1</sup> K/W，而管侧热阻 R<sub>Tc</sub> 约为 4.6 × 10<sup>-3</sup> K/W；因此该换热器受空气侧控制，细化管侧模型没有必要。
 
 ![表 6.2 LMTD 解法方程组](./assets/table-6-2-original.png)
 
@@ -1220,10 +1230,10 @@ $$
 
 $$
 \begin{aligned}
-Re_c&=\frac{2(m_c/4)}{\pi r_i\mu_c} \\
-h_c&=\frac{0.023Re_c^{0.8}Pr_c^{0.4}k_c}{2r_i} \\
-R_{Tc}&=\frac{1}{h_c8\pi r_iL_c} \\
-A_{fr}&=4(2r_o)L_c \\
+Re_c&=\frac{2(m_c/4)}{\pi r_{ii}\mu_c} \\
+h_c&=\frac{0.023Re_c^{0.8}Pr_c^{0.4}k_c}{2r_{ii}} \\
+R_{Tc}&=\frac{1}{h_c8\pi r_{ii}L_c} \\
+A_{fr}&=4(2r_i)L_c \\
 N_{fin}&=4(P_fL_c) \\
 A_{fin}&=N_{fin}\left[2\pi(r_o^2-r_i^2)+2\pi r_o\delta\right] \\
 A_{Th}&=4(2\pi r_iL_c)-N_{fin}(2\pi r_i\delta)+A_{fin} \\
@@ -1256,7 +1266,7 @@ $$
 \begin{aligned}
 \eta_o&=1-\frac{A_{fin}(1-\eta_f)}{A_{Th}} \\
 R_{Th}&=\frac{1}{h_h\eta_oA_{Th}} \\
-R_{Tw}&=\frac{\ln(r_o/r_i)}{8\pi L_ck_w} \\
+R_{Tw}&=\frac{\ln(r_i/r_{ii})}{8\pi L_ck_w} \\
 UA&=(R_{Tc}+R_{Tw}+R_{Th})^{-1} \\
 Q&=m_hc_h(T_{hi}-T_{ho}) \\
 Q&=m_cc_c(T_{co}-T_{ci}) \\
@@ -1304,7 +1314,7 @@ $$
 
 ## 6.9 符号说明
 
-本节符号采用本章空气侧文献体系。下表按原书符号说明整理为中文，正式复算时仍应回看原页 [source-page-155.png](./assets/source-page-155.png) 和 [source-page-156.png](./assets/source-page-156.png)。
+本节符号采用本章空气侧文献体系。下表按原书符号说明整理为中文，正式复算时仍应回看 `assets/source-page-155.png` 和 `assets/source-page-156.png`。
 
 | 符号 | 中文说明 |
 |---|---|
@@ -1395,9 +1405,74 @@ $$
 
 ## 6.10 参考文献
 
-本章参考文献跨 PDF 157-160 页，当前保留原页截图，不逐条翻译。后续出版级校对若需要统一文献格式，应从以下原页开始整理：
+以下参考文献按原书 6.10 节整理，条目仍保留原文题名和期刊/报告名：
 
-- [source-page-157.png](./assets/source-page-157.png)
-- [source-page-158.png](./assets/source-page-158.png)
-- [source-page-159.png](./assets/source-page-159.png)
-- [source-page-160.png](./assets/source-page-160.png)
+- Abu Madi, M., Johns, R.A. and Heikal, M.R. (1998). Performance Characteristics Correlation for Round Tube and Plate Finned Heat Exchangers, Int. J. Refrigeration, Vol. 21(7), pp. 507-517.
+- Achaichia, A. and Cowell, T.A. (1988). Heat Transfer and Pressure Drop Characteristics of Flat Tube and Louvered Plate Fin Surfaces, Exp. Thermal Fluid Sci., Vol. 1(2), pp. 147-157.
+- Chang, Y.J. and Wang, C.C. (1997). A Generalized Heat Transfer Correlation for Louver Fin Geometry, Int. J. Heat Mass Transfer, Vol. 40(3), pp. 533-544.
+- Chang, W.R., Wang, C.C., Tsi, W.C. and Shyu, R.J. (1995). Air-Side Performance of Louver Fin Heat Exchanger, 4th ASME/JSME Thermal Engineering Joint Conference, Vol. 4, pp. 467-472.
+- Chang, Y.J., Wang, C.C., Shyu, R.J. and Robert, Y.Z. (1995). Performance Comparison between Automotive Flat Tube Condenser and Round Tube Condenser, ASME/JSME Thermal Engineering Joint Conference Proceedings, Vol. 4, pp. 332-336.
+- Chang, Y.J., Hsu, K.C., Lin, Y.T. and Wang, C.C. (2000). A Generalized Friction Correlation for Louver Fin Geometry, Int. J. Heat Mass Transfer, Vol. 43, pp. 2237-2243.
+- Davenport, C.J. (1983). Correlations for Heat Transfer and Flow Friction Characteristics of Louvered Fin, AIChE Symposium Series, No. 225, pp. 19-27.
+- DeJong, N.C. and Jacobi, A.M. (2003a). Heat Transfer and Pressure Drop for Flow Through Bounded Louvered-Fin Arrays, Exp. Thermal Fluid Sci., 27, 237-250.
+- DeJong, N.C. and Jacobi, A.M. (2003b). Localized Flow and Heat Transfer Interactions in Louvered-Fin Arrays, Int. J. Heat Mass Transfer, 46, 443-455.
+- DeJong, N.C. and Jacobi, A.M. (1996). An Experimental Study of Flow and Heat Transfer in Parallel-Plate Arrays: Local, Row-by-row and Surface Average Behavior, Int. J. Heat Mass Transfer, Vol. 40(6), pp. 1365-1378.
+- DeJong, N.C., Zhang, L.W., Jacobi, A.M., Balachandar, S. and Tafti, D.K. (1998). A Complementary Experimental and Numerical Study of the Flow and Heat Transfer in Offset Strip-Fin Heat Exchangers, J. Heat Transfer, 120, 690-698.
+- Du, Y.J. and Wang, C.C. (2000). An Experimental Study of the Airside Performance of the Superslit Fin-and-Tube Heat Exchangers, Int. J. Heat Mass Transfer, Vol. 43, pp. 4475-4482.
+- ElSherbini, A. and Jacobi, A.M. (2002). The Thermal-Hydraulic Impact of Delta-Wing Vortex Generators on the Performance of a Plain-Fin-and-Tube Heat Exchanger, HVAC&R Research, 8, 357-370.
+- ElSherbini, A.I., Jacobi, A.M. and Hrnjak, P.S. (2003). Experimental Investigation of Thermal Contact Resistance in Plain-Fin-and-Tube Evaporators with Collarless Fins, Int. J. Refrigeration, 26:5, 527-536.
+- Emery, A.F. and Siegel, B.L. (1990). Experimental Measurements of the Effects of Frost Formation on Heat Exchanger Performance, ASME HTD, Vol. 139, pp. 1-7.
+- Fu, W.L., Wang, C.C., Chang, W.R. and Chang, C.T. (1995). Effect of Anti-Corrosion Coating on the Thermal Characteristics of Louvered Finned Tube Heat Exchangers under Dehumidifying Conditions, Advances in Enhanced Heat/Mass Transfer and Energy Efficiency, HTD-Vol. 320/PID-Vol. 1, ASME, pp. 75-81.
+- Gray, D.L. and Webb, R.L. (1986). Heat Transfer and Friction Correlations for Plate Finned-Tube Heat Exchangers Having Plain Fins, Proceedings of the 8th International Heat Transfer Conference, Vol. 6, pp. 2745-2750.
+- Guillory, J.L. and McQuiston, F.C. (1973). An Experimental Investigation of Air Dehumidification in a Parallel Plate Exchanger, ASHRAE Trans., Vol. 79, pp. 146-151.
+- Incropera, F.P., DeWitt, D.P., Bergman, T.L. and Lavine, A.S. (2007). Introduction to Heat Transfer, Fifth Edition, John Wiley and Sons, New York.
+- Jacobi, A.M. and Goldschmidt, V.W. (1990). Low Reynolds Number Heat and Mass Transfer Measurements of an Overall Counterflow, Baffled, Finned-Tube, Condensing Heat Exchanger, Int. J. Heat Mass Transfer, Vol. 33, pp. 755-765.
+- Jacobi, A.M., Park, Y., Tafti, D. and Zhang, X. (2001). An Assessment of the State of the Art, and Potential Design Improvements, for Flat-Tube Heat Exchangers in Air-Conditioning and Refrigeration Applications, Phase I-Final Report, ARTI-21CR/20020-01, University of Illinois, Urbana, IL.
+- Jacobi, A.M., Park, Y., Zhong, Y., Michna, G. and Xia, Y. (2005). High Performance Heat Exchangers for Air-Conditioning and Refrigeration Applications (Non-Circular Tubes), Phase I-Final Report, ARTI-21CR/611-20021, University of Illinois, Urbana, IL.
+- Joardar, A. and Jacobi, A.M. (2005). Impact of Leading Edge Delta-Wing Vortex Generators on the Thermal Performance of a Flat Tube, Louvered-Fin Compact Heat Exchanger, Int. J. Heat and Mass Transfer, 48, 1480-1493.
+- Joardar, A. and Jacobi, A.M. (2007). A Numerical Study of Flow and Heat Transfer Enhancement Using an Array of Delta-Winglet Vortex Generators in a Fin-and-Tube Heat Exchanger, J. Heat Transfer, 129:9, 1156-1167.
+- Joarder, A. and Jacobi, A.M. (2008). Heat Transfer Enhancement by Winglet-Type-Vortex Generator Arrays in Compact Plain-Fin-and-Tube Heat Exchangers, Int. J. Refrigeration, 31:1, 87-97.
+- Kaiser, J.M. and Jacobi, A.M. (2000). Condensate retention effects on the air-side heat transfer performance of automotive evaporator coils, CR-32, ACRC, University of Illinois, Urbana, IL.
+- Kays, W.M. and London, A.L. (1955). Compact Heat Exchangers, McGraw-Hill, New York.
+- Kays, W.M. and London, A.L. (1984). Compact Heat Exchangers, 3rd edition, McGraw-Hill, New York.
+- Kearney, S.P. and Jacobi, A.M. (1995). Effects of Gull-Wing Baffles on the Performance of a Single-Row, Annularly Finned Tube Heat Exchanger, International Journal of HVAC&R Research, ASHRAE, 1:4, 257-272.
+- Kim, G.J. and Jacobi, A.M. (2000). Condensate Accumulation Effects on the Air-Side Thermal Performance of Slit-Fin Surfaces, CR-26, ACRC, University of Illinois at Urbana-Champaign, IL.
+- Kim, N.H., Yun, J.H. and Webb, R.L. (1997). Heat Transfer and Friction Correlations for Wavy Plate Fin-and-Tube Heat Exchangers, J. Heat Transfer, Vol. 119, pp. 560-567.
+- Korte, C. and Jacobi, A.M. (2001). Condensate Retention Effects on the Performance of Plain-Fin-and-Tube Heat Exchangers: Retention Data and Modeling, J. Heat Transfer, 123:5, 926-936.
+- Liu, L. and Jacobi, A.M. (2009). Air-Side Surface Wettability Effects on the Performance of Slit-Fin-and-Tube Heat Exchangers Operating under Wet-Surface Conditions, J. Heat Transfer, Vol. 131, 051802.
+- Manglik, R.M. and Bergles, A.E. (1995). Heat Transfer and Pressure Drop Correlations for the Rectangular Offset Strip Fin Compact Heat Exchanger, Experimental Thermal and Fluid Science, Vol. 10, pp. 171-180.
+- McLaughlin, W.J. and Webb, R.L. (2000a). Condensate Drainage and Retention in Louver Fin Automotive Evaporators, SAE Technical Paper Series, No. 2000-01-0575.
+- McLaughlin, W.J. and Webb, R.L. (2000b). Wet Air Side Performance of Louver Fin Automotive Evaporators, SAE Technical Paper Series, No. 2000-01-0574.
+- McQuiston, F.C. (1978a). Heat, Mass, and Momentum Transfer Data for Five Plate-Fin-Tube Heat Transfer Surfaces, ASHRAE Trans., Vol. 84, pp. 266-293.
+- McQuiston, F.C. (1978b). Correlation of Heat, Mass, and Momentum Transport Coefficients for Plate-Fin-Tube Heat Transfer Surfaces with Staggered Tubes, ASHRAE Trans., Vol. 109, pp. 294-308.
+- McQuiston, F.C. and Parker, J.D. (1994). Heating, Ventilating, and Air Conditioning: Analysis and Design, Sixth Edition, John Wiley and Sons, New York.
+- Michna, J., Jacobi, A.M. and Burton, R.L. (2007). An Experimental Study of the Friction Factor and Mass Transfer Performance of an Off-Set Strip Fin Array at Very High Reynolds Numbers, J. Heat Transfer, 129:9, 1134-1140.
+- Osada, H., Aoki, H., Ohara, T. and Kuroyanagi, I. (1999). Experimental Analysis for Enhancing Automotive Evaporator Fin Performances, Compact Heat Exchangers and Enhancement Technology for the Process Industries, pp. 463-470, Banff, Canada.
+- Park, Y. and Jacobi, A.M. (2009a). Air-side Heat Transfer and Friction Correlations for Flat-tube, Louver-fin Heat Exchangers, J. Heat Transfer, 131:2, 021801-1.
+- Park, Y. and Jacobi, A.M. (2009b). The Air-side Thermal-hydraulic Performance of Flat-tube Heat Exchangers with Louvered, Wavy, and Plain Fins Under Dry and Wet Conditions, J. Heat Transfer, 131:6, 061801.
+- Park, Y. and Jacobi, A.M. (2010). A Simple Air-Side Data Analysis Method for Partially Wet Flat-Tube Heat Exchangers, Heat Transfer Engineering, sub judice.
+- Rich, D.G. (1973). The Effect of Fin Spacing On the Heat Transfer and Friction Performance of Multi-Row, Smooth Plate Fin-and-Tube Heat Exchangers, ASHRAE Trans., Vol. 79, pp. 137-145.
+- Rich, D.G. (1975). The Effect of the Number of Tube Rows on Heat Transfer Performance of Smooth Plate Fin-and-Tube Heat Exchangers, ASHRAE Trans., Vol. 81, Part 1, pp. 307-317.
+- Rush, T.A., Newell, T. and Jacobi, A.M. (1999). An Experimental Study of Flow and Heat Transfer in Sinusoidal Wavy Passages, Int. J. Heat and Mass Transfer, 42, 1541-1553.
+- Smotrys, M., Ge, H., Dutton, J.C. and Jacobi, A.M. (2003). Flow and Heat Transfer Behavior for a Vortex-Enhanced Interrupted Fin, J. Heat Transfer, 125:5, 788-794.
+- Sommers, A.D. and Jacobi, A.M. (2005). Air-Side Heat Transfer Enhancement of a Refrigerator Evaporator Using Vortex Generation, Int. J. Refrigeration, 28, 1006-1017.
+- Sommers, A.D. and Jacobi, A.M. (2006). An Exact Solution to Steady Heat Conduction in a Two-Dimensional Annulus on a One-Dimensional Fin: Application to Frosted Heat Exchangers with Round Tubes, J. Heat Transfer, 128, 397-404.
+- Taborek, J., Aoki, T., Ritter, R.B., Palen, J.W. and Knudsen, J.G. (1972). Fouling - the major unresolved problem in heat transfer, Chem. Engineering Prog., 68(2):59-67.
+- Threlkeld, J.L. (1970). Thermal Environmental Engineering, Prentice-Hall Inc., New York, NY.
+- Tree, D.R. and Helmer, W.A. (1976). Experimental Heat and Mass Transfer Data for Condensing Flow in a Parallel Plate Heat Exchanger, ASHRAE Transactions, Vol. 82, pp. 289-299.
+- Wang, C.C. and Chang, C.T. (1998). Heat and Mass Transfer for Plate Fin-and-Tube Heat Exchangers, with and without Hydrophilic Coating, Int. J. Heat Mass Transfer, Vol. 41, pp. 3109-3120.
+- Wang, C.C., Chang, Y.J., Hsieh, Y.C. and Lin, Y.T. (1996). Sensible Heat and Friction Characteristics of Plate Fin-and-Tube Heat Exchangers Having Plane Fins, Int. J. Refrigeration, Vol. 4, pp. 223-230.
+- Wang, C.C., Hsieh, Y.C. and Lin, Y.T. (1997a). Performance of Plate Finned Tube Heat Exchangers Under Dehumidifying Conditions, J. Heat Transfer, Vol. 119, pp. 109-117.
+- Wang, C.C., Fu, W.L. and Chang, C.T. (1997b). Heat Transfer and Friction Characteristics of Typical Wavy Fin-and-tube Heat Exchangers, Exp. Thermal Fluid Sci., Vol. 14(2), pp. 174-186.
+- Wang, C.C., Chi, K.Y., Chang, Y.J. and Chang, Y.P. (1998). Experimental Study of Heat Transfer and Friction Characteristics of Typical Louver Fin-and-Tube Heat Exchangers, Int. J. Heat Mass Transfer, Vol. 41(4-5), pp. 817-822.
+- Wang, C.C., Du, Y.J., Chang, Y.J. and Tao, W.H. (1999c). Airside Performance of Herringbone Fin-and-Tube Heat Exchangers in Wet Conditions, Canadian J. Chemical Engineering, Vol. 77(6), pp. 1225-1230.
+- Wang, C.C., Lee, C.J., Chang, C.T. and Lin, S.P. (1999a). Heat Transfer and Friction Correlation for Compact Louvered Fin-and-Tube Heat Exchangers, Int. J. Heat Mass Transfer, Vol. 42, pp. 1945-1956.
+- Wang, C.C., Tao, W.H. and Chang, C.J. (1999b). An Investigation of the Airside Performance of the Slit Fin-and-Tube Heat Exchangers, Int. J. Refrigeration, Vol. 22(8), pp. 595-603.
+- Wang, C.C., Lin, Y.T. and Lee, C.J. (2000). Heat and Momentum Transfer for Compact Louvered Fin-and-Tube Heat Exchangers in Wet Conditions, Int. J. Heat Mass Transfer, Vol. 43, pp. 3443-3452.
+- Webb, R.L. and Trauger, P. (1991). Flow Structure in the Louvered Fin Heat-Exchanger Geometry, Exp. Thermal Fluid Sci., Vol. 4(2), pp. 205-217.
+- Wu, G. and Bong, T.Y. (1994). Overall efficiency of a straight fin with combined heat and mass transfer, ASHRAE Transactions, Vol. 100 (Part 1), pp. 367-374.
+- Xia, Y. and Jacobi, A.M. (2004). An Exact Solution to Steady Heat Conduction in a Two-Dimensional Slab on a One-Dimensional Fin: Application to Frosted Heat Exchangers, Int. J. Heat Mass Transfer, 47, 3317-3326.
+- Xia, Y. and Jacobi, A.M. (2005). Air-Side Data Interpretation and Performance Analysis for Heat Exchangers with Simultaneous Heat and Mass Transfer: Wet and Frosted Surfaces, Int. J. Heat Mass Transfer, 48, 5089-5102.
+- Xia, Y. and Jacobi, A.M. (2010). A Model for Predicting the Thermal-Hydraulic Performance of Louvered-Fin, Flat-Tube Heat Exchangers under Frosting Conditions, Int. J. Refrigeration, 33: 321-333.
+- Xia, Y., Zhong, Y., Hrnjak, P.S. and Jacobi, A.M. (2006). Frost, Defrost, and Refrost and Its Impact on the Air-Side Thermal-Hydraulic Performance of Louvered-Fin, Flat-Tube Heat Exchangers, Int. J. Refrigeration, 29:7, 1066-1079.
+- Yan, W.M. and Sheen, P.J. (2000). Heat Transfer and Friction Characteristics of Fin-and-Tube Heat Exchangers, Int. J. Heat Mass Transfer, Vol. 43, pp. 1651-1659.
