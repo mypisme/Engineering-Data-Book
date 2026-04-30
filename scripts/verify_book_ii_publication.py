@@ -96,6 +96,8 @@ def check_chapter_assets(errors: list[str], warnings: list[str]) -> None:
         ("book-iii", "ch03-single-phase-shell-side-flows-and-heat-transfer"): (47, 66),
         ("book-iii", "ch06-heat-transfer-to-air-cooled-heat-exchangers"): (121, 160),
         ("book-iii", "ch08-condensation-inside-tubes"): (213, 239),
+        ("book-iii", "ch10-boiling-heat-transfer-inside-plain-tubes"): (278, 306),
+        ("book-iii", "ch12-two-phase-flow-patterns"): (329, 362),
     }
     for book in BOOKS:
         if not book.exists():

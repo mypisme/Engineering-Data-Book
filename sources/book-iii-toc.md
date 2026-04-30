@@ -24,9 +24,9 @@
 | 7 | Condensation on External Surfaces | 外表面冷凝 | 161-212 | 7-1 到 7-52 | P2 | 未开始 | 水平管、管束、低翅片、强化冷凝管、非凝气 |
 | 8 | Condensation Inside Tubes | 管内冷凝 | 213-239 | 8-1 到 8-27 | P1 | 工程阅读草稿完成 | 水平管、流型、微翅片管、混合物冷凝、过热蒸汽 |
 | 9 | Boiling Heat Transfer on External Surfaces | 外表面沸腾传热 | 240-277 | 9-1 到 9-38 | P2 | 未开始 | 池沸腾、管束沸腾、强化管、临界热通量 |
-| 10 | Boiling Heat Transfer Inside Plain Tubes | 光管管内沸腾传热 | 278-306 | 10-1 到 10-29 | P1 | 未开始 | 垂直管、水平管、蒸发、流型、混合物、局部换热系数 |
+| 10 | Boiling Heat Transfer Inside Plain Tubes | 光管管内沸腾传热 | 278-306 | 10-1 到 10-29 | P1 | 出版级独立复核完成 | 垂直管、水平管、蒸发、流型、混合物、局部换热系数 |
 | 11 | Boiling Heat Transfer Inside Enhanced Tubes | 强化管管内沸腾传热 | 307-328 | 11-1 到 11-22 | P2 | 未开始 | 微翅片管、扭带、波纹管、多孔涂层、强化蒸发 |
-| 12 | Two-Phase Flow Patterns | 两相流型 | 329-362 | 12-1 到 12-34 | P1 | 未开始 | 垂直管、水平管、流型图、环状流、分层流、流型转变 |
+| 12 | Two-Phase Flow Patterns | 两相流型 | 329-362 | 12-1 到 12-34 | P1 | 出版级独立二校完成 | 垂直管、水平管、流型图、环状流、分层流、流型转变 |
 | 13 | Two-Phase Pressure Drop | 两相压降 | 363-396 | 13-1 到 13-34 | P1 | 未开始 | 蒸发器、冷凝器、两相压降、摩擦压降、加速压降 |
 | 14 | Falling Film Evaporation | 降膜蒸发 | 397-435 | 14-1 到 14-39 | P2 | 未开始 | 水平管束、壳侧降膜、制冷、石化再沸器、布液 |
 | 15 | Thermodynamics of Refrigerant Mixtures and Refrigerant-Oil Mixtures | 制冷剂混合物与制冷剂-油混合物热力学 | 436-452 | 15-1 到 15-17 | P2 | 未开始 | 相平衡、温度滑移、焓曲线、油浓度、泡点升高 |
@@ -39,7 +39,7 @@
 
 ## 推荐推进顺序
 
-1. Chapter 6：若主线服务空冷器选型和空气侧传热，应优先推进。
-2. Chapter 8、Chapter 10：补齐管内冷凝与管内沸腾的现代设计方法。
-3. Chapter 12、Chapter 13：为两相流型判断和两相压降建立基础。
+1. Chapter 12、Chapter 13：已完成管内冷凝与光管管内沸腾后，优先补齐两相流型判断和两相压降基础。
+2. Chapter 9：补齐外表面沸腾、池沸腾、管束沸腾和临界热通量基础。
+3. Chapter 11：在光管管内沸腾之后推进强化管管内沸腾。
 4. Chapter 15、Chapter 16：在涉及制冷剂混合物或油影响时推进。
