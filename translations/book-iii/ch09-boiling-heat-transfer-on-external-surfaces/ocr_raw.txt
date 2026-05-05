@@ -1,0 +1,2020 @@
+
+===== PAGE 240 (book page 9-1) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Chapter 9 
+Boiling Heat Transfer on External Surfaces 
+(Revised in 2006) 
+SUMMARY: Boiling on the outside of tubes is surveyed in this chapter. First, nucleate pool boiling is 
+described, which is a two-phase process analogous to single-phase natural convection since the only 
+movement of the pool is due to the boiling process itself. Then, convective boiling on the outside of 
+horizontal tube bundles is discussed. Topics covered include: the pool boiling curve, heat transfer 
+mechanisms for plain and enhanced tubes, nucleate pool boiling correlations for plain tubes, critical heat 
+flux of nucleate boiling, boiling of mixtures, boiling on enhanced tubes, and bundle boiling on plain, low 
+fin and Turbo-B geometry tubes. 
+9.1 Introduction 
+The basics of boiling on plain tubes, enhanced tubes and tube bundles are addressed here. For other 
+comprehensive reviews and presentations on this subject, refer to Thome (1990) for enhanced boiling and 
+to Collier and Thome (1994) or van Stralen and Cole (1979) for the fundamentals of boiling. Another 
+presentation on boiling heat transfer is a survey presented by Thome (1998) on research in this area in the 
+1990’s. 
+9.2 Enhanced Boiling Surfaces 
+Numerous enhanced boiling surfaces have been proposed and patented over the years. Figure 9.1 depicts 
+a diagram showing a variety of geometries, most which have never made it to market. The first type of 
+enhanced boiling tube to become successful was the low finned tube. Figure 9.2 depicts a photograph of a 
+Turbo-Chil low finned tube made by Wolverine Tube Inc. 
+By mechanically deforming low finned tubes, it is possible for create a high density of re-entrant channels 
+and pores on a tube’s surface, which increases heat transfer performance significantly. Figure 9.3 shows 
+several diagrams of the Turbo-B tube made by Wolverine Tube Inc. that is widely used in refrigerant 
+flooded evaporators, showing its external enhanced boiling geometry and its internal helical fins for 
+augmenting heat transfer to chilled water. Figure 9.4 shows photographs of some of the various versions 
+of the Turbo-B tubes produced by Wolverine Tube Inc. 
+Boiling Heat Transfer on External Surfaces 
+9-1 
+
+
+===== PAGE 241 (book page 9-2) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+PE 
+Ds 
+7S YW 
+N 
+t 
+7 
+pe AC 
+Yep 
+O 
+ore 
+a 
+pe 
+VAWZAZEZA 
+é 
+he 
+| EN 
+a 
+ity 
+Figure 9.1. Selection of enhanced boiling surfaces. 
+HEATH 
+TTTT 
+AAT 
+TTARCCHTTACETTTACHUTTHTPHTAT 
+AAAI 
+Figure 9.2. Photograph of Turbo-Chil low finned tube. 
+Boiling Heat Transfer on External Surfaces 
+9-2 
+
+
+===== PAGE 242 (book page 9-3) =====
+Engineering Data Book III 
+WOLVERINE TUBE, INC. 
+7 
+Engineering Thermal innovation™ 
+Figure 9.4. Photographs of Turbo-B, Turbo-BII and Turbo-BIII tubes. 
+9.3 Boiling on Plain Tubes 
+The most important features of pool boiling heat transfer are its characteristic pool boiling curve, the heat 
+transfer mechanisms responsible for removing heat from the heated boiling surface, nucleate pool boiling 
+correlations for predicting heat transfer coefficients and the maximum feasible nucleate pool boiling heat 
+flux. These topics are discussed below. 
+Boiling Heat Transfer on External Surfaces 
+9-3 
+
+
+===== PAGE 243 (book page 9-4) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+9.3.1 Pool Boiling Heat Transfer 
+Consider an electrically heated wire (or tube) placed in a large pool of quiescent liquid at or near its 
+saturation temperature. Applying Joule resistance heating and using the wire (or tube) as a resistance 
+thermometer, its surface temperature can be measured as a function of heat flux and plotted as heat flux 
+versus surface temperature as shown in Figure 9.5. This diagram was first presented by Nukiyama (1934) 
+and is often referred to as Nukiyama’s curve. It is more common nowadays to plot the wall heat flux q 
+versus the temperature difference AT between the wall temperature T,,.), and the saturation temperature 
+Tsa on logarithmic scales, or to plot the pool boiling heat transfer coefficient a, versus the heat flux. In 
+the curve depicted, four distinct trends of heat transfer regimes can be distinguished: 
+Natural convection (Twat < Typ) 
+Nucleate boiling (Tig < Twan < Tpnp) 
+Transition boiling (Tpnpg < Twat < Toes) 
+Film boiling (Tues < Twair) 
+that are delineated by the three transition points: 
+e 
+IB: 
+the point of Incipience of Boiling (IB) 
+e 
+DNB: 
+the point of Departure from Nucleate Boiling (DNB) 
+e 
+MEB: 
+the Minimum Film Boiling point. 
+5 -incipience 
+of Boiling 
+DNB - Departure from Nucleate Boiling 
+MFB - Minimum Film Boiling 
+- DNB 
+Nucleate 
+Boiling 
+Film 
+Boiling 
+= 
+Figure 9.5. Pool boiling curve. 
+Boiling Heat Transfer on External Surfaces 
+9-4 
+
+
+===== PAGE 244 (book page 9-5) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+For increasing heat flux, first the natural convection 
+regime is encountered the surface temperature reaches 
+that necessary for boiling nucleation to occur at point 
+IB. Then, the process passes up the nucleate boiling 
+curve until arriving at the surface temperature at which 
+departure from nucleate boiling (DNB) occurs, often 
+also referred to as the critical heat flux. At this point, 
+the process jumps 
+to 
+a much higher 
+surface 
+temperature on the film boiling curve. Reducing the 
+heat flux, the process follows the film boiling curve | - 
+Sse = == 
+until arriving at the surface temperature 
+at which the | 
+* 
+o-rtLTOL LTt 
+film boiling process becomes unstable (MFB), a point 
+; 
+also sometimes referred to as the Liedenfrost point. At 
+this point, the process jumps to a lower surface 
+temperature 
+and rejoins the nucleate 
+boiling curve. For 
+= =° enn Oe Nucleate 
+boiling 
+experiments with a temperature 
+controlled surface 
+oC Sa 
+im oe 
+high 
+heat fluxes 
+temperature 
+rather than for a heat flux controlled 
+process as described above, the process will pass 
+through the transition boiling curve between the points 
+DNB and MFB. 
+A schematic representation of these regimes taken 
+from Collier and Thome (1994) is shown in Figure 9.6. 
+The natural convection part of the curve can be 
+predicted using well-established correlations for single- 
+phase natural convection. In this regime the wall 
+temperature 
+continues to rise as the heat flux is 
+|. 
+. 
+; 
+increased until the first bubbles appear, indicating = 
+~. 
+EF Film boiling 
+boiling nucleation on the surface (point IB). These | 3 
+sails 
+; 
+bubbles grow from vapor trapped in small cavities in 
+the surface and are the so-called nucleation sites. As 
+the heat flux is increased, more and more nucleation 
+sites become activated. On the nucleate boiling curve, large increases in heat flux are achieved for 
+relatively modest increases 
+in AT (defined as Twa - Tsat) until the DNB condition is reached. At DNB, jets 
+of rising vapor are formed that prevents liquid from reaching the heated surface, such that it becomes 
+blanketed by vapor, which greatly degrades heat transfer. On the film boiling region of the curve, the wall 
+is completely covered with a thin film of vapor. Heat is transferred by heat conduction and radiation from 
+the wall through the vapor film. The vapor film is stable in that liquid does not normally wet the heater 
+surface, although some transient wetting may occur, and at the free interface between the film and the 
+liquid pool relatively large bubbles are formed by evaporation at the interface, which then depart from the 
+interface and rise up through the liquid pool. 
+CE Transition 
+boiling 
+Figure 9.6. Pool boiling processes. 
+Heat transfer coefficients on the nucleate pool boiling portion of Nukiyama’s curve are much larger than 
+those for simple natural convection to the liquid. The three principal heat transfer mechanisms thought to 
+control the nucleate pool boiling process are illustrated in Figure 9.7 that can be explained as follows: 
+e 
+Bubble agitation mechanism. Intense convection in the liquid adjacent to the heated wall is induced 
+by the lateral pumping motion of growing and departing bubbles, which transforms the natural 
+convection process into a localized forced convection process. Sensible heat is carried away from the 
+surface in the form of superheated liquid. 
+Boiling Heat Transfer on External Surfaces 
+9-5 
+
+
+===== PAGE 245 (book page 9-6) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+e 
+Vapor-liquid exchange mechanism. Transient conduction from the hot wall into the liquid forms a 
+superheated layer on the surface and its removal by departing bubbles gives rise to a cyclic thermal 
+boundary layer stripping phenomenon. Sensible heat is transported away from the surface by this 
+mechanism, whose intensity depends on the rate of layer removal, its mean temperature, the area of 
+influence of departing bubbles and their departure frequency, and finally the density of active boiling 
+sites. 
+e Evaporation 
+mechanism. 
+Vapor 
+bubbles 
+grow in 
+rT 
+quid motion 
+the superheated layer formed on the heated 
+, 
+surface. Macro-evaporation occurs over the top of 
+f 
+/ 
+t 
+the bubble surrounded by the thermal boundary 
+the bubble across the thin layer of liquid trapped 
+between a rapidly growing bubble and the surface, 
+Heated surface 
+the latter which is often referred to as microlayer 
+evaporation. Latent heat is transported by this 
+Hot liquid 
+mechanism. 
+Since 
+bubbles 
+rise much 
+faster 
+than 
+\ 
+liquid 
+natural 
+convection 
+currents 
+and contain 
+a 
+be 
+large quantity of energy due to the latent heat 
+absorbed by the bubble, this is a very efficient 
+heat transport mechanism. 
+The above mechanisms are not exclusive of one 
+another in that each is competing for the same heat. 
+For instance, the evaporation mechanism tries to 
+remove enthalpy from the thermal boundary layer in 
+the 
+form of latent heat while 
+the 
+other two 
+mechanisms try to carry away the same enthalpy as 
+sensible heat. At low heat fluxes with only isolated 
+bubbles on the surface, natural convection occurs on 
+the inactive areas of the surface. 
+Microlayer 
+Figure 9.7. Nucleate boiling mechanisms. (a) 
+bubble agitation, (b) vapor-liquid exchange, 
+(c) evaporation. 
+9.3.2 Nucleate Pool Boiling Correlations 
+Experimental results for heat flux q and wall superheat AT are typically fit to an exponential equation of 
+one of the following forms: gq « AT", Oy» «* AT”or Opp & gq", where n is on the order of 3, 2 or 0.7, 
+respectively. The nucleate boiling curve is not linear at low heat fluxes nor as it approaches DNB, but 
+these zones are often excluded (or not measured) when fitting a curve to experimental data. Nucleate pool 
+boiling correlations can be formulated in one of the above forms but those presented as On», « q" are the 
+easiest to apply. Some nucleate pool boiling correlations are presented below, which are empirical 
+representations of experimental data. 
+Rohsenow Correlation. Rohsenow (1962) proposed one of the first nucleate pool boiling correlations, 
+based on the premise of the bubble agitation mechanism and formulated as a single phase forced 
+convection correlation: 
+Nu =C, Re* Pr’
+[9.3.1] 
+The Nusselt number for boiling was defined as follows where the bracketed term is the bubble departure 
+diameter, designated as the characteristic length: 
+Boiling Heat Transfer on External Surfaces 
+9-6 
+
+
+===== PAGE 246 (book page 9-7) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+1/2 
+Q 
+Oo 
+In this expression, G,» 1s the nucleate pool boiling heat transfer coefficient, k, is the liquid thermal 
+conductivity, o is the surface tension, g is the gravitational acceleration, and p, and pg are the densities of 
+the liquid and vapor phases. His Reynolds number was defined in terms of the superficial velocity of the 
+liquid as 
+1/2 
+Re-—* 
+° 
+PL 
+[9.3.3] 
+hicPi | 
+glPi—Po)| bk 
+where hyg is the latent heat and py, is the liquid dynamic viscosity. An empirical constant C,- was 
+introduced to account for the influence of the liquid-surface combination observed in his database as 
+follows: 
+Nu = a Re”pr-™ 
+[9.3.4] 
+oF 
+The Rohsenow correlation is normally presented in the following form: 
+1/2; 
+AT 
+hig 
+By hyg g(P, Pa) 
+The specific heat of the liquid is c,, and Pr, is the liquid Prandtl number; a, is obtained from the 
+definition of the heat transfer coefficient, that is &,, = q/AT. The values of the exponents are m=0.7 and 
+n=0.33 (equivalent to q « AT’) for all fluids except for water for which Rohsenow 
+recommended 
+setting 
+m=0. Values of C,¢ for various surface-fluid combinations of Rohsenow and additional values proposed 
+by Vachon, Nix and Tangor (1967) are listed in Table 9.1. This method is now mostly of “historical”
+value, pointing to the importance of the micro-topology of the boiling surface on nucleate boiling heat 
+transfer. 
+Mostinski 
+Correlation. 
+Mostinski (1963) ignored surface effects and applied the principle of 
+corresponding states to nucleate pool boiling heat transfer, correlating data as a function of the reduced 
+pressure of the fluid p, and its critical pressure Perit. His dimensional reduced pressure correlation gives 
+Otnb in W/m°K as: 
+O.,,, 
+= 0.00417q° 
+"pF, 
+[9.3.6] 
+The correlation 
+must be used with q in W/m? and Perit 
+10 kN/m? (i.e. in kPa, not in N/m’). Fp is a non- 
+dimensional pressure correction factor that characterizes pressure effects on nucleate boiling as 
+F, =1.8p?"’+ 4p)? +10p!" 
+[9.3.7] 
+r 
+This correlation gives reasonable results for a wide range of fluids and reduced pressures. 
+Boiling Heat Transfer on External Surfaces 
+9-7 
+
+
+===== PAGE 247 (book page 9-8) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+Table 9.1. Values of C.- for Rohsenow correlation. 
+Liquid-surface combination 
+n-Pentane on polished copper 
+n-Pentane on polished nickel 
+Water on polished copper 
+Carbon tetrachloride on polished copper 
+Water on lapped copper 
+n-Pentane 
+on lapped copper 
+n-Pentane 
+on emery polished copper 
+Water on ground and polished stainless steel 
+Water on mechanically 
+polished stainless steel | 
+0.0132 
+Stephan-Abdelsalam Correlation. Stephan and Abdelsalam (1980) proposed four specific correlations 
+applying a statistical multiple regression technique to the following fluid classes: water, organics, 
+refrigerants and cryogens. Their organic fluid correlation is the most widely quoted and it is given as: 
+1/2 
+0.67 
+5 
+\0.248 
+4.33 
+k, 
+PL 
+ki To 
+ay 
+PL 
+The expression to the left of the equal sign is a Nusselt number and their bubble departure diameter dy. is 
+obtained from 
+1/2 
+g(p, —Pg) 
+The contact angle B is assigned a fixed value of 35° irrespective of the fluid, T;,: is the saturation 
+temperature of the fluid in K, and a, is the liquid thermal diffusivity. 
+Cooper Correlation. Cooper (1984) proposed a new reduced pressure form of pool boiling correlation 
+including the surface roughness of the boiling surface as a variable: 
+o,, =55p. (—0.4343 
+In p, ) °° Msg?”
+[9.3.10] 
+E 
+This is a dimensional correlation in which a, is in W/m°K, the heat flux q is in W/m’, M is the molecular 
+weight of the fluid and R, is the surface roughness in um. When R, is unknown, it is set to 1.0 um. He 
+recommended multiplying the above heat transfer coefficient by 1.7 for horizontal copper cylinders; 
+however, the correlation seems to be more accurate for boiling of refrigerants on copper tubes without 
+this correction and that is the approach recommended here. The Cooper correlation covers reduced 
+pressures from about 0.001 to 0.9 and molecular weights from 2 to 200. 
+Boiling Heat Transfer on External Surfaces 
+9-8 
+
+
+===== PAGE 248 (book page 9-9) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Table 9.2. References values of Gorenflo (1993) with a, in W/m7?K 
+at Pro = 0.1, qo = 20,000 W/m’ and R,, = 0.4 pm with pet in bar. 
+POU 
+Perit 
+Nz 
+ei 
+Methane 
+46.0 
+16.04 
+7000 
+Ethane 
+48.8 
+30.07 
+4500 
+Propane 
+42.4 
+44.10 
+4000 
+n-Butane 
+38.0 
+58.12 
+3600 
+n-Pentane 
+33.7 
+72.15 
+3400 
+i-Pentane 
+33.3 
+72.15 
+2500 
+n-Hexane 
+29.7 
+86.18 
+3300 
+n-Heptane 
+27.3 
+100.2 
+3200 
+Benzene 
+48.9 
+78.11 
+2750 
+Toluene 
+41.1 
+92.14 
+2650 
+Diphenyl 
+38.5 
+154.2 
+2100 
+Ethanol 
+63.8 
+46.07 
+4400 
+n-Propanol 
+51.7 
+60.10 
+3800 
+i-propanol 
+47.6 
+60.10 
+3000 
+n-Butanol 
+49.6 
+74.12 
+2600 
+i-Butanol 
+43.0 
+74.12 
+4500 
+Acetone 
+47.0 
+58.08 
+3950 
+R-11 
+44.0 
+137.4 
+2800 
+R-12 
+41.6 
+120.9 
+4000 
+R-13 
+38.6 
+104.5 
+3900 
+R-13Bl 
+39.8 
+148.9 
+3500 
+R-22 
+49.9 
+86.47 
+3900 
+R-23 
+48.7 
+70.02 
+4400 
+R-113 
+34.1 
+187.4 
+2650 
+R-114 
+32.6 
+170.9 
+2800 
+R-115 
+31.3 
+154.5 
+4200 
+R-123 
+36.7 
+152.9 
+2600 
+R-134a 
+40.6 
+102.0 
+4500 
+R-152a 
+45.2 
+66.05 
+4000 
+R-226 
+30.6 
+186.5 
+3700 
+R-227 
+29.3 
+170.0 
+3800 
+RC318 
+28.0 
+200.0 
+4200 
+R-502 
+40.8 
+111.6 
+3300 
+Chloromethane 
+66.8 
+50.49 
+4400 
+Tetrafluoromethane 
+37.4 
+88.00 
+4750 
+Hydrogen (on Cu) 
+12.97 
+2.02 
+24000 
+Neon (on Cu) 
+26.5 
+20.18 
+20000 
+Nitrogen (on Cu) 
+34.0 
+28.02 
+10000 
+Nitrogen (on Pt) 
+34.0 
+28.02 
+7000 
+Argon (on Cu) 
+49.0 
+39.95 
+8200 
+Argon (on Pt 
+49.0 
+39.95 
+6700 
+Oxygen (on Cu) 
+50.5 
+32.00 
+9500 
+Oxygen (on Pt) 
+50.5 
+32.00 
+7200 
+Water 
+220.6 
+18.02 
+5600 
+Ammonia 
+113.0 
+17.03 
+7000 
+Carbon Dioxide * 
+73.8 
+44.01 
+5100 
+Sulfur Hexafluoride 
+37.6 
+146.1 
+3700 
+* At triple point. 
+Boiling Heat Transfer on External Surfaces 
+9-9 
+
+
+===== PAGE 249 (book page 9-10) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Gorenflo Correlation. Gorenflo (1993) proposed a fluid specific reduced pressure correlation and 
+included the effect of surface roughness. His method uses a reference heat transfer coefficient, ao, 
+specified for each fluid at the following fixed reference conditions of p,.=0.1, R,.=0.4 um and q,=20,000 
+W/m’. His values of a, are listed in Table 9.2 for selected fluids. The nucleate boiling heat transfer 
+coefficient O,, at other conditions of pressure, heat flux and roughness is then calculated relative to the 
+reference heat transfer coefficient using the following expression: 
+His pressure correction factor Fpr is 
+F,, =1.2p??”
++2.5p, +? 
+[9.3.12] 
+1—p, 
+The effect of reduced pressure on his exponent nf for the heat flux term is given by: 
+nf =0.9—0.3p?”
+[9.3.13] 
+Its value decreases with increasing reduced pressure, which is typical of experimental data. The surface 
+roughness is R, in um and is set to 0.4 um when unknown. The above method is for all fluids except 
+water and helium; for water the corresponding equations are: 
+—_—
+P, 
+and 
+nf =0.9-0.3p?”
+[9.3.15] 
+r 
+This method is applicable over the reduced pressure range from about 0.0005 to 0.95. For fluids not 
+listed, experimental values can be input at the reference conditions, or another correlation can be used to 
+estimate o,. For fluids on the list, this method gives accurate results over a very wide range of heat flux 
+and pressure and is probably to most reliable of those presented. 
+Example Calculation: Determine the nucleate pool boiling heat transfer coefficient for n-pentane boiling 
+on a polished 
+copper 
+surface 
+(1.0 um roughness) 
+at a pressure 
+of 1.01 bar and 
+a heat flux of 30 kW/m* 
+using the Gorenflo method. 
+Solution: From Table 9.2, we see that a, = 3400 W/m°K, Perit 
+= 33.7 bar and M = 72.15. Thus, p, = 
+Dsat/Perit= 
+1.01/33.7 = 0.030 and thus 
+0.68 
+F,, =1.73(0.030)°7’
++| 6.1 +————_ 
+and 
+Boiling Heat Transfer on External Surfaces 
+9-10 
+
+
+===== PAGE 250 (book page 9-11) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+nf = 0.9 —0.3(0.030)°? 
+= 0.795 
+Substituting these values into his heat transfer correlation: 
+Ribatski-Siaz Jabardo Correlation. Surface roughness and material effects have been introduced into a 
+new correlation proposed by Ribatski and Saiz Jabardo (2003) for nucleate pool boiling of halocarbon 
+refrigerants. According them, the nucleate pool boiling heat transfer coefficient on a horizontal copper 
+tube can be predicted as a function of reduced pressure p,, surface roughness R,, molecular weight M and 
+heat flux q as: 
+The empirical constant B in this correlation accounts for wall material effects and has the following 
+values: B=100 for copper, B=110 for brass and B=85 for stainless steel. In this dimensional correlation, 
+the heat flux q is input in W/m’ and the resulting nucleate boiling heat transfer coefficient a, is in 
+W/mK. R, is the arithmetic mean deviation of the surface profile as per ISO 4287/1:1984 in microns. 
+Averaging 10 measurements from ten different areas on 10 different commercial copper tube samples, 
+they found a mean roughness of 0.6 microns (this is thus the best value to use when its actual value is 
+unknown). This correlation was developed based on pool boiling data for the following conditions: 
+e 
+Refrigerants: R-11, R-123, R-12, R-134a and R-22; 
+e 
+Reduced pressure: 0.008 to 0.260; 
+e Heat flux: 2.3 to 120 kW/m’(730 to 38000 Btu/h ft’); 
+e 
+Surface materials: copper, brass and stainless steel; 
+e 
+Surface roughness: 0.02 to 3.3 microns. 
+Note that the exponent on the heat flux in their correlation is similar to those in [9.3.13] and [9.3.15] 
+above whereas the exponent of -0.5 on the molecular weight M is the same as in [9.3.10]. This correlation 
+captured most of their heat transfer data within an error band of +20% and also worked well for some data 
+from several other studies: R-11, R-113 and R-114 on a 14.2 mm diameter brass tube by Silva (1989) and 
+R-113 on a 12.7 mm diameter stainless steel tube from Jensen (1985). 
+9.3.3 Departure from Nucleate Boiling 
+The maximum heat flux attainable in the nucleate pool boiling regime of the pool boiling curve illustrated 
+in Figure 9.5 is the DNB point. This heat flux is called qpng and is also often referred to as the critical 
+heat flux. The maximum in heat transfer rate occurs at the point of onset of a hydrodynamic instability 
+occurring close to the heater surface, which was first explained by Zuber (1959) to be governed by the 
+Taylor and Helmholtz instabilities. His model has since been refined by Lienhard and Dhir (1973) for an 
+infinite surface. 
+The Taylor instability governs the collapse of an infinite, horizontal planar interface of liquid above a 
+vapor or gas. The Taylor wavelength is that which predominates at the interface during such a collapse. In 
+the present case at the DNB, vapor jets formed above a large, flat horizontal heater surface occur at 
+spacings corresponding to the wavelength of the Taylor instability. The Helmholtz instability, instead, 
+describes the point at which a planar liquid interface goes unstable when the velocity of a vapor or gas 
+Boiling Heat Transfer on External Surfaces 
+9-11 
+
+
+===== PAGE 251 (book page 9-12) =====
+Engineering Data Book Ill 
+eering 
+Thermal innovation 
+flowing parallel to their interface reaches some critical value. Essentially, a small perturbation of the 
+interface creates a low pressure zone on the convex side and a high pressure zone on the concave side. 
+The imbalance of the opposing pressure forces acting on the vapor-liquid interface induces an instability, 
+which is attenuated by interfacial surface tension. According to Zuber, it is the liquid interface of the 
+rising vapor jets that go unstable. The resulting expression for qpng from such an analysis is: 
+=p.h 
+S 
+9.3.17 
+which is equivalent to 
+This equation is valid for flat infinite heaters facing upwards. Lienhard and Dhir (1973) observed good 
+agreement as long as the diameters or widths of the heaters were sufficiently large. Kutateladze (1948) 
+had already arrived at nearly the same expression using dimensional analysis: 
+done 
+= CP67hy 
+6 4/2(P, 
+—Pg 
+Jo 
+[9.3.19] 
+His empirical factor C was set to 0.131 based on comparison to experimental data. Zuber’s analysis 
+yielded a value of C = 1/24 = 0.1309, which is nearly identical to Kutateladze’s value. The Lienhard and 
+Dhir solution for an infinite flat surface facing upwards gives C = 0.149, which is 15% higher. The 
+recommended expression for large surfaces is C = 0.1309 while for tubes this value is corrected by a 
+factor of 0.9. Refer to Collier and Thome (1994) for a description of the methods proposed by Lienhard 
+and Dhir for specific geometries. 
+Example Calculation: Determine the value of the heat flux at the DNB for water at 1.01 bar on a 
+horizontal tube where the required fluid physical properties are: py = 958.25 kg/m*; pg = 0.6 kg/m*; hig = 
+2256120 J/kg; o= 0.05878 N/m. 
+Solution: The value of qpnpg is first calculated and then that for the tube applying a correction of 0.9 as 
+follows: 
+App. 
+wre 
+= 0-9(1/ 
+240.6) 
+'*(2256120)4/9.8 
+1(958.25 
+—0.6 (0.05878) 
+Q DNB. 
+tube 
+= 998100 
+W/m’
+Therefore, 
+the heat flux at DNB for the tube is 998100 W/m’(or 998.1 kW/m’). 
+9.4 Nucleate Boiling of Mixtures 
+Nucleate pool boiling of zeotropic mixtures is similar to boiling of pure fluids and azeotropic mixtures, 
+except for two additional complications: mass transfer effects and estimating the mixture physical 
+properties or the mixture critical pressure. Mass transfer occurs in evaporation of zeotropic mixtures since 
+they have different compositions in their liquid and vapor phases, but not azeotropic mixtures since they 
+have the same composition in each phase. Mass transfer tends to reduce nucleate boiling heat transfer 
+coefficients and, in some cases, may reduce the value of the heat transfer coefficient by up to 90%. 
+Boiling Heat Transfer on External Surfaces 
+9-12 
+
+
+===== PAGE 252 (book page 9-13) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Detailed reviews of mixture boiling are given by Thome and Shock (1984) and by Collier and Thome 
+(1994). 
+The mass transfer effect on bubble growth can be explained in simple terms as follows. Since the 
+equilibrium composition of the more volatile component is larger in the vapor phase than in the liquid 
+phase, the more volatile component preferentially evaporates at the bubble interface, which in turn 
+reduces its composition there and induces the formation of a diffusion layer in the liquid surrounding the 
+bubble. The partial depletion of the more volatile component at the interface increases that of the less 
+volatile component, which increases the bubble point temperature at the interface. This incremental rise in 
+the local bubble point temperature can be denoted as A@. Hence, to evaporate at the same rate as in a pure 
+fluid, a larger superheat is required for a mixture. 
+The effect of mass transfer on nucleate pool boiling heat transfer can therefore be explained by 
+introducing the parameter AO, which represents the increase in the bubble point temperature at the surface 
+due to preferential evaporation of the more volatile component. At a given heat flux, the boiling superheat 
+of the mixture is AT+A®@ 
+while that for an ideal fluid with the same physical properties as the mixture is 
+AT;. Thus, the ratio of the mixture boiling heat transfer coefficient a, to that of the ideal heat transfer 
+coefficient oO,» at the same heat flux is: 
+a, . AT, 
+Onp.1 AT, + AO 
+[9.4.1] 
+The value of AT; is the wall superheat that corresponds to O,»1, which is determined for instance using the 
+Cooper correlation with the molecular weight and critical pressure of the mixture. Hence, as the value of 
+A@ increases, the ratio On/Onb. decreases, which means that a larger wall superheat is required in a 
+mixture to transfer the same heat flux. As exploited in an early mixture boiling prediction by Thome 
+(1983), the maximum value of AO is the boiling range of the mixture A®,,, which is equal to the difference 
+between the dew point and the bubble point temperatures at the composition of the liquid [A®,, is also 
+referred to as the temperature glide for refrigerant mixtures]. In fact, the actual value of AO varies from 
+zero at the inception of boiling, since no mass transfer occurs until evaporation takes place, up to AQ}, at 
+the DNB, where all the liquid is assumed to be converted to vapor. Starting from a mass transfer balance 
+around an evaporating bubble and simplifying with an approximate slope of the bubble point curve, the 
+following expression was obtained to predict heat transfer in the boiling of mixtures 
+-1 
+Qib.t 
+q 
+Pphy Bur 
+where Bn 1s the mass transfer coefficient in the liquid (set to a fixed value of 0.0003 m/s). The value of 
+Onb 18 determined with one of the pure fluid correlations presented earlier (with the exception of the 
+Gorenflo method that is not adapted to this). This method was proposed in 1985 and later published by 
+Thome (1989). It is applicable to organic, refrigerant, aqueous, hydrocarbon, and cryogenic multi- 
+component mixtures (i.e. with two or more components) for boiling ranges up to 30 K. 
+Example Calculation: Assuming an ideal heat transfer coefficient of 3000 W/m’K, determine the 
+mixture boiling coefficient at 50 kW/m’ for a mixture with a boiling range of 15 K, a liquid density of 
+700 kg/m* and 
+a latent heat of 300000 
+J/kg. 
+Solution: Substituting values into the above expression, 
+Boiling Heat Transfer on External Surfaces 
+9-13 
+
+
+===== PAGE 253 (book page 9-14) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+=l 
+3000 
+50000 
+700(300000)(0.0003) 
+a, = 0.67(3000) 
+= 2009 W/m?K 
+Thus, o,, for the mixture is 2009 W/mK, which is 33% lower than that of the equivalent pure fluid. 
+9.5 Boiling on Enhanced Tubes 
+Boiling heat transfer coefficients on smooth surfaces can be increased by roughening the surface, but this 
+is not normally practical (and perhaps temporal if the surface fouls). To achieve significant enhancement, 
+numerous types of geometries have been proposed and patented. The earliest commercial enhancement 
+was the integral low finned tube, with its continuous helical fins around the circumference of the tube. 
+Tubes with external porous coatings were apparently the next important enhancement to be proposed, 
+yielding augmentations of up to 10-15 times the boiling performances on plain tubes at optimum 
+conditions. In recent years, attention has been nearly entirely focused on mechanically deformed low 
+finned tubes, whose fins can be notched, knurled, bent and/or compressed to form a high density of re- 
+entrant channels and boiling pores, geometries that essentially mechanically emulate a porous coating. 
+9.5.1 Heat Transfer Mechanisms 
+Compared to a plain tube, enhanced nucleate boiling surfaces have significant performance advantages. 
+For instance, the enhancement ratio at the same wall superheat relative to that of a comparable plain tube 
+range from about 2-4 for low finned tubes but increase up to 15 times for mechanically deformed low 
+finned tubes such as for the Turbo-B tubes of Wolverine Tube Inc. Evaporation and convection occur 
+both on the outside surface of an enhanced boiling surface and inside its re-entrant passageways. Hence, 
+as illustrated in Figure 9.8, there are four possible paths by which heat can leave an enhanced surface: 
+1. As latent heat in vapor formed within the enhancement passageways (primary importance); 
+As latent heat in bubbles growing on exterior of tube or while they are emerging from re-entrant 
+channels (secondary importance); 
+As sensible heat to liquid “pumped” through the re-entrant passageways (primary importance); 
+4. As sensible heat to liquid on external of tube (secondary importance). 
+Lo 
+Boiling Heat Transfer on External Surfaces 
+9-14 
+
+
+===== PAGE 254 (book page 9-15) =====
+External 
+Convection 
+Metallic 
+Particles 
+SS 
+CA 
+—a 
+SSS 
+>. 
+2, 
+Sch 
+J 
+Soe 
+SS 
+oy 
+Be » 
+Thin Film 
+Evaporation 
+Heated Wall 
+Capillary 
+Evaporation 
+Figure 9.8. Boiling mechanisms on an enhanced surface tube. 
+The principal factors contributing to the high thermal performance of enhanced surfaces have been 
+identified by Thome (1990) as follows: 
+e 
+Nucleation superheat. Enhanced surfaces have re- 
+entrant nucleation cavities (except for low finned 
+tubes) that are able to nucleate at very low wall 
+superheats with respect to plain surfaces, see Figure 
+9.9. 
+e 
+Wetted surface area. Low finned tubes have from 2 to 
+Advancing 
+4 times the surface area of a plain tube while complex 
+Meniscus 
+enhancements have area ratios from 4 to 10 times 
+those of plain tubes. 
+Tube Wall 
+e 
+Thin film evaporation. Thin evaporating liquid films 
+form on the extensive inner surfaces of the re-entrant 
+passageways. 
+Figure 9.9. Boiling nucleation on an 
+© Capillary evaporation. In corners, liquid menisci anced surface. 
+evaporate as heat is conducted into the liquid behind 
+them. 
+Boiling Heat Transfer on External Surfaces 
+9-15 
+
+
+===== PAGE 255 (book page 9-16) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+e Internal convection. Liquid is pumped in and then back out of the re-entrant channels by the action 
+of the departing bubbles. 
+e 
+External convection. The high density and departure frequency of the bubbles emerging from the re- 
+entrant channels accentuates the external convection mechanisms, 1.e. bubble agitation and thermal 
+boundary layer stripping. 
+These mechanisms can be compared to those occurring on a plain surface discussed earlier. The thermal 
+effectiveness of these factors depends on the type of enhanced surface geometry and its characteristic 
+dimensions. 
+cA in 
+Visualization Setup 
+Top and End View 
+Width 
+Pitch 
+Pitch 
+Triangular Channel 
+Rectangular Channel 
+Figure 9.10. 
+Setup of Arshad and Thome (1983) for flow 
+visualization 
+in 
+re-entrant 
+channels 
+[1l-base 
+block 
+with 
+microgrooves, 2-copper sheet with pores, 3-glass walls, 4-heater, 
+5-camera,_ 6-lighting, 
+7-reflection 
+panel, 
+8-end 
+view 
+of 
+microgrooves]. 
+The formation of liquid films inside re-entrant channels was originally investigated visually by Nakayama 
+et al. (1979) using side channel walls made of glass. They observed that elongated bubbles formed within 
+the re-entrant channel with thin liquid films covering the walls, particularly in the corners (they had a side 
+view of the process). They noted pulsation of the liquid film upon departure of bubbles from the pores 
+connecting the channels to the exterior. 
+Boiling Heat Transfer on External Surfaces 
+9-16 
+
+
+===== PAGE 256 (book page 9-17) =====
+Engineering Data Book III 
+In a similar study, but with an end (cross-sectional) view of the process in re-entrant channels of circular, 
+triangular and rectangular shape, Arshad and Thome (1983) used a motor driven still camera to observe 
+the formation and dryout of the thin liquid films. Figure 9.10 shows their experimental setup and Figure 
+9.11 shows some of their photographs of the process. Figure 9.12 illustrates a schematic sequence of 
+nucleation, formation and dryout of a liquid film in a 
+triangular 
+re-entrant 
+channel 
+upon application 
+of a Rectangular 
+high heating rate. Figure 9.13 illustrates a thin film 
+, 
+evaporation model hypothesized by Xin and Chao 
+(1985) for rectangular re-entrant channels with a slit 
+opening. Hence, thin evaporating films were seen to | 
+Triangular 
+be an important heat transfer mechanism, analogous | 
+Channel: 
+to the microlayers formed underneath rapidly growing 
+bubbles on plain surfaces, and are active over a large 
+surface 
+area. Refer 
+to 
+Thome 
+(1990) 
+for 
+comprehensive treatment of this subject. 
+Circular 
+Channel: 
+4 Figure 9.11. Photographs of liquid thin film 
+formation in re-entrant channels. 
+9.5.2. Enhanced Boiling Results 
+Experimental results for enhanced boiling surfaces are shown in this section. For an example of relative 
+performance of five refrigerants on a 26 fpi (1024 fins per meter) low finned tube, Figure 9.14 presents 
+the results obtained by Webb and Pais (1992). The boiling performance of R-123 was observed to be 
+similar to that of R-11 while the three higher saturation pressure refrigerants had significantly higher heat 
+transfer coefficients. 
+Boiling Heat Transfer on External Surfaces 
+9-17 
+
+
+===== PAGE 257 (book page 9-18) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+= So 
+So 
+26 fpi low fin tube 
+Tests 
+at 4.4° 
+C (40°F) 
+Se 
+= 
+= = 
+_ Cc 
+= = 
+= © 
+° 
+O 
+—
+2 “Cc 
+Oo 
+—
+E 
+w 
+® 
+<L 
+—_ 
+Heat Flux (kWim*) 
+Figure 9.14. Pool boiling of five refrigerants on a low finned by Webb and Pais (1992). 
+Figure 9.15 shows the nucleate pool boiling results for a low finned tube and a Turbo-B tube compared to 
+a plain tube obtained by Palm (1995) for R-134a at 0.7°C (33.3°F) and R-22 at 0.1°C (32.2°F), albeit 
+plotted in a linear form as in the original publication. The boiling curves illustrate that the most important 
+enhancement factor at a fixed wall superheat is obtained at low superheats. 
+Figure 9.16 shows some pool boiling results for a Turbo-B tube compared to those for a plain tube for R- 
+123 at 4.4°C (40°F) by Webb et al. (1995). Significant boiling enhancement is evident over the entire heat 
+flux range. 
+Figure 9.17 depicts some other pool boiling for a Turbo-Bii-LP tube for R-123 at 4°C (39°F) taken by 
+Kedzierski (1995) and compared to a low finned tube. They plotted their data on a linear graph as 
+reproduced here. They took a large number of data points with little scatter as can be noted. 
+Figure 9.18 presents the pool boiling heat transfer coefficients plotted versus heat flux for a Turbo-Bii 
+tube for pure fluids (R-22 and R-134a), a near azeotrope mixture of R-32/R-125 (60/40%) and several 
+zeotropic mixtures by Chen and Tuzla (1996). Note that the mass transfer effect has a very detrimental 
+effect on the boiling performance for the two zeotropic mixtures. 
+Ribatski and Thome (2006) recently completed a comparative study on four commercially available 
+enhanced tubes (a porous coated tube, two enhanced boiling tubes and an enhanced condensation tube) 
+for R-134a, covering the effect of saturation temperature with tests at 5, 10 and 20°C (41, 50 and 68°F) 
+over heat fluxes from 20 to 70 kW/m? (6340 to 22190 Btu/h ft”). They also provide an extensive list of 
+about 23 other enhanced pool boiling studies completed since 2000 for those interested. Since it may be 
+beneficial to simplify system construction by using the same enhanced tube in both a refrigeration 
+system’s flooded evaporator as in its condenser, pool boiling tests were also done with an enhanced 
+condensing tube to look at this possibility. Their results for two such tubes, one enhanced boiling and one 
+enhanced condensation, are shown in Figure 9.19. The data show that there is some effect of saturation 
+temperature on boiling performance and also that at high heat fluxes the enhanced condensing tube 
+Boiling Heat Transfer on External Surfaces 
+9-18 
+
+
+===== PAGE 258 (book page 9-19) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+actually outperforms, by a small margin, the enhanced boiling tube whereas being much less effective at 
+lower heat fluxes. 
+—s-TurboB 
+) 
+ww oS 
+x 
+S 
+LL 
+oS 
+® . 
+= oS 
+3 
+4 
+Wall Superheat (K) 
+Figure 9.15. Pool boiling of R-22 and R-134a on plain, low finned and Turbo-B tubes by 
+Palm (1995). 
+Boiling Heat Transfer on External Surfaces 
+9-19 
+
+
+===== PAGE 259 (book page 9-20) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+100000 
+Heat Flux (Vim?) 
+Figure 9.16. Pool boiling on a Turbo-B tube for R-123 by 
+Webb et al. (1995). 
+° Turbo-Bii LP tube 
+—_=- 
+—_=>- 
+—- 
+—_ —
+ee 
+—| 
+no eS 
+Figure 9.17. Pool boiling on Turbo-Bii-LP tube for R-123 by Kedzierski (1995). 
+Boiling Heat Transfer on External Surfaces 
+9-20 
+
+
+===== PAGE 260 (book page 9-21) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+T 
+ho 
+on So 
+So 
+So 
+® aE 
+« R134a 
+® R32/R125(60/40) 
+R32/R125/R13 
+4 a(30/10 
+60) 
+* R32/R134.a(25/75 
+40 
+60 
+Heat Flux (k¥vim7) 
+wn 
+fom} 
+So 
+Figure 9.18. Pool boiling on Turbo-Bii for pure fluids and mixtures by Chen and Tuzla 
+(1996). 
+Boiling Heat Transfer on External Surfaces 
+9-21 
+
+
+===== PAGE 261 (book page 9-22) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+. Turbo-Bll HP 
+co 
+38 
+Figure 9.19. Pool boiling results for R-134a on Turbo-BII HP (boiling tube) and 
+Turbo-CSL (condensing tube) at three saturation pressures from Ribatski and 
+Thome (2006). 
+9.6 Bundle Boiling 
+An important heat transfer process is evaporation on the outside of horizontal tube bundles. This process 
+is generic to refrigerant flooded evaporators, waste heat boilers, fire-tube steam generators, kettle and 
+thermosyphon reboilers, feed effluent heat exchangers, etc. Nearly all the research has focused either on 
+overall bundle boiling data, on mean measurements for selected tubes in the bundle, on bundles immersed 
+in a pool of liquid without measurement of liquid flow rates or on idealized small bundles. Some such 
+exchangers operate in simple vertical upward cross-flow, like flooded evaporators, but others are 
+configured with as single-segmental baffled heat exchangers where the main flow is horizontal crossflow 
+with all the associated problems of leakage streams like in similar single-phase flows. Hence, much still 
+remains to be accomplished on the subject of bundle boiling but fortunately some of what we know about 
+intube evaporation can be applied qualitatively to this external flow process. One recent review has been 
+presented by Casciaro and Thome (2001a, 2001b), describing the state-of-the-art with respect to heat 
+transfer, void fractions, flow patterns and maps and two-phase pressure drops with respect to evaporation 
+on tube bundles. Thome (1998) has also summarized the bundle boiling experiments conducted in the 
+1990’s up to that point in time. Jensen (1988) has also presented a detailed state-of-the-art review of 
+boiling on plain tube bundles while Thome (1990) described numerous enhanced tests up to that date. 
+Figure 9.20 taken from Collier and Thome (1994) depicts a simplified tube bundle layout with uniform 
+heating of the tube for upflow boiling. The flow regimes are shown in schematic form encountered from 
+the bottom to the top, together with the corresponding heat transfer regimes. This is a composite diagram 
+Boiling Heat Transfer on External Surfaces 
+9-22 
+
+
+===== PAGE 262 (book page 9-23) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+and not all these flow regimes are necessarily encountered depending on the operating conditions. Here, it 
+is assumed that subcooled liquid enters the bottom from the inlet nozzle and flows upward to the bottom 
+tube row. Hence, the initial heat transfer process is single-phase convection to the subcooled liquid that is 
+followed by subcooled boiling until the liquid reaches its saturation temperature. For example, in a 
+thermosyphon reboiler it is common for the liquid head to impose several degrees of subcooling on the 
+fluid entering. For enhanced tubes, this condition would be particularly acute since they are not effective 
+for single-phase heating nor subcooled boiling. In the lower part of the bundle, bubbly flow then exists up 
+until the transition to bubble jet flow between the tubes. The flow then enters a chugging type of flow 
+regime with large bubbles and liquid slugs populated with numerous small bubbles. Then at some critical 
+condition, the flow transforms into a spray flow with large droplets impinging on the tubes to form thin 
+liquid films. Dryout (not shown) can also occur with very poor heat transfer similar to intube evaporation. 
+With a small amount of oil present in refrigerants, it is also possible to form a frothy flow or foam. It is 
+unlikely that all the liquid is evaporated without carryover and hence normally either a demister pad or a 
+large oversized shell is used to separate the liquid droplets from the outgoing vapor. Figure 9.21 shows a 
+similar diagram from Robinson and Thome (2004a) illustrating this process in a 20-tube test section they 
+used to investigate local flow boiling heat transfer coefficients. The details of the actual process are still 
+not well understood and the above is primarily an intuitive description. 
+Liquid Film 
+Evap oration 
+Heat Transfer 
+Liquid 
+Regimes 
+Vapour 
+Convection 
+Through 
+Liquid Film 
+Sliding 
+Bubble 
+Evap oration 
+Subcooled 
+Boiling 
+[ 
+Convective 
+Liquid 
+Heat Transfer 
+to Liquid 
+Vapour 
+Figure 9.20. Evaporation on a horizontal tube bundle (not to scale). 
+Older test results in the literature are primarily for overall bundle boiling heat transfer coefficients, which 
+are not very useful since they do not allow local boiling heat transfer models to be developed. Similarly, 
+numerous tests on small tube bundles have been run using electrical cartridge heaters inside the tubes in 
+Boiling Heat Transfer on External Surfaces 
+9-23 
+
+
+===== PAGE 263 (book page 9-24) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+which the bundle was immersed in a large pool of liquid; hence local tube-wise heat transfer coefficients 
+were measured but not the liquid flow rate into the bundle. Consequently, the local vapor quality cannot 
+be determined for these test conditions, which renders these data difficult to use for building of bundle 
+boiling models. In recent years, it has become common to run tests with complete control of the process, 
+such that local tube-wise heat transfer coefficients have been obtained as a function of heat flux, vapor 
+quality and mass velocity using electrical-heated or water-heated test sections. 
+62> COPPER 
+TUBE 
+BE ARING 
+HEAT 
+SOURCE 
+VWATER 
+YITH STAINLESS 
+STEEL 
+Sl? =ROD 
+POSITIONED 
+CONCENTRICALLY 
+WITHIN 
+THE COPPER 
+TUBE 
+orn 
+(ap + COPPER TUBE BEARING HEAT SOURCE WATER WITH STAINLESS STEEL 
+( 
+J» TUBE 
+POSITIONED 
+CONCENTRICALLY 
+WITHIN 
+THE 
+COPPER 
+TUBE 
+we 
+REFRIGERANT 
+OUTLET PRESSURE TAP 
+“ OUTLET 
+s 
+LIQUID 
+FILM 
+CONVECTION 
+UauID 
+THROUGH 
+LIQUID FILM 
+REFRIGERANT 
+a 
+Lo 
+VAPOR 
+REFRIGERANT 
+SLIDING 
+BUBBLE 
+EVAP 
+OR ATION 
+HEAT SOURCE 
+(CHUGGING FLOW) 
+WATER 
+PA 
+7 aha! 
+DUMMY" 
+TUBES 
+SATURATED 
+NUCLEATE 
+BOILING 
+BUBBLE JET FLOVY) 
+LIQUID 
+REFRIGERANT 
+PRESSURE 
+REFRIGERANT 
+TAP 
+INLET 
+Figure 9.21. Schematic diagram of boiling in a 20-tube test section. 
+For boiling on the 20-tube test bundle illustrated in Figure 9.21, Robinson and Thome (2004a) used hot 
+water heating with a modified-Wilson plot technique for their tests. They also placed dummy tubes inside 
+the heat transfer tubes in order to install two local thermocouples inside the tubes at three locations along 
+the four central tube rows in their bundle, besides measuring the inlet and outlet water temperatures from 
+each tube. Hence, applying an enthalpy profile approach using the temperatures at all these locations, they 
+were able to calculate the local heat flux at 12 locations in the bundle where the local water temperatures 
+Boiling Heat Transfer on External Surfaces 
+9-24 
+
+
+===== PAGE 264 (book page 9-25) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+have been simultaneously measured. The local refrigerant-side saturation temperatures were measured 
+using 3 sets of an 8 thermocouple array located at the same axial position along the bundle as the internal 
+water temperature measurements, or can be calculated from differential pressure measurements. Hence, 
+knowing the temperatures of the water and refrigerant at any one of these locations, knowing the heat flux 
+at that point, knowing the water-side heat transfer coefficient from the prior modified-Wilson plot tests, 
+and the tube geometry and wall thermal conductivity, it is possible to determine the local axial flow 
+boiling heat transfer coefficient in the bundle at known conditions of mass velocity, vapor quality and 
+heat flux, similar to intube flow boiling test results. Their test setup hence provides 12 perimeter-averaged 
+local heat coefficients within their tube bundle. The inlet flow conditions to the bundle are changed using 
+a speed controlled pump and a preheater, which allows a wide range of local test conditions to be 
+achieved within the tube bundle. 
+Figure 9.22 depicts some of the local bundle boiling data for R-134a on a plain tube bundle obtained by 
+Robinson and Thome (2004a) for their tube bundle using 19.05 mm (3/4 in.) tubes on a triangular tube 
+pitch of 22.23 mm (7/8 in.). The effect of heat flux was found to be more dominant than originally 
+expected while the influence of mass velocity was less than expected. The local heat transfer coefficients 
+tend to increase with local vapor quality and are larger than the corresponding nucleate pool boiling heat 
+transfer coefficient. These data are currently being used to develop a local flow boiling heat transfer 
+model that will be reported on in the near future. 
+10000 
+Q"=4-6 kWim? 
+7 
+Q"=6-8 kWim? 
+ne 
+2 
+Q"=10-14 kWim 
+7000 
+Q"=14-18 kWimn? 
+Q"=18-24 kW/m? 
+6000 
+- 
+5000 
+4000 
+3000 
+2000 
+< 
+™ 
+= 
+= 
+a 
+= oD 
+= 
+_ Do 
+oO 
+O 
+See 
+® 
+‘i w 
+= 
+oO 
+See 
+I 
+~~ 
+oO 
+® 
+L 
+1000 
+0 
+0 
+01 
+O02 
+03 
+O04 
+05 
+O06 
+Of 
+O08 
+Q9 
+Vapor Quality 
+Figure 9.22. Local bundle boiling data for R-134a on a plain tube bundle of Robinson 
+and Thome (2004a). 
+Figure 9.23 shows the local boiling data for R-11 evaporating on an 18.9 fpi (744 fins per meter) low fin 
+tube bundle tested by Gupte and Webb (1995a) at 4.4°C (40°F). They used cartridge heaters to impose a 
+Boiling Heat Transfer on External Surfaces 
+9-25 
+
+
+===== PAGE 265 (book page 9-26) =====
+Engineering Data Book Ill 
+ing 
+Thermal 
+|] 
+vation 
+uniform heat flux in the bundle, a preheater to control the inlet vapor quality and a pump to control the 
+refrigerant flow rate. Also indicated on the graph are the corresponding nucleate pool boiling heat transfer 
+coefficients at the same heat fluxes. Significant convective boiling heat transfer is evident in these data 
+with local bundle boiling coefficients up to nearly three times the nucleate pool boiling values, 
+particularly at low heat flux. 
+Low Finned 
+tube: 
+R-11 at44° €--- 
+= 
+So So 
+So 
+So 
+O45 kW/ m2 
+#35 kW/ m2 
+A425 kW/ m2 
+415 kW / m2 
+—
+x< 
+™N 
+E 
+Es 
+—
+~ c 
+= 
+< 
+= © 
+o 
+O 
+—
+® 
+yw 
+“Cc 
+© 
+—i 
+o ® 
+- 
+0.3 
+0.4 
+Vapor Quality 
+Figure 9.23. Boiling of R-11 on a 18.9 fpi low fin tube bundle by Gupte 
+and Webb (1995a). 
+Figure 9.24 depicts the corresponding data of Gupte and Webb (1995a) for boiling of R-11 at a higher 
+pressure (26.7°C or 80°F) on the same low fin tube bundle. Here, a noticeable effect of heat flux on the 
+data is evident at the lower vapor qualities since at nucleate pool boiling is much stronger at this higher 
+pressure. At high vapor qualities, the data tend to come together like what happens in intube flow boiling 
+tests, suggesting that the flow is convection dominated at high vapor qualities. 
+Figure 9.25 shows the bundle boiling data obtained for n-pentane evaporating on 45-tube, 30 fpi low fin 
+tube bundle by Thonon, Roser and Mercier (1997). It was not easy to distinguish the heat fluxes of 
+individual data points on their graph, but it has been reproduced here to illustrate the significant 
+convective effect they also observed for boiling on a low finned tube bundle at a mass velocity typical of 
+normal operating conditions. 
+Figure 9.26 presents boiling data for R-123 at 4.4°C (40°F) on a Turbo-B tube bundle by Gupte and 
+Webb (1995b) for the same bundle configuration used for their low fin tests described above. Here, they 
+obtained data only at low vapor qualities and found little convective effect on the local boiling heat 
+transfer coefficients, although at the lowest heat flux there appears to be the beginning of such a 
+convective trend. 
+Boiling Heat Transfer on External Surfaces 
+9-26 
+
+
+===== PAGE 266 (book page 9-27) =====
+Engineering Data Book Ill 
+1g Thermal i 
+vation 
+Low Finned tube 
+R -11 at 26.7° C | 
+o45 KW 
+/ m2 
+@36 kW 
+/ m2 
+A25 kW 
+/ m2 
+415 kW 
+/ m2 
+—
+= 
+™N 
+= 
+= 
+rte 
+Cc 
+= 
+Ee 
+= ® 
+o oO 
+a 
+® 
+yw 
+“. 
+is) 
+i 
+- 
+G 
+® 
+eo 
+06 
+Vapor quality 
+Figure 9.24. Boiling of R-11 on a 18.9 fpi low fin tube bundle by 
+Gupte and Webb (1995a). 
+Mass velocity = 14.5 kg im’s 
+Pressure = 1.3 bar 
+an So o 
+So 
+—>—34 kW 
+/ m2 
+—* 25 kW / m2 
+4-9 kW 
+/ m2 
+—&- 
+3 kW 
+/ m2 
+0.4 
+Vapor quality 
+Figure 9.25. Boiling of n-pentane on a 30 fpi low fin tube bundle by Thonon, Roser and Mercier 
+(1997). 
+Boiling Heat Transfer on External Surfaces 
+9-27 
+
+
+===== PAGE 267 (book page 9-28) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+R - 123 at 4.4° C 
+Turbo - B tube 
+19-25 
+kg/m’s 
+' 
+Ce 
+we 
+ee 
+ee 
+ee 
+ee 
+' 
+Nucleate.}—.. 
+boiling 
+| 
+coefficient ~~~" 
+o 44 kW/ 
+m2 |- 
+© 36 kW 
+/ m2 
+A23 kW 
+/ m2 
+414 kW 
+/ m2 
+—
+<< 
+N £ 
+= 
+—
+~ Cc 
+= 
+a 
+= 
+® 
+o 
+oO 
+® 
+ye 
+“Cc 
+© 
+r} 
+® 
+- 
+Figure 9.26. Boiling of R-123 on Turbo-B tube bundle by Gupte and 
+Webb (1995b). 
+35000 
+"=8.12 kW/m? 
+S > S 
+= = 
+15000 
+= Ss 
+02 
+O03 
+O4 
+O5 
+O86 
+OF 
+O8 
+Vapor Quality 
+Figure 9.27. Boiling of R-134a on Turbo-Bii tube bundle by Robinson and Thome (2004b). 
+Boiling Heat Transfer on External Surfaces 
+9-28 
+
+
+===== PAGE 268 (book page 9-29) =====
+: 
+: 
+: 
+: 
+“= 8-12 kW/m? 
+Q"=12-16 kW/m? 
+Q"=16-20 KWim? 
+"=20.28 kW/m? 
+Q"=28.36 kW/m? 
+“=36.64 kW/m? 
+02 
+03 
+O4 
+O5 
+O68 
+OF 
+O8 
+Vapor Quality 
+Figure 9.28. Boiling of R-410A on Turbo-Bii tube bundle by Robinson and 
+Thome (2004b). 
+© Q"=12-16 kW/m? 
+© Q™1620 kW/m? 
+O "20.28 kWim? 
+*% Q"=28-36 KWim? 
+A. O"=36-64 kWim? 
+o 
+Cc 
+cS 
+5 So 
+03 
+O04 O5 O68 OF Of 
+Vapor Quality 
+Figure 9.29. Boiling of R-507A on Turbo-Bii tube bundle by Robinson and 
+Thome (2004b). 
+Boiling Heat Transfer on External Surfaces 
+9-29 
+
+
+===== PAGE 269 (book page 9-30) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Most recently, Robinson and Thome (2004b) using the tube bundle layout and experimental technique 
+described above measured local flow boiling heat transfer coefficients for the Turbo-Bii_HP tube for R- 
+134a, R-410A and R-507a, shown respectively in Figure 9.27, Figure 9.28 and Figure 9.29 (note that heat 
+transfer coefficients range from about 15000 to 35000 W/m’K). In these tests they found that convective 
+effects increased local boiling coefficients in the bundle from 10 to 40%, particularly for the low to 
+medium heat fluxes they tested. For comparison, the pool boiling heat transfer coefficient for the Turbo- 
+Bii at q = 16 kW/m’ for R-134a is 20600 W/m’K, for R-410A is 23650 W/m’K and for R-507A is 21920 
+W/m’K. The tube was not optimized for use with the last two fluids. The heat transfer coefficients are 
+quite large and yield local boiling superheats on the tubes that are only 0.5-1.0°C (0.9-1.8°F), which 
+results for some of the scatter apparent in their data at these challenging test conditions typical of real 
+operating conditions. 
+Prediction methods for local bundle boiling heat transfer coefficients are much less advanced than for 
+boiling inside of tubes. Most of the bundle boiling methods available were developed from limited 
+databases, typically obtained only in one laboratory for one or two fluids and hence they cannot be 
+considered to be general methods, likely being unreliable when applied to other fluids, pressures and 
+bundle geometries. Bundle boiling methods have been reviewed in Browne and Bansal (1999), Casciaro 
+and Thome (2001la) and Collier and Thome (1994) while Thome (1990) reviewed enhanced bundle 
+boiling in Chapters 10 to 12. Very few correlations specifically for the prediction of local bundle boiling 
+heat transfer coefficients currently exist. Most of these methods use a modified form of the popular Chen 
+(1963) intube boiling correlation, which thus ignores physical differences between internal and external 
+two-phase flows. Any discussion of the local distribution and interaction of the liquid and vapor phases 
+within a tube bundle must begin with the local void fraction. A new preliminary approach based on local 
+void fraction is presented below (based on limited data like other previous methods). 
+Thome and Robinson (2006) have proposed a set of empirical bundle boiling heat transfer prediction 
+methods for plain tubes, low finned tubes and enhanced boiling tubes. Their methods are based on only 
+one tube diameter/tube pitch combination (19/22.23 mm, 0.74/0.875 in.), all for tests at one saturation 
+temperature of 5°C (41°F) for an equilateral triangular tube layout. The methods presented below, 
+however, have a general format that allows one to utilize the method for other tube layouts and tube 
+pitches. Also, one can use them for other fluids and tube combinations by inputting one’s own nucleate 
+boiling curve. Even so, one must remember that these methods cannot be considered as general 
+correlations because the underlying range of experiments (some described above) was quite limited. The 
+void fraction method of Feenstra, Weaver and Judd (2000) described elsewhere in Databook III is used 
+for determining ¢ in the methods below. 
+Plain Tube Bundle Boiling Prediction Method. The plain tubes were drawn copper tubes with an 
+untreated surface and were 18.87 mm (0.742 in.) in outside diameter. An asymptotic method was assumed 
+for predicting the local bundle boiling heat transfer coefficient Opunae from the nucleate boiling heat 
+transfer coefficient ,, and the convective boiling heat transfer coefficient oy: 
+1/2 
+The nucleate boiling heat transfer coefficient was predicted using the Cooper (1984) dimensional 
+correlation given by [9.3.10], including its 1.7 multiplier that he recommended be applied to copper tubes 
+with a surface roughness set to R, = 5.7 microns. Utilizing the Cooper correlation to thus calculate On», 
+i.e. from its fit to their pool boiling data for R-134a, taking their R-134a experimental local bundle boiling 
+heat transfer coefficients for the values of Otpundie, 
+the values of a, were backed out of the experimental 
+database applying [9.6.1]. The convective heat transfer coefficients thus obtained were assumed to be for 
+heat transfer through a thin liquid film flowing over the tubes in the bundle, i.e. their version of the 
+Boiling Heat Transfer on External Surfaces 
+9-30 
+
+
+===== PAGE 270 (book page 9-31) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+sliding bubble heat transfer mechanism proposed by Cornwell (1989), the latter whose photographs can 
+be seen in Figure 9.27 in Collier and Thome (1994). These convective heat transfer values were 
+empirically fit to the following liquid film convection expression: 
+In this expression, Pr, is the liquid Prandtl number, k, is the liquid thermal conductivity, 5 is the liquid 
+film thickness and Res is the liquid film Reynolds number, which is defined as: 
+4 
+é6 
+Re, =—PLL 
+[9.6.3] 
+by 
+The mean liquid velocity in the film uy is: 
+1 
+U, _ 1D stat 
+( x) 
+[9.6.4] 
+The mass velocity of the flow is calculated using the minimum cross-sectional area of the bundle (like in 
+single-phase cross flows). The liquid film thickness 6 is determined by fitting a hexagonal grid to the tube 
+layout with one tube at the center of each hexagon (see Figure 9.30). Applying the void fraction to this 
+geometry and its cross-sectional flow area, i.e. the area of the hexagon minus that of the cross-sectional 
+area of the tube, the fraction of the area occupied by the liquid-phase is calculated and this area is applied 
+to the perimeter of the tube to find the mean liquid film thickness. Referring to Figure 9.31, the area 
+encompassed by the hexagon, Apex is given by: 
+Lyp 1s the vertical tube pitch and L,, is the horizontal tube pitch. The circumferential flow area Acq to 
+which the void fraction is applicable is: 
+D 
+D is the tube outside diameter and the area occupied by saturated liquid A, in the hexagon is: 
+A, =A,,(1-) 
+[9.6.7] 
+The diameter of the idealized liquid ring created by the liquid film around the tube Ds is: 
+D,= 4A, +D? 
+[9.6.8] 
+TU 
+Boiling Heat Transfer on External Surfaces 
+9-31 
+
+
+===== PAGE 271 (book page 9-32) =====
+Engineering Data Book III 
+Figure 9.30. Idealized hexagonal grid boundary imposed over bundle 
+cross section to identify local void fraction per tube. 
+- 
+. ' ' ' ' ' ' ' i ' ' ' ' ' ' ' ' ' ' ™ 
+* 
+Figure 9.31. Idealized local saturated liquid film surrounding 
+circumference of tube. 
+The liquid film thickness 6 is thus: 
+D;-D 
+2 
+Though only one tube pitch arrangement was used in the experimental study, the above format is general, 
+allowing future application to other staggered tube layouts, tube diameters and tube pitches similar to the 
+present one. 
+o= 
+[9.6.9] 
+Boiling Heat Transfer on External Surfaces 
+9-32 
+
+
+===== PAGE 272 (book page 9-33) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+Figure 9.32 depicts a comparison of the new bundle boiling method to the plain tube bundle boiling 
+database of Robinson and Thome (2004a), capturing a large fraction of the bundle boiling data to within 
++20% as shown. The database covers only boiling of R-134a at a saturation temperature of 4.4°C (39.9°F) 
+over the following test conditions: total mass flux from 5 to 41 kg/m’s (3700 to 30300 Ib/h ft’), heat flux 
+from 2 to 35 kW/m’(630 to 11100 Btu/h ft’) and vapor qualities from 10 to 87%. The individual values 
+of the predicted smooth tube nucleate and convective boiling contributions varied greatly with different 
+combinations of heat flux and mass flux. On average, the convective boiling contribution was 63% that of 
+the nucleate boiling contribution, which means that the bundle boiling performance was about 63% higher 
+than that of nucleate pool boiling on a single tube. 
+Low Finned Tube Bundle Boiling Prediction Method. The Wolverine Turbo-Chil low fin tube bundle 
+(photo of this tube is shown in Figure 9.2) tested in Robinson and Thome (2004c) had a fin density of 
+1024 fins/meter (26 fins/inch), a root diameter of 15.88 mm, an inside diameter of 14.45 mm (0.569 in.), a 
+fin height of 1.52 mm (0.060 in.) and a fin thickness of 0.2 mm (0.008 in.). These tubes also had an 
+internal enhancement and were tested with a triangular tube pitch of 22.22 mm (0.875 in.). The above 
+asymptotic method was again assumed for predicting the local bundle boiling heat transfer coefficient 
+Qbundie 
+for the low finned tube bundle using [9.6.1]. As no reliable method is available for predicting 
+nucleate boiling heat transfer coefficients on low finned tubes, the particular tube’s experimentally 
+measured nucleate pool boiling curve was used to determine a4. For R-507A on the present low finned 
+tube, the experimental boiling curve from their study was: 
+0. = 93.35q°** 
+[9.6.10] 
+For R-134a on the same low finned tube, the boiling curve was: 
+a, = 90.11q°*"* 
+[9.6.11] 
+Note that the heat flux is input in W/m’ based on the nominal surface area of a plain tube with an outside 
+diameter equal to the fin tip diameter and the heat transfer coefficient is given in W/m’K based on this 
+same nominal area (not the total area of the low fin tube). The values of a, were again backed out from 
+the measured local bundle boiling heat transfer coefficients for Opunaie 
+by applying [9.6.1] with the above 
+boiling curves for 0». The convective heat transfer coefficients were assumed to be a function of liquid 
+flow between adjacent fins but not between adjacent tubes, flows which all turned out to be in the laminar 
+regime. They were empirically fit to a Sieder and Tate (1936) type of laminar convection expression 
+where the exponent on the Reynolds number was found from the data to be only 0.0013. Hence, the 
+expression was reduced to that of a fully-developed laminar flow expression, typical of high aspect ratio 
+rectangular channels, as: 
+4d), 
+k, 
+= 13.92 
+[9.6.12] 
+In this expression, d;, is the hydraulic diameter for the flow between adjacent fins and is defined as: 
+_ 4A, 
+P L 
+d, 
+[9.6.13] 
+Boiling Heat Transfer on External Surfaces 
+9-33 
+
+
+===== PAGE 273 (book page 9-34) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+For the flow between two adjacent fins, P, is the wetted perimeter of the two sides of the fin plus that of 
+the root, so that Py, = (s - tyoot) + 2e where s in the fin pitch, t,oo¢ is the fin thickness at its root and e is the 
+fin height. The cross-sectional area Ag, for free flow area between two fins is Ag = (S - troot)e. The use of 
+this laminar channel flow method between the fins was suggested by the void fraction method used for 
+the plain tube bundle described above since the values of the liquid film thickness calculated for the entire 
+wetted surface area of the low-finned tube were typically larger than half the interfin spacing (s —tyoo:) and 
+hence the flow between the fins is not a film flow but rather a channel flow. 
+R-134a Plain Tube Experimental vs. Calculated 
+< 
+N E 
+_ Cc 
+= - 
+= 
+® 
+° 
+O 
+—
+~ “Cc 
+oS 
+_ 
+E 
+& 
+o 
+al 
+® GC 
+o 
+= 
+0 
+1000 
+§=62000 «3000 
+4000 
+5000 
+6000 
+7000 
+8000 
+39000 
+10000 
+Figure 9.32. Predicted vs. experimental bundle boiling heat transfer coefficients for 
+plain tube. 
+Figure 9.33 shows the comparison of the above prediction method to the finned tube bundle boiling 
+database for R-134a. Similar results were obtained with R-507A on the same bundle. Most of the data 
+were predicted within +20%. The database covers only boiling of R-134a and R-507A at a saturation 
+temperature 
+of 4.4 °C (39.9°F) over the following conditions: total mass flux from 3 to 29 kg/m’s (2210 
+to 21400 lb/h ft’), heat flux from 2 to 50 kW/m’(630 to 15850 Btu/h ft’) and vapor qualities from 8 to 
+82%. The individual values of the finned tube nucleate and convective boiling contributions varied 
+greatly with different heat and mass flux conditions; on average the convective boiling contribution was 
+68% that of the nucleate boiling contribution. 
+Boiling Heat Transfer on External Surfaces 
+9-34 
+
+
+===== PAGE 274 (book page 9-35) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+R-134a Lowfinned Tube Experimental vs. Calculated 
+16000 
+14000 
+12000 
+10000 
+8000 
+6000 
+4000 
+2000 
+< 
+N E 
+aw 
+c 
+= 
+a 
+= 
+® 
+o 
+O 
+_ 
+Pa 
+“Cc 
+i) 
+—
+E 
+w 
+o 
+<- 
+® co 
+°o 
+= 
+2000 
+4000 
+6000 
+8000 
+10000 »3=s 
+«12000 
+»3=—
+14000 
+Experimental 
+Heat Transfer 
+Coefficient 
+(Wim7k) 
+Figure 9.33. Predicted vs. experimental bundle boiling heat transfer coefficients for 
+Turbo-Chil low fin tube. 
+Turbo-Bii_HP Bundle Boiling Prediction Method. The database of Robinson and Thome (2004b) for 
+tests with R-134a, R-507A and R-410A were used to develop this method. The Wolverine Turbo-Bii_ 
+HP 
+tube (shown in Figure 9.4) had a root diameter of 17.48 mm (0.688 in), an outside diameter of 18.69 mm 
+(0.736 in) and an inside diameter of 16.05 mm (0.632 in). They had an internal enhancement and were 
+tested in a bundle with a triangular tube pitch of 22.22 mm (0.875 in.). For predicting the thermal 
+performance of this enhanced boiling tube, another strategy was taken since the convection coefficients 
+Op deduced for the plain and low finned tube bundles are insignificant with respect to the Turbo-Bii_HP 
+bundle performance because of its very high nucleate boiling coefficients, i.e. such a, values are on the 
+order of 1 kW/m’K whereas 
+those of a, are on the order of 20 to 25 kW/m°K). 
+The bundle 
+boiling effect 
+(local bundle heat transfer coefficient relative to their corresponding value of a») was significant as 
+described in Robinson and Thome (2004b). Furthermore, it did not seem justified to multiply a. in 
+[9.6.2] by factors up to 5 to account for the “rough” surface of the Turbo-Bii 
+HP tube. They thus 
+concluded that the two-phase flow had an enhancing effect on the nucleate boiling process itself, perhaps 
+by increasing the departure frequencies of the bubbles leaving the re-entrant channels, which in turn 
+would augment the thin film evaporation and convection processes inside the re-entrant channels. Hence, 
+a bundle boiling factor approach was taken to predict the local bundle boiling heat transfer coefficients 
+Obunale 
+for the Turbo-Bii_ 
+HP tube bundle as: 
+O bundle 
+—Ont F, 
+[9.6.14] 
+Boiling Heat Transfer on External Surfaces 
+9-35 
+
+
+===== PAGE 275 (book page 9-36) =====
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+In the absence of a pool boiling correlation to predict o,, for this tube, the experimental nucleate boiling 
+curves for the particular fluid boiling on Turbo-Bii_ 
+HP were used to calculate a,,. The nucleate pool 
+boiling curves from Robinson and Thome (2004b) for the three fluids were: 
+R-134a: 
+a, =30944q 
+°°? 
+[9.6.15] 
+R-507A: 
+=F 
+[9.6.16] 
+R-410A: 
+O., = 43520q 
+°° 
+[9.6.17] 
+Here, Ot,» was nearly insensitive to heat flux. Their bundle boiling reduced pressure correction factor F,,, 
+in terms of the reduced pressure p,, was: 
+F, =1.41—2.66p, 
+[9.6.18] 
+Their bundle boiling void fraction correction factor F, was correlated as: 
+F, =1.15—2(0.4-«) 
+[9.6.19] 
+In this last expression, the local void fraction is calculated with the tube bundle void fraction method of 
+Feenstra, Weaver and Judd (2000). The void fractions in the tests ranged from 0.16 to 0.85 while the 
+reduced pressures ranged from 0.084 to 0.2. A maximum in the bundle effect for all three fluids occurred 
+at a void fraction of about 0.4, above which the heat transfer performance fell off. The bundle effect was 
+observed experimentally to decrease with increasing reduced pressure and hence the introduction of the 
+factor F,. Due to the highly empirical nature of this method and the limited database, it is recommended 
+that caution be used in extrapolating this method outside of its present range of reduced pressures and 
+void fractions. 
+Figure 9.34 shows their R-134a bundle boiling data compared to the prediction method, with the data 
+segregated by measurement location, dividing them into one set that is for the bottom tube row in the 
+bundle and the other set for upper tube rows (tube rows 3, 5 and 7 counting from the bottom up). As can 
+be seen, the bottom tube row data tend to differ from the other tube rows. Two explanations were offered 
+for this. First of all, the hot water inside the tubes in the bundle entered at the top and hence the water 
+temperature profile became rather flat in the bottom tube row, so those experimental values were more 
+sensitive to the measured slope of the water temperature profile than the others. The bottom row data in 
+fact were grouped by location along the tube, where the left-most data are for the last test location along 
+the bottom tube before the hot water exits the bundle and the right-most are for the first test location along 
+the bottom tube. Secondly, there could have been an “entrance effect” on the bottom tube row since no 
+bubble jet from lower boiling tubes impinges on it. The first case seemed to be the most plausible 
+explanation. Hence, disregarding the data from the last two locations on the bottom tube row, the 
+comparison of the prediction method to the remaining database was quite satisfactory, also for R-410A 
+and R-507A where the same trends were observed, and most of such data were predicted within +20%. 
+The database covered R-134a, R-507A, and R-410A at a saturation temperature of 4.4 °C (39.9°F) for: 
+total mass flux from 4 to 38 kg/m’s (2950 to 28040 Ib/h ft’), heat flux from 8 to 64 kW/m* (2540 to 20290 
+Btu/h ft’) and vapor qualities from 8 - 78%. 
+Boiling Heat Transfer on External Surfaces 
+9-36 
+
+
+===== PAGE 276 (book page 9-37) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+R-134a Turbo-Bii Tube Experimental vs. Calculated 
+35000 
+30000 
+25000 
+20000 
+15000 
+10000 
+--- 80% 
+— 120% 
+5000 
+/\ data from bottom tube 
+©) data from upper tubes 
+< 
+N E 
+_ Cc 
+= 
+—
+= 
+o 
+o 
+O 
+_ - 
+“Cc 
+oO 
+_ 
+E 
+w 
+o% 
+<- 
+® GC 
+°o 
+= 
+5000 
+10000 »3=s« 
+15000 §=s- 
+20000 )»3=s_ 
+«25000 
+§=s 30000 §=_- 
+335000 
+Experimental 
+Heat Transfer 
+Coefficient 
+(Wim7k) 
+Figure 9.34. Predicted vs. experimental bundle boiling heat transfer coefficients for 
+Turbo-Bii_HP tube. 
+9.7 Dryout Mechanisms on Bundle Boiling 
+The upper operating limit of plain and enhanced tube bundles is governed by several possible dryout 
+scenarios. These have been contemplated for those occurring on horizontal kettle reboilers widely used in 
+petro-chemical applications and are in part also applicable to flooded evaporators favored by the 
+refrigeration industry. Figure 9.35 illustrates these. Mechanism (a) is for small tube bundles with few tube 
+rows; here, the maximum heat flux is essentially limited by that for DNB on a single tube, i.e. by 
+expression [9.3.18]. Mechanism (b) refers to a unit with liquid loading onto the bundle from above, where 
+the liquid loaded from above is not able to penetrate to the bottom of a large bundle because of the up 
+flow of the vapor. Mechanism (c) occurs for large tube bundles with too little inflow from beneath, which 
+can create unfavorable circulation of liquid and mal-distribution of liquid in the bundle and hence local 
+dryout. Mechanism (d) refers to another circulation-limited problem in which the bundle is starved for 
+liquid and locally dries out. Mechanism (e) describes the onset of mist flow that can occur at high local 
+vapor qualities where all the liquid is entrained as tiny droplets into the vapor flow. 
+Boiling Heat Transfer on External Surfaces 
+9-37 
+
+
+===== PAGE 277 (book page 9-38) =====
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+a) Pool type DNB 
+(b) Zero circulation 
+(a) 
+oY 
+Flooding Limited 
+(c) Circulation and (d) Circulation Limited (e) Etrainment Limited 
+Flooding Limited 
+(All Feed Evaporated) (Mist Flow Transition) 
+Figure 9.35. Dryout mechanisms on horizontal tube bundles. 
+Boiling Heat Transfer on External Surfaces 
+9-38 
+
