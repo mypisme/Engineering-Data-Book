@@ -15,7 +15,7 @@
 | 文件 | 用途 | 状态 |
 |---|---|---|
 | [README.md](./README.md) | 章节入口和阅读说明 | 完成 |
-| [translation.md](./translation.md) | 忠实译文；8.1 与 8.3 公式链转写；Table 8.1 转写；正文展示局部图表，完整源页保留在 assets 中 | 工程阅读草稿完成 |
+| [translation.md](./translation.md) | 忠实译文；8.1 与 8.3 公式链转写；Table 8.1 转写；正文展示局部图表，完整源页保留在 assets 中 | **出版级二校完成** |
 | [commentary.md](./commentary.md) | 面向两相流和冷凝设计读者的深入解读 | 完整解读草稿 |
 | [assets/](./assets/) | 原页截图、关键图表局部截图、Table 8.1 局部截图 | 已生成 |
 
@@ -102,3 +102,4 @@
 | 2026-04-27 | 最终二校后 `python scripts\verify_book_ii_publication.py` | Publication verification passed |
 | 2026-04-27 | Shah 算例数值复算 | Re<sub>L</sub> = 200(0.015)/0.0001345 = 22304.83，译文修正为源页值 22305；α(x) = 4283 W/(m<sup>2</sup>K) 保持一致 |
 | 2026-04-28 | 长公式视觉复核 | 式（8.1.29）与源页 221 一致；式（8.1.31）与源页 222 一致 |
+| 2026-05-07 | **出版级二校** | 全部 5 节(8.1-8.5) 完整；54 个公式标签无缺漏无重复；Table 8.1 已复核；Shah 算例已复算一致；无遗留问题。状态升级为出版级二校完成 |

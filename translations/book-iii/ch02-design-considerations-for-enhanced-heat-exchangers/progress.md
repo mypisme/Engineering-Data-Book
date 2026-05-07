@@ -15,7 +15,7 @@
 | 文件 | 用途 | 状态 |
 |---|---|---|
 | [README.md](./README.md) | 章节入口和阅读说明 | 完成 |
-| [translation.md](./translation.md) | 忠实译文；正文展示 Table 2.1 局部表格；完整源页保留在 assets 中 | 工程阅读草稿 |
+| [translation.md](./translation.md) | 忠实译文；正文展示 Table 2.1 局部表格；完整源页保留在 assets 中 | **出版级二校完成** |
 | [commentary.md](./commentary.md) | 面向换热器选型和工程改造读者的深入解读 | 完整解读草稿 |
 | [assets/](./assets/) | 原页截图和 Table 2.1 局部表格截图 | 已生成 10 张源页和 1 张局部表格图 |
 
@@ -84,3 +84,4 @@
 | 2026-04-27 | 正文图片引用审计 | `translation.md` 仅保留 1 个局部表格图引用，source-page 整页图引用为 0 |
 | 2026-04-27 | `python scripts\verify_book_ii_publication.py` | Publication verification passed |
 | 2026-04-28 | Table 2.1 总收口复核 | 热负荷、LMTD、流量、管径、翅高/翅厚、传热系数、长度下降和 U<sub>o,clean</sub>/U<sub>o,dirty</sub> 均已对照 `table-2-1-original.png` 复核一致 |
+| 2026-05-07 | **出版级二校** | 全部 11 节(2.1-2.11)逐节确认完整；Table 2.1 数值无变更；commentary 工程评注完备；无编号公式，无遗留问题。状态升级为出版级二校完成 |
