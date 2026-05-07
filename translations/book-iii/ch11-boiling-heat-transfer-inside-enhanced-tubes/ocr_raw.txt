@@ -1,0 +1,1471 @@
+=== PAGE 307 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+SUMMARY: In this chapter, evaporation inside enhanced tubes and in tubes with inserts is described. 
+Both evaporation in vertical tubes and horizontal tubes is addressed. The types of enhancements discussed 
+include microfin tubes, twisted tape inserts, corrugated tubes, and internally porous coated tubes. Other 
+enhancements exist but are either not widely used anymore (aluminum star-inserts and internally high 
+finned tubes, for example), are not appropriate for enhancing boiling heat transfer, or do not have very 
+much published about their thermal performance. Several prediction methods are presented for microfin 
+tubes and tubes with twisted tape inserts. 
+11.1 Introduction 
+In vertical tubes, the most important applications and potential benefits for use of enhancements for 
+evaporation are in the petrochemical industry and hence for vertical thermosyphon reboilers. These units 
+typically evaporate from 10% to 35% of the flow while the inlet is slightly subcooled from the static head 
+with respect to the liquid level in the distillation tower. This application also implies that evaporation of 
+zeotropic multi-component mixtures is of interest, for which little or no data are available in the literature 
+for most enhancements for vertical upflow. Some representative results are presented below for enhanced 
+heat transfer inside vertical tubes. 
+In horizontal tubes, the most important applications of enhancements are to direct-expansion evaporators 
+in refrigeration, air-conditioning and heat pump units. In the petrochemical industry occasionally a 
+horizontal, tube-side evaporator is used for a service but this is the exception rather than the rule. In 
+direct-expansion evaporators, the fluid enters the tubes after the expansion valve and hence the range of 
+interest is from about 15% to 100% vapor quality, in addition to the superheating zone. Instead, in 
+recirculation type units often favored by ammonia system manufacturers, the fluid enters as a saturated 
+liquid and about 20% to 30% of the fluid is evaporated at the exit. Most of this chapter focuses on 
+microfin tubes, which are of highest industrial interest, while some other enhancement geometries will 
+also be addressed. 
+The focus here is on more recent work, primarily that done since 1990. Refer to the book by Thome 
+(1990) for a comprehensive treatment of studies done prior to 1990. Shatto and Peterson (1996) also 
+wrote an extensive review on evaporation in tubes with twisted tapes, covering aspects such as the critical 
+heat flux and dryout. 
+The standard practice for enhanced boiling inside tubes is to define the internal heat transfer coefficient 
+based on the nominal area at the maximum internal diameter, i.e. at the root of the fins for microfin tubes 
+or that of the plain tube surface for a twisted tape insert. Nearly all test data respect this norm, although 
+not all and hence one must remember to look at this point when comparing data from different sources. 
+For example, some data in the literature are reported based on a nominal diameter at the fin tips or at a 
+mean height of internal fins. However, when calculating the overall heat transfer coefficient for a heat 
+exchanger, that at the maximum internal diameter is required. Hence, the maximum internal diameter will 
+be used here for the nominal diameter and the nominal area corresponding to this diameter will be used 
+for defining heat transfer coefficients and heat fluxes, unless otherwise stated. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-1 
+
+
+=== PAGE 308 ===
+Engineering 
+Data 
+Book III 
+11.2 Types of Enhancements and Performance Ratios 
+The following enhancements are described here for evaporation: microfin tubes, twisted tape inserts, 
+corrugated tubes and tubes with porous coatings. Microfin tubes are also sometimes referred to as inner- 
+grooved tubes. Microfin tubes were originally developed in Japan and widespread use of microfin tubes 
+began in the 1980’s. Microfin tubes quickly overtook and replaced the use of star-insert tubes, i.e. tubes 
+with star-shaped aluminum inserts tightly fit into copper tubes, which had been popular up until then. 
+Twisted tape inserts and corrugated tubes have been commercially available for many years, although 
+both have been largely supplanted by microfin tubes. Twisted tape inserts, even with their lower thermal 
+performance and higher two-phase pressure drops, are still a viable alternative as they can be easily 
+retrofit into existing plain-tube equipment without retubing. Corrugated tubes are also still used for a 
+variety of applications. 
+Figure 11.1 depicts a photograph of the fin 
+profile of a microfin tube. Figure 11.2 shows the 
+characteristic geometry, which is defined by the 
+maximum internal diameter dy, number of fins, 
+their helix angle og, (or axial pitch), their height 
+es, their thickness, their cross-sectional shape 
+and the internal area ratio. Most microfins have 
+approximately 
+a trapezoidal 
+cross-sectional 
+shape with a rounded top and rounded corners at 
+the root. Other shapes are triangular, rectangular 
+and screw (no root area between fins). The 
+thickness of the fins is not of much importance 
+since the fin efficiencies are close to 1.0evenin 
+| 
+J 
+alloy tubes since the fins are typically only from Figure 11.1. Photograph of fin profile of microfin 
+0.2 to 0.3 mm (0.008-0.012 in.) high. 
+tube of Wolverine Tube Inc. 
+Bottom Wall 
+Ridge Height 
+Figure 11.3 depicts a photograph of a twisted tape insert and a diagram of its geometry. The twist ratio is 
+defined as the axial length of tape necessary to make a 180° turn divided by the tube internal diameter. 
+Twist ratios of 3 to 5 are typically used while a twist ratio of infinity represents a straight tape without any 
+twist. As twisted tape inserts fit loosely inside the tubes, the surface area of the tape is not considered to 
+be heat transfer surface area since little heat is conducted into the tape from the tube wall. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-2 
+
+
+=== PAGE 309 ===
+Figure 11.3. Photograph of twisted tape insert and diagram of its geometry. 
+Figure 11.4 illustrates a photograph of a corrugated tube and a diagram with its characteristic dimensions. 
+Most corrugated tubes have a single-start of corrugation that is defined by its depth e and its axial pitch p 
+(or helix angle). The maximum internal diameter is typically used to define the internal heat transfer 
+coefficient. The internal area ratio is slightly larger than 1.0 but is not often cited in publications. 
+Microfin tubes are available primarily in copper. For instance, Wolverine Tube Inc. is a major 
+manufacturer of copper microfin tubes for the air-conditioning and refrigeration industries. Seamless 
+microfin tubes are produced by drawing a plain copper tube over a mandrel to form helical fins. This 
+production method allows microfins to be produced from about 0.1 to 0.4 mm (0.004 to 0.016 in.) in 
+height. The most favorable helix angles for heat transfer and pressure drop range from about 7° to 23°, 
+but 18° seems to be the most popular. Instead, welded microfin tubes are formed from copper strip, whose 
+microfin geometry has been embossed by a rolling operation. This manufacturing method allows a much 
+wider range of microfin geometries to be produced, including 3-dimension fin geometries. In addition, 
+microfin tubes are also becoming available in other materials, such as aluminum, carbon steel, steel 
+alloys, etc. 
+Corrugated tubes are manufactured in many metals: copper, copper alloys, carbon steels, stainless steels 
+and titanium. The corrugations are defined by the corrugation pitch, corrugation depth and number of 
+corrugations, i.e. the number of starts. Multi-start corrugated tubes with large corrugation depths are 
+typically referred to as fluted tubes. 
+Twisted tape inserts are available in most metals, diameters and lengths. They are made by twisting metal 
+strip and fit loosely in the tubes to allow for standard tube wall dimensional tolerances. 
+As an example of enhancement ratios achievable with these geometries, relative to a plain tube of the 
+same diameter at the same mass flux and heat flux, some general qualitative guidelines are as follows: 
+Boiling Heat Transfer Inside Plain Tubes 
+11-3 
+
+
+=== PAGE 310 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+e 
+Microfin tubes. For horizontal applications, heat transfer enhancement ratios are as high as three to 
+four times at low mass velocities while falling off towards their internal area ratio at high mass 
+velocities. Pressure drop ratios most often range from about 1.0 at low mass velocities and up to about 
+a maximum of about 1.5 at high mass velocities. Hence, microfins are very attractive from a heat 
+transfer augmentation to pressure drop penalty point-of-view. For vertical applications, the heat 
+transfer enhancement is less or similar to horizontal expectations, depending on the mass velocity. 
+The small increase in the frictional pressure drop by the microfins in a vertical unit is typically 
+negligible compared to the static head pressure drop in these units and thus plain tube design methods 
+can be used directly. 
+e 
+Twisted tape inserts. Heat transfer augmentation ratios are typically in the range from 1.2 to 1.5 
+while two-phase pressure drop ratios are often as high as 2.0 since the tape divides the flow channel 
+into two smaller cross-sectional areas with smaller hydraulic diameters. Twisted tapes have seen 
+some applications in both horizontal and vertical units. 
+e 
+Corrugated tubes. Heat transfer ratios are usually between 1.2 to 1.8 with performances matching 
+microfin tubes at high mass velocities but with much larger two-phase pressure drop ratios, which are 
+on the order of 2 times those of a plain tube. Apparently, little experience is available for vertical 
+applications. 
+e 
+Porous coated tubes. These have heat transfer performances similar to those for nucleate pool 
+boiling and are on the order of 5 to 10 times plain tube performance in vertical tubes. For evaporation 
+in horizontal tubes, the porous coating is only effective for annular flows but not for stratified flows 
+where part of the tube perimeter is dry. Not much information is available about two-phase pressure 
+drop penalties, which can be expected to be only marginal in vertical units where the static head 
+dominates while significant in horizontal tubes where the frictional pressure drop is typically 
+dominant. 
+11.3 Flow Boiling in Vertical Microfin Tubes 
+For microfin tubes, apparently only one test has been done for evaporation in the vertical orientation. 
+Kattan, Thome and Favrat (1995) ran tests for R-134a in a microfin tube with an 11.90 mm (0.469 in.) 
+maximum internal diameter, 18° helix angle, 0.25 mm (0.010 in.) fin height and 60 fins for an internal 
+area ratio of 1.74. Hot water was used as the heating source and the modified-Wilson plot method applied 
+to three zones of a 3 m (10 ft.) long tube to obtain quasi-local heat transfer data. They ran tests for the 
+same test section for vertical upflow and horizontal flow under identical operating conditions to determine 
+the possible benefit of using microfins in vertical thermosyphon reboilers. At low mass velocities and 
+vapor qualities, there was less augmentation in the vertical position than in the horizontal position relative 
+to a plain tube because a vertical plain tube does not suffer from the adverse effect of flow stratification 
+like a horizontal plain tube. On the other hand, at higher mass velocities the level of augmentation was 
+similar and at least as large or larger than the increase in surface area. Figure 11.5 for instance compares 
+their horizontal and vertical flow boiling data for the microfin tube at a mass velocity of 201.2 kg/m’s 
+(148000 lb/hr ft”) at 4.2 bar (60.9 psia), which is a typical flow rate for vertical thermosyphon 
+operation. 
+The performance in the vertical orientation is slightly less than that of the microfin tube compared its 
+horizontal orientation over the range of vapor qualities from 0.23 to 0.5. Heat transfer augmentation is on 
+the order of 2 or more for all the data. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-4 
+
+
+=== PAGE 311 ===
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+- 
+Upward plain 
+—
+~~ Upward Microfin 
+oy & o 
+No & oS 
+Vapor Quality 
+Figure 11.5. Effect of tube orientation on evaporation in a microfin tube from Kattan, Thome 
+and Favrat (1995b) at 201.2 kg/m’s (148000 Ib/hr ft’). 
+o 
+oS 8 
+—- Horizontal Plain 
+—« Upward Plain 
+-* Horizontal microfin 
+G = 301.6 kgim’s, q = 10-25 Kin’
+~=- Upward Microfin 
+Figure 11.6. Effect of tube orientation on evaporation in a microfin tube from Kattan, 
+Thome and Favrat (1995b) 
+at 301.6 kg/m’s (222000 
+Ib/hr ft”). 
+Figure 11.6 shows more R-134a data for the same microfin tube at a mass velocity of 301.6 kg/m’s 
+(222000 lb/hr ft”) at the same pressure. Here, the performance in the vertical microfin tube is less than 
+that of the horizontal microfin tube for vapor qualities from 0.16 to 0.37. Heat transfer augmentation is 
+still on the order of 2. Notably, when replacing a vertical plain tube bundle with a vertical microfin tube 
+Boiling Heat Transfer Inside Plain Tubes 
+11-5 
+
+
+=== PAGE 312 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+bundle, the number of tubes required is less and the microfin tube bundle benefits for the above 
+augmentation ratio in addition to a higher mass velocity, heat flux and exit vapor quality, which further 
+improve the heat transfer performance by perhaps another 50%. 
+11.4 Flow Boiling in Vertical Tubes with Twisted Tape Inserts 
+Twisted tape inserts have the distinct advantage in that they can be used to increase the thermal capacity 
+of existing evaporators without replacing the tube bundle. Twisted tapes fit loosely within the tubes and 
+hence they enhance heat transfer by the swirl that they impart on the flow but do not provide any 
+additional heat transfer surface area. 
+ro 
+Cal 
+Ka 
+R=113 (2.88-3.26 bar, inlet) 
+q = 46.1-50.3 kW/m? 
+X,, = 2=2.7%, x, 31-36.9% 
+=) 
+Figure 11.7. Effect of twist ratio on evaporation of R-113 from Jensen and 
+Bensler (1986). 
+Most experimental tests with twisted tape inserts have been performed for evaporation in horizontal tubes. 
+Jensen and Bensler (1986) studied the effect of twist ratio, y, defined here as the ratio of the axial length 
+for a 180° twist of the tape to the internal diameter of the tube, on boiling of R-113 in vertical upflow in a 
+tube of 8.10 mm (0.319 in.) internal diameter using electrical heating. Figure 11.7 depicts a comparison 
+between tubes with twisted tapes and one without, plotted as a function of position along the tube rather 
+than vapor quality, where the vapor quality ranged from 0.02-0.027 at the inlet to 0.31-0.37 at the outlet. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-6 
+
+
+=== PAGE 313 ===
+Engineering Data Book Ill 
+ing 
+Thermal 
+|] 
+vation 
+The heat transfer coefficients and heat fluxes were calculated based on the internal surface area of the 
+tube after subtracting the heat generated in the tapes themselves. Most of the augmentation is observed at 
+the higher vapor qualities, where it is as much as 40%, while at low vapor qualities it is only on the order 
+of 10%. These test conditions are not necessary indicative of the augmentation that could be attained in a 
+vertical thermosyphon reboiler, for example, since the mass velocity and heat flux in these tests were 
+quite high compared to typical operating conditions. The swirl effect would be expected to be more 
+effective at lower mass velocities and lower heat flux where the potential for augmenting the convective 
+contribution to the two-phase flow boiling coefficient is most evident. 
+11.5 Flow Boiling in Vertical Tubes with an Internal Porous 
+Coating 
+Oxygen (1.01 bar) 
+(42) {05} 
+£.30) 
+(.77) 
+(.20) 
+(.08) 
+(50) 
+= 
+© a 
+High Flux 
+m—@ 
+High Flux {Pool Boiling) 
+Intube Boiling 
+®—o Plain Tube (G = 69.4) 
+(6) 
+é— Plain Tube (G = 11.1) 
+9 Plain Tube (G = 69.4) 
+%—« Plain Tube (G = 125.0) 
+0,5 
+Figure 11.8. Evaporation of oxygen inside vertical High Flux tube relative to plain 
+tube. 
+Applying a thin porous coating to the inside of vertical evaporator heat transfer tubes is very successful in 
+improving performance. The commercially available enhanced tube High Flux (property and trademark 
+first of Union Carbide and now of UOP) is available with the coating either inside or outside. As an 
+Boiling Heat Transfer Inside Plain Tubes 
+11-7 
+
+
+=== PAGE 314 ===
+Engineering Data Book Ill 
+1g Thermal i 
+vation 
+example of boiling performance, Figure 11.8 depicts intube boiling data for liquid oxygen in a 18.7 mm 
+(0.736 in.) internal diameter High Flux tube, apparently obtained at 1.01 bar (14.7 psia), by Czikk, 
+O’Neill and Gottzmann (1981). The local boiling heat transfer coefficients are plotted as heat flux versus 
+wall superheat as would be typical of nucleate pool boiling since the High Flux heat transfer data are 
+dependent on heat flux but are virtually independent of vapor quality and mass velocity. Comparable 
+plain tube heat transfer coefficients predicted with the Chen (1963) correlation are also shown at similar 
+conditions. In addition, the High Flux pool boiling curve obtained by Antonelli and O’Neill (1981) for 
+liquid oxygen is also shown, which matches the flow boiling data remarkably well. Heat transfer 
+augmentation is on the order of 10-fold. They have noted that single-tube nucleate pool boiling heat 
+transfer data are suitable for predicting the flow boiling performance of the High Flux tube since the 
+nucleate boiling contribution dominates the convective boiling contribution. Hence, their pool boiling 
+curves for the High Flux tube can be used for the design of vertical thermosyphon reboilers for the same 
+fluid. 
+11.6 Flow Boiling of Pure Fluids in Enhanced Horizontal 
+Tubes 
+Below, a summary of experimental research published since 1990 on intube evaporation of pure 
+refrigerants (and azeotropic refrigerant mixtures) inside horizontal enhanced tubes is presented. Selected 
+studies are shown in Table 11.1 listing the test conditions, type of tube and dimensions as follows: 
+e im (kg/m’s): the mass velocity based on maximum internal diameter at the root of internal fins or 
+corrugations. 
+@ = Tyq; or Psy: the saturation temperature 
+or pressure of the tests. 
+e 
+Max ID: the internal diameter at the root of any internal fins or corrugations. 
+e 
+No./Angle/Ht./AR: the dimensions of the internal fins citing Number of fins/Helix Angle/Fin Height 
+(mm)/Area Ratio (relative to nominal area at Max ID) or the characteristic dimensions of other types 
+of tubes (fluted, twisted tape, helical wires, etc.). 
+e 
+Tube Type: 
+Microfin* with an asterisk refers crosscut microfins, i.e. notched 3-dimensional 
+microfins. 
+Table 11.1. Evaporation Tests on Pure Refrigerants and Azeotropes in Enhanced Tubes 
+Name (year) 
+No./Angle/Ht/AR 
+5, 10, 15°C 
+: 
+Smooth 
+- 
+Microfin 
+60/17°/0.20/1.5 
+Smooth 
+Boiling Heat Transfer Inside Plain Tubes 
+11-8 
+
+
+=== PAGE 315 ===
+Engineering Data Book III 
+Tube Description (in mm) 
+Name (year) 
+No./Angle/Ht/AR 
+R-22 
+135-400 
+Ze PA 
+7.940D | 
+MicrofinC 
+2/18°/0.20/1.? 
+“
+“
+* 
+. 
+MicrofinD 
+2/18°/0.18/1.? 
+“
+‘
+‘
+“
+MicrofinE 
+2/18°/0.18/1.? 
+Christoffersen et al. 
+- 
+204-510 
+5°C 
+7.75 
+Smooth 
+(1993) 
+- 
+102-510 
+“6 
+“* 
+“
+204-306 
+10.92 
+Smooth 
+102-510 
+“* 
+“¢ 
+51-510 
+89 
+Eckels et al. (1994) 
+R-134a 
+85-375 
+8.0 
+Smooth 
+Torikoshi-Ebisu 
+(1994) 
+85-520 
+50/18°/0.18/1.? 
+Thors-Bogart (1994) 
+- 
+- 
+; 
+. 
+Smooth 
+- 
+“¢ 
+a 
+“
+; 
+Microfin | 
+60/27°/0.305/1.? 
+= 
+: 
+Microfin | 
+75/23°/0.305/1.? 
+“
+, 
+Corrugat. 
+1/78°/1.041/1.? 
+125-430 
+; 
+. 
+Plain 
+Microfin 
+60/18°/0.203/1.? 
+Microfin 
+72/0°/0.203/1.? 
+(Crossgrooves) 
+Kuo 
+et al. (1995) 
+100,200 | 2,6, 10°C 
+60/18°/0.15/1.49 
+Kido et al. (1995) 
+- 
+86-345 
+: 
+. 
+Smooth 
+- 
+86-345 
+‘
+} 
+Microfin | 
+60/18°/0.15/1.63 
+173 
+. 
+“
+70/11°/0.21/2.21 
+173 
+. 
+‘“
+70/17°/0.21/2.24 
+86, 173 
+: 
+“
+85/ 9°/0.16/2.07 
+86, 173“
+, 
+‘
+85/17°/0.16/2.13 
+173 
+“
+85/ 7°/0.21/2.49 
+100/3°/0.15/2.19 
+Koyama 
+et al. (1996) | 
+R-134a 
+6.55 bar | 
+8.475 
+60/18°/0.17/1.52 
+MacBain-Bergles 
+100-400 3.20 bar 
+3-start/2.7/7.94 
+(1996) 
+Wang et al. (1996), 
+R-22 
+100-300 
+6 bar 
+7.92 
+Smooth 
+- 
+Kuo-Wang (1996a, 
+R-22 
+100-300 
+6 bar 
+8.92 
+Microfin | 
+60/18°/0.20/1.57 
+1996b) 
+Singh 
+et al. (1996) 
+R-134a | 50-150 
+5.75 bar | 11.78 
+60/18°/0.30/1.? 
+Chamra et al. (1996) 
+- 
+- 
+. 
+: 
+Smooth 
+- 
+Microfin 
+74/27°/0.35/1.? 
+“
+78/20°/0.35/1.? 
+“
+TONT277/0.33/1.7 
+“
+80/15°/0.35/1.? 
+Microfin* | 74/27°/0.35/1.? 
+Microfin* | 78/20°/0.35/1.? 
+“
+76/17.5°/0.35/1.? 
+Boiling Heat Transfer Inside Plain Tubes 
+11-9 
+
+
+=== PAGE 316 ===
+Engineering Data Book Ill 
+Engineering Therma lf innovation 
+Tube Description (in mm) 
+Name (year) 
+No./Angle/Ht/AR 
+Kaul et al. (1996) 
+314, 364 
+Mcrofin 
+WWD 
+Nidegger 
+et al.(1997) | 
+R-134a | 100-300 
+11.90 
+70/18°/0.25/1.74 
+Ziircher et al. (1997b) | 
+Ammo- 
+20-120 
+4°C 
+14.00 
+Smooth 
+- 
+nia 
+= 
+= 
+13.46 | 
+Microfin | 34/18°/0.33/1.33 
+MacBain et al. (1997) 
+100-400 
+3.20 bar 
+3-start/2.7/7.94 
+R- ] 34a 
+oe 
+ce 
+oe 
+“e 
+“se 
+Kedzierski-Kim (1997) 
+Not cited 
+Reduced 
+y=4.15 
+‘
+Press. from 
+“* 
+0.035-0.2 
+“* 
+ee 
+“ee 
+ee 
+“e 
+ce 
+ee 
+“ee 
+Lan et al. (1997a) 
+R-113 
+514-2972 
+7.9 bar 
+6.2 
+Helical 
+0.81 dia. wire 
+“se 
+oe 
+99 
+Wire 
+“se 
+Lan et al. (1997b) 
+R-113 | 305-4361 
+0.81 dia. wire 
+ee 
+oe 
+99 
+Wire 
+ee 
+Muzzio et al. (1998) 
+R-22 
+5°C 
+Smooth 
+- 
+R-22 
+5°C 
+Microfin 
+54/18°/0.16- 
+025/151 
+“
+“
+“
+60/18°/0.20/1.51 
+“
+7 
+“
+65/25°/0.15/1.28 
+Oh-Bergles (1998) 
+R-134° 
+50-200 
+Smooth 
+- 
+me 
+" 
+Microfin 
+60/6°/?/? 
+“
+“
+“
+60/12°/?/? 
+“
+“
+“
+60/18°/?/? 
+“
+“
+“
+60/25°/?/? 
+“
+“
+60/44°/?/? 
+Kabelac-de Buhr 
+Ammo- 
+50-150 
+-20°, 4°C 
+10.0 
+Smooth 
+- 
+(2001) 
+nia 
+50-150 
+-20°C 
+11.13 
+Microfin | 
+21/25°/0.63/1.58 
+Lallemand et al. (2001) | R-22 
+150-250 
+7.7 bar 
+10.7 
+Smooth 
+- 
+‘
+‘
+11.98 | 
+Microfin | 65/30°/0.25/1.56 
+“
+_ 
+11.98 | 
+Microfin 
+70/20°/0.22- 
+0.25/1.69 
+A few of the investigations listed in Table 11.1 are described below. 
+Eckels and Pate (1991a) investigated evaporation in a single microfin tube for refrigerants R-134a and R- 
+12, in a continuation of their earlier study on a plain tube presented in Eckels and Pate (1991b). They 
+reported mean heat transfer coefficients for a vapor quality change of about 75% from inlet to outlet of 
+their test section using counter-current hot water flow. They found slightly smaller microfin enhancement 
+Boiling Heat Transfer Inside Plain Tubes 
+11-10 
+
+
+=== PAGE 317 ===
+Engineering Data Book Ill 
+eering 
+Thermal innovation 
+ratios for R-134a than for R-12. The augmentation ratios were higher at low mass velocities (2.3 to 2.6 
+times the plain tube coefficients) than at higher mass velocities (1.7 to 1.9 times), compared to the tube’s 
+area ratio of 1.5, which was typical of prior studies by others for R-22. 
+An extensive experimental program by Thors and Bogart (1994) covered two sizes of tubes, 3/8 in. (9.5 
+mm) and 5/8 in. (15.88 mm), for plain, microfin and corrugated tubes using counter-current hot water 
+heating in 3.66 m (12 ft.) long test sections. Their mean flow boiling coefficients were for an inlet vapor 
+quality of 0.10 and an outlet vapor quality of 0.80 at a saturation temperature of 1.67°C (35°F). Figure 
+11.9 depicts their results for the 5/8 in. tubes (refer to Table 11.1 for the enhancement dimensions). Heat 
+transfer augmentation for the 75-fin microfin tube was the highest, whose enhancement ratio was nearly 
+four. At very high mass velocities, the corrugated tube’s performance nearly matched that of the two 
+microfin tubes, but at a much larger pressure drop penalty. [Refer to the chapter on two-phase pressure 
+drops for their test data with these tubes]. 
+R-22 at 1.67°C (35°F) 
+co 
+So 
+So 
+So 
+—- Plain Tube 
+- 
+Corrugated 
+—*- 60 Ridge, 27 degree helix 
+~« #5 Ridge, 23 degree helix 
+. (Plain Tube 
+. (Corrugate 
+. (60 Ridge, 
+27 degree helix 
+5 Ridge, 
+23 degree 
+helix 
+ae 
+™N 
+5 
+_ c 
+= 
+= 
+= 
+® 
+° 
+O i 
+2 “a 
+c -_ 
+j—
+w 
+® 
+<c 
+200 
+250 
+300 
+350 
+400 
+Mass velocity [kq/m’s] 
+Figure 11.9. Flow boiling of microfin, corrugated and plain tubes by Thors and Bogart (1994) 
+for R-22. 
+Chamra and Webb (1995) measured quasi-local heat transfer coefficients for R-22 using hot water 
+heating. Their microfin tube had fins with a 15° helix angle, which were crosscut to make three- 
+dimensional fins. Interestingly, they measured both flow boiling and condensation heat transfer data at 
+similar test conditions, illustrating that in annular flow the heat transfer processes for evaporation and 
+condensation give similar heat transfer coefficients, except for the additional effect of nucleate boiling. 
+They observed mean augmentation 
+levels up to 3.5 at low mass velocities in the range of 50 kg/m’s 
+(36,791 lb/hr ft”) that decreased 
+to 1.7 at 200 kg/m’s (147,162 Ib/hr ft’). 
+A comparative study for local flow boiling coefficients between a microfin tube and a plain tube for R- 
+134a was made by Nidegger, Thome and Favrat (1997) and Ziircher, Thome and Favrat (1997a) at 4.4°C 
+(40°F) using counter-current hot water for heating. The two test sections in series, each 3 m (10 ft.) long, 
+Boiling Heat Transfer Inside Plain Tubes 
+11-11 
+
+
+=== PAGE 318 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+were divided into three subsections of 1 m (3.28 ft) length each, and thus gave quasi-local heat transfer 
+data of each subsection. Augmentation was observed over the entire range of vapor qualities. [Note: some 
+of their data are shown later in a comparison to R-407C in Figure 11.12]. 
+Zircher, Thome and Favrat (1997b) obtained data for evaporation of ammonia in a stainless steel plain 
+tube and a stainless steel microfin tube, both made in 439-grade steel. The tubes in their test sections were 
+tightly wrapped with a helical wire that was fixed by spot soldering, thus increasing the water-side heat 
+transfer coefficient by about 2 times. Four thermocouples were installed around the circumference of each 
+tube to determine the mean tube wall temperature at two axial locations. They also measured the water 
+temperature profile using thermocouples located along the hot water annulus, determined the local 
+enthalpy gradient on the water-side, then the local heat fluxes to test locations, and thus obtained local 
+boiling heat transfer coefficients rather that quasi-local values. Figure 11.10 depicts their results at four 
+mass velocities. The microfins enhanced local heat transfer coefficients by about 2.2 times at low vapor 
+qualities and up to 7.7 times at high vapor qualities while mean enhancement ratios were 4 to 5 for mass 
+velocities less than 80 kg/m’s (58,865 Ib/hr ft”) compared 
+to the tube’s area ratio of 1.33. At larger mass 
+velocities, no enhancement was evident. At very low mass velocities, the enhancement ratio began to 
+diminish, most likely because the flow remained stratified in the bottom of the tube. 
+Ammonia in Stainless Steel Microfin Tube at 4°C 
+——20 kg/ms, q = 10.59 kWim2 
+=~ 20 kg/ms, q = 14.24 kWim2 
+~~ 40 kg/m2s, g = 11.72 kWim2 
+~© 40 kg/més, g = 12.67 kWim2 
+——80 kg/m2s, q = 13.26 kW/m2 
+-s- 80 kg/ms, q = 16.39 kWim2 
+——120 kg/m2s, q = 13.40 kWim?2 
+—*—120 kq/m2s, gq 
+= 17.37 kW/m? 
+va 
+™N 
+£ 
+_ Cc 
+2 
+2 
+te 
+® 
+o 
+O 
+. & “Cc 
+o 
+_ - 
+o 
+® 
+a 
+30 
+40 
+50 
+60 
+70 
+Vapor Quality [% 
+Figure 11.10. Ziircher, Thome and Favrat [1997b] ammonia flow boiling data for a 
+microfin tube at 4°C (40°F). 
+Muzzio, Niro and Arosio (1998) measured heat transfer and pressure drops for four tubes for R-22: a 
+plain tube, a microfin tube with alternating fins of 0.23 mm and 0.16 mm (0.009 and 0.006 in.) height, a 
+second microfin with a conventional microfin geometry, and a third microfin with a screw profile. Quasi- 
+local heat transfer coefficients were measured with a vapor quality change of 30% in their test sextion. 
+The duo-height microfin tube gave significantly higher heat transfer performance than the other two tubes 
+without much additional presssure drop penalty. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-12 
+
+
+=== PAGE 319 ===
+Engineering Data Book Ill 
+1g Thermal i 
+vation 
+In a comparative study on the effect of microfin helix angle, Oh and Bergles (1998) investigated 
+evaporation of R-134a in similar 60-fin microfin tubes with helix angles of 6°, 12°, 18°, 25° and 44°, 
+although not mentioning the fin height nor the area ratios. They found the optimal helix angle at a vapor 
+quality of 0.5 to depend on mass velocity, with the angles of 6° to 18° giving the best enhancement ratios. 
+Kabelac and de Buhr (2001) compared flow boiling of ammonia inside a 10.0 mm (0.394 in.) ID plain 
+tube to an 11.13 mm (0.438 in.) ID microfin tube, both made in aluminum. They condensed ammonia on 
+the outside of the tubes and accounted for axial heat conduction from the resulting temperature gradient. 
+Their smooth tube data at 4°C compared well with those of Ziircher, Thome and Favrat (1999) for a 
+slightly larger 14.0 mm (0.551 in.) stainless steel tube and showed that the Kattan, Thome and Favrat 
+(1998a, 1998b, 1998c) plain tube heat transfer model predicted most of their data quite well. They also 
+obtained local boiling coefficients for mass velocities of 50, 100 and 150 kg/m’s at —20°C. The 
+enhancement ratios were from about 1.7 to 4.3, compared to the tube’s area ratio of 1.58. The data were 
+taken primarily at low vapor qualities, particularly useful for ammonia refrigeration system evaporators 
+operating with liquid recirculation. 
+= oR 
+—10 kWim2 (3170 
+btu/hft 
+se 
+0 10 kWim2 (3170 btu/hft 
+L =plain tube 
+« 20 kWim2 (6341 
+btu/hft 
+A 
+v¥ = microtin tube 
+(1 hit. 
+420 kWim2 a btu/hft 
+= wd 
+A 20kWvim?2 
+VA = microfin tube (2 hts.) 
+* 30 kWim2 
+9512 
+btu/hft2 
+» 30 kWim2 (9512 btu/hft2) [L 
+= ‘
+wi 
+= co a 
+= a) 
+> 
+= 
+=! 
+5 ° 
+o 
+o 
+—o 
+s 
+w 
+= 
+So 
+8 
+£ 
+S 
+So 
+—_ 
+5 = 
+« 
+> 
+> 
+= a 
+150 
+200 
+250 
+Mass Velocity [kgim*s] 
+Figure 11.11. Influence of mass velocity on the onset of dryout for R-22 in a plain tube 
+and two microfin tubes by Lallemand, Branescu and Haberschill (2001). 
+An interesting study on evaporation of R-22 (and R-407C) in a 10.7 mm (0.421 in.) plain tube and two 
+11.98 mm (0.472 in.) microfin tubes at a saturation pressure of 7.7 bar (111.7 psia) was done by 
+Lallemand, Branescu and Haberschill (2001) for vapor qualities from 0.08 to 1.0 but using electrical 
+heating. Their second microfin had microfins of alternating heights of 0.22 and 0.25 mm (0.009 and 0.010 
+in.), identified as tube VA. Significantly, they measured numerous data at high vapor qualities around the 
+peak in the local heat transfer coefficient vs. vapor quality that occurs in annular flow at the onset of 
+dryout at the top of the tube in horizontal tubes. Figure 11.11 shows their graph for the vapor quality at 
+the onset of dryout plotted versus mass velocity for the three tubes, ranging from 0.65 to 0.85 depending 
+Boiling Heat Transfer Inside Plain Tubes 
+11-13 
+
+
+=== PAGE 320 ===
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+on the heat flux and mass velocity. The trends in these data match those predicted by the diabatic flow 
+pattern map of Kattan, Thome and Favrat (1998a) for plain tubes with quite similar values for onset of 
+dryout (my personal comparison). The microfins shifted the onset of dryout to slightly higher vapor 
+qualities compared to their plain tube observations, but not significantly so. 
+11.7 Flow Boiling of Zeotropic Mixtures in Enhanced 
+Horizontal Tubes 
+Before proceeding, some comments on the reduction of test data obtained in evaporation tests on 
+zeotropic mixtures to heat transfer coefficients are in order. For the evaporation of a pure refrigerant, the 
+enthalpy change and local vapor quality can be obtained using only the latent heat of the fluid and its 
+mass flow rate, assuming the pressure drop is small, and the local saturation temperature can be obtained 
+from the local saturation pressure. For a zeotropic mixture, the enthalpy change includes both differential 
+latent heat of evaporation and the sensible heat added to the vapor and liquid phases along the bubble 
+point curve of the mixture. Thus, the enthalpy curve of the mixture must be applied and used to calculate 
+the local vapor quality and local bubble point temperature T),,, where the local mixture boiling 
+coefficient is defined as a = q/(Twa-Tpup). The bubble point temperature rises along the test section as the 
+lighter component preferentially evaporates out of the liquid phase into the vapor phase. Hence, its value 
+must be determined step-wise along the test section channel using an accurate vapor-liquid equilibrium 
+prediction method. Numerous zeotropic refrigerant heat transfer data have unfortunately made it into the 
+literature without use of such an enthalpy curve and thus one must always control this point before using 
+such data. 
+Microfin tube at 4.4°C (40°R 
+——R-134a (100 kg/m2s) 
+— R407C (100 kg/m2s) 
+~~ R-134a (200 kg/m2s) 
+-©- R407C (200 kg/m2s) 
+—s~ 
+R-134a 
+(300 kg/m2s) 
+. 
+N E 
+Sl i 
+® 
+o 
+= 
+® 
+o 
+O 
+_ 
+2 “eS 
+oo 
+Fea 
+- 
+G 
+® 
+a 
+40 
+50 
+60 
+Vapor Quality [%] 
+Figure 11.12. Ziircher, Thome and Favrat (1998a, 1998b) data comparing R-407C to R-134a 
+in microfin tube. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-14 
+
+
+=== PAGE 321 ===
+Engineering Data Book III 
+Engineering Thermal innovation 
+Selected studies since 1990 on evaporation of zeotropic refrigerant mixtures inside enhanced tubes are 
+listed in Table 11.2, most of which have used an enthalpy curve to reduce test data. A few of those are 
+described below. 
+Table 11.2. Evaporation Tests on Zeotropic Refrigerant Mixtures in Enhanced Tubes 
+Test Conditions 
+Tube Description (mm) 
+Name(year) Fluid | 
+rm(kg/m’s) 
+| 
+Tyat 
+or Poa | 
+Max ID 
+No./Angle/Ht./AR 
+Christoffersen | R-32/ 
+204-510 
+aC 
+dels 
+Smooth 
+et al. (1993) 
+R-125 
+204-510 
+oa 
+10.92 
+Smooth 
+- 
+‘
+51-510 
+5°C 
+8.89 
+Microfin 
+60/18°/0.18/1.? 
+Torikoshi- 
+130-500 
+5°C 
+6.40 
+Microfin 
+50/18°/0.18/1.? 
+Ebisu (1994) 
+* 
+“
+“
+« a 
+“ee 
+“ee 
+“ee 
+130-510 
+. 
+Smooth 
+Wang et al. 
+100-300 
+- 
+Microfin 
+60/18°/0.20/1.57 
+(1996), Kuo- 
+100-300 
+Wang [1996a, 
+1996b) 
+Sundaresan et 
+125-375 
+7T°C 
+Smooth 
+- 
+al. (1996) 
+¢ 
+Microfin 
+60/17°/0.20/1.5 
+125-375 
+re 
+Smooth 
+- 
+Microfin 
+60/17°/0.20/1.5 
+11.78 
+60/18°/0.25/1.? 
+a a 
+° «a 
+Salehi et al. 
+R-404A 
+50-200 
+11.0 bar 
+(1996) 
+Kaul et al. 
+314, 364 
+4.4°C 
+8.93 
+Microfin 
+WMP1.9 
+(1996) 
+314, 364 
+4.4°C 
+‘
+‘“
+¥é 
+314, 364 
+4.4°C 
+6 
+66 
+« 
+Kedzierski- 
+Not cited 
+Reduced 
+9.64 
+Kim (1997) 
+Press. 
+“
+0.035-0.2 
+Zircher et al. | 
+R-407C 
+100-300 
+(1998a,1998b) 
+" 
+= 
+a a 
+4.4°C 
+10.92 
+Smooth 
+- 
+11.90 
+Microfin 
+70/18°/0.25/1.74 
+Ebisu- 
+R-407C 
+150-300 
+6.5 
+Microfin 
+Herringbone 
+Torikohi 
+(1998) 
+(1998) 
+R-407C | 200, 400 
+6.5 bar 
+8.53 
+Microfin 
+2/18°/2/? 
+Lallemand et | 
+R-407C 
+150-250 
+7.7 bar 
+10.7 
+Smooth 
+- 
+al. (2001) 
+" 
+" 
+™ 
+11.98 
+Microfin 
+65/30°/0.25/1.56 
+‘6 
+‘6 
+‘¢ 
+11.98 
+Microfin | 
+70/20°/0.22-25/1.69 
+Flow boiling tests for R-407C evaporating in a plain tube and a microfin tube were performed by Ziircher, 
+Thome and Favrat (1998a, 1998b) using hot water heating. They specifically obtained data at high vapor 
+qualities before and after the peak in ou, vs. x. Their test data for the microfin tube at an inlet boiling point 
+5.5 bar 
+Boiling Heat Transfer Inside Plain Tubes 
+11-15 
+
+
+=== PAGE 322 ===
+Engineering Data Book III 
+Engineering Thermal innovation 
+temperature of 4°C (40°F) are shown in Figure 11.12, in a comparison of R-407C to R-134a. While their 
+300 kg/m’s (220,743 
+Ib/hr ft*) data were similar to R-134a 
+(note: R-134a 
+is a pure fluid and is one of the 
+components in R-407C), the R-407C data were much lower than those of R-134a at the lower two mass 
+velocities. It is not clear why, except for the increased mass transfer resistance at the lower flow rates. 
+Ebisu and Torikoshi (1998) presented results for R-407C evaporating in a herringbone type of microfin 
+tube. Curiously, their heat transfer coefficients were based on the outside tube diameter rather than the 
+internal diameter. From their circumferential temperature measurements around the perimeter of the tube, 
+they deduced that the herringbone structure created a thicker liquid film at the top and bottom of the tube 
+and thinner films at the two sides. The heat transfer coefficients were 90% higher than for a comparable 
+helically finned microfin tube, but the herryingbone geometry had a higher pressure drop. Cho and Kim 
+(1998) reported heat transfer measurements around a U-bend of a microfin tube, whose fin dimensions 
+were not mentioned. The U-bend increased heat transfer in the bend and for a short length after the bend 
+by 4 to 33%. 
+11.8 Flow Boiling Models for Horizontal Microfin Tubes 
+The first boiling model developed for microfin tubes was that of Thome (1991) that became available in 
+an enhanced heat transfer software program in 1991. A completely general method for microfin 
+geometries was formulated that covered helix angles from 0° to 30°, a number of microfins up to 80, fin 
+heights up to 0.6 mm (0.024 in.) and included the effects of mass velocity and internal surface area ratio. 
+It was originally based on test data for pure refrigerants R-11, R-12, R-113 and R-22 available at that time 
+for numerous microfin tube geometries and tube diameters up to 5/8 in. (15.9 mm). It has since been 
+successfully compared against more recent data for new refrigerants, such as R-134a and R-123, new data 
+for ammonia and zeotropic refrigerant mixtures, such as R-407C. 
+Table 11.3. Simulations for R-134a at 200 kg/m2 s (147000 lb/hr ft2) at 3°C (5.4°F) 
+Tube 
+Plain 
+Microfin #1 
+Microfin #2 
+Microfin #3 
+O.D. (mm) 
+9.525 
+9.525 
+9.525 
+9.525 
+I.D. (mm) 
+8.509 
+8.509 
+8.509 
+8.509 
+Number of Fins 
+NA 
+21 
+60 
+75 
+Fin Height (mm) 
+NA 
+0.38 
+0.20 
+0.20 
+Spiral Angle (°) 
+NA 
+30 
+18 
+18 
+Area/L (m7/m) 
+0.0267 
+0.0481 
+0.0411 
+0.0438 
+I.D. Area Ratio 
+1.0 
+1.8 
+LS 
+1.6 
+Oyo (W/m? K) 
+2741 
+495] 
+5649 
+5917 
+Osup( 
+W/m? 
+K) 
+B92 
+795 
+663 
+694 
+Ap (kPa) 
+25.61 
+55.44 
+29.22 
+29.32 
+EF poi 
+1.0 
+1.806 
+2.061 
+2.159 
+EF sup 
+1.0 
+2.028 
+1.691 
+1.770 
+EF, 
+LO 
+2.165 
+1.141 
+1.145 
+A parametric study was presented using this method in Thome (1994a) for R-134a for a plain tube, a tube 
+with a twisted tape insert, and three microfin tube geometries. The results are shown in Table 11.3. The 
+microfin tube geometries listed are based on two commercial tubes available at that time (#1 and #2) and 
+a hypothetical tube (#3). All tubes had an external diameter of 9.52 mm (3/8 in.) and a wall thickness of 
+0.508 mm (0.02 in.), giving an internal diameter of 8.51 mm (0.335 in.). A plain tube and a plain tube 
+with twisted tape, 0.5 mm (0.02 in.) with a twist ratio of four, were also simulated for comparison 
+Boiling Heat Transfer Inside Plain Tubes 
+11-16 
+
+
+=== PAGE 323 ===
+Engineering Data Book Ill 
+ing 
+Thermal 
+|] 
+vation 
+purposes. All tubes were assumed to have a length of 6.0 m (19.7 ft.), an inlet vapor quality of 0.15 and 
+5°C (9°F) of superheating 
+at the outlet. A mass velocity of 200 kg/m’s (147,000 lb/hr ft?) and a nominal 
+internal heat flux of 8105 W/m? (2570 Btu/h ft?) were simulated. The boiling zone heat transfer 
+coefficients are mean values from local calculations over the vapor qualities from 0.15 to 1.0 while the 
+superheated coefficients are for single-phase superheating of the vapor. The pressure drops are the total 
+pressure drops for both the evaporating and superheating zones. The enhancement factors (EF) are the 
+respective heat transfer and pressure drops relative to the plain tube. The parametric study shows that the 
+twisted tape is much less effective than the microfin tubes while having a larger pressure drop. The 
+microfin tubes augment heat transfer substantially in both the boiling and superheated zones. 
+Fujii et al. (1993) next proposed the following microfin correlation: 
+d 
+k, 
+where the liquid-phase Nusselt number Nu, was correlated as 
+Nu, =0.045Re,* 
+P 
+[11.8.2] 
+His liquid-phase Reynolds number Re, is based on the liquid fraction of the flow: 
+Re, =rn(1—x)d,.,,/ 
+by, 
+[11.8.3] 
+The Martinelli parameter for both phases turbulent Xj is 
+1 
+0.9 
+0.5 
+0.1 
+—xX 
+x 
+PL 
+ie 
+In these equations, the maximum internal diameter of the microfin tube was not used. Instead, On refers 
+to the local microfin flow boiling coefficient at dean, Which is the mean microfin diameter (that at half the 
+fin height). The correlation for Nu, was obtained by fitting the Dittus-Boelter correlation to single-phase 
+test data for their one microfin tube, obtaining 0.045 rather than 0.023. Consequently, the method is not 
+general but only applicable to that particular microfin tube geometry. 
+Kido, Taniguchi, Taira and Uehara (1995) measured R-22 heat transfer performances for seven microfin 
+tubes and compared their results to the above method, but found poor agreement. They then proposed 
+another microfin correlation that fit 80% of their data to within +20% based on their R-22 data. Thus, it 
+must still be compared to other fluids, tube diameters, and microfin geometries to determine if it has 
+general application capabilities. Koyama, Yu, Momoki, Fujii and Honda (1996) ran evaporation tests for 
+R-22, R-134a and R-123 in one microfin tube and proposed a new microfin flow boiling correlation based 
+on these data. However, subcooled liquid test data are required for the particular microfin tube to 
+determine its empirical parameters to correct the Dittus-Boelter correlation, similar to that of Fujii et al. 
+(1993); 
+Kandlikar and Raykoff (1997) revised an earlier Kandlikar (1991) curvefitting approach for microfin 
+tubes, retaining the fluid specific correction factors from that study, i.e. 1.5 for R-12, 2.2 for R-22, 1.3 for 
+R-113, 1.9 for R-123 and 1.63 for R-134a, similar to the approach in the Kandlikar (1990) plain tube 
+Boiling Heat Transfer Inside Plain Tubes 
+11-17 
+
+
+=== PAGE 324 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+method. In their approach, each particular microfin geometry requires its own set of three empirical 
+constants to fit the equations to each fluid/tube combination. Subcooled liquid turbulent flow data for 
+each microfin microfin geometry are also required. Hence, this formulation, while interesting, is not 
+amenable to general use. 
+Thome, Kattan and Favrat (1997) proposed a new microfin flow boiling model, valid for vapor qualities 
+from 0.15 to 0.81, heat fluxes from 2-47 kW/m? (630-15000 Btu/h ft”) and mass velocities from 100-501 
+kg/m’s (73,581-368,641 
+lb/hr ft’), however 
+only verified for R-134a 
+and R-123 data for one microfin 
+geometry. Compared to their ammonia microfin tube data, Kabelac and de Buhr (2001) on the other hand 
+found it to over predicted their data by 30%. The new microfin model includes some of the Thome (1991) 
+model’s concepts adapted to the new annular film flow model of Kattan, Thome and Favrat (1998c) for 
+plain tubes. The new microfin flow boiling model incorporates heat transfer augmentation into their 
+asymptotic flow boiling model, where the local microfin flow boiling heat transfer coefficient On, is 
+determined from the following equation 
+Qnb 1S Obtained with the Cooper (1984) dimensional nucleate pool boiling correlation for pure fluids: 
+O,, = 55p2'?(—log,, 
+p,) Mg?”
+[11.8.6] 
+r 
+in which Op, is in W/m’K, p; is the reduced pressure, M is the molecular weight and q is the local heat 
+flux in W/m? determined from the total internal surface area (not the nominal I.D. area). [Note: this 
+expression only works in SI units]. Since microfins are small, their fin efficiencies are very close to 100% 
+and this is what was assumed. The convective flow boiling contribution to horizontal flow boiling in a 
+microfin tube (Erg oO») is obtained using the turbulent film flow correlation of Kattan, Thome and Favrat 
+(1998c) for plain tubes to calculate o,,. Their convective boiling heat transfer coefficient for the annular 
+film is: 
+o,, =0.0133(Re, 
+}* Pr“(k, /8) 
+[11.8.7] 
+L /film 
+where ky is the liquid thermal conductivity. The constants 0.0133 and 0.69 are those for the plain tube 
+(not from the present microfin database), which was developed from an experimental database for 
+refrigerants R-123, R-134a, R-502, R-402A and R-404A (since shown to predict R-407C and ammonia 
+flow boiling data without modification). In this expression, the liquid film Reynolds number is 
+determined from the mean velocity of the liquid in the annular film using the local void fraction as: 
+= (I—e)u 
+[11.8.8] 
+L 
+Here, m is the total mass velocity of liquid and vapor, € is the local void fraction and 6 is the local 
+thickness of the annular liquid film (ignoring any effect of the microfins) while x is the local vapor quality 
+and wy, is the liquid dynamic viscosity. The local void fraction is determined using the Rouhani and 
+Axelsson (1970) drift flux model void fraction correlation for plain tubes: 
+Boiling Heat Transfer Inside Plain Tubes 
+11-18 
+
+
+=== PAGE 325 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+—l 
+PL 
+Pqo PL 
+mp,”
+Here, g is gravitational 
+acceleration 
+(9.81 m/s”) and 
+o is the surface 
+tension of the fluid (all in SI units). 
+The local annular liquid film thickness is calculated from the cross-sectional area occupied by the liquid 
+phase, assuming uniform thickness of the film around the tube perimeter and ignoring the presence of the 
+microfins, as: 
+11.8.10 
+4 
+[ 
+] 
+The maximum internal diameter at the base of the microfin tube is dy. The ribbed tube enhancement factor 
+Erp for single-phase turbulent tube flow correlation of Ravigururajan and Bergles (1985) is introduced to 
+include the enhancement effect of the microfins on the convective boiling coefficient: 
+1/7 
+0.212 
+0.21 
+029 | 
+where ey is the microfin height (in m), pr in the axial pitch from fin to fin (in m), a, is the helix angle of 
+the microfins (in °) and Pr, is the liquid Prandtl number. Regg is the liquid-phase tubular Reynolds 
+number defined as 
+rn(1 _ x)d, 
+Ly 
+Regs = 
+[11.8.12] 
+The Grigorig effect enhances film evaporation by drawing the liquid film from the microfin tips towards 
+their roots, similar to film condensation on low finned tubes and corrugated surfaces. Their enhancement 
+factor Epp is for tubular flow, not film flow. Thus, an addition enhancement factor for microfin tubes, Ene, 
+is included to account for these two effects (the only factor specifically based on the microfin test data 
+themselves) and that of mass velocity: 
+Ey. = 1.84 
+tn/th,,, ) —3.7(tn/m,,,.) 
++ 3.02 
+[11.8.13] 
+Here, Myer is a reference value introduced to non-dimensionalize the expression where Myer was set to the 
+maximum value tested, i.e. Myer 
+= 500 kg/m’s (367,900 
+Ib/hr ft’). 
+Figure 11.13 depicts a comparison of the microfin tube model to R-134a test data at a mass velocity of 
+200 kg/m’s (147,160 Ib/hr ft”). Notably, the slope of the local heat transfer coefficient vs. vapor quality is 
+correctly captured by the void fraction equation in the model. Figure 11.14 shows the predicted local 
+augmentation ratios averaged over a vapor quality from 0.15-0.85 and plotted as a function of mass 
+velocity for R-134a, showing that the model predicts large enhancement at low mass velocities, which 
+then tends towards the microfin’s internal area ratio at high mass velocities, typical of nearly all published 
+experimental results. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-19 
+
+
+=== PAGE 326 ===
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+R-134 
+a at 200 kq/m’s (147,160 
+Ib/h ft) 
+—¢- Microfin correlation 
+—*- Test data 
+02 
+03 
+04 
+0.5 
+0.6 
+0.7 
+0.8 
+09 
+Vapor quality 
+Simulation for R-134a 
+200 
+300 
+400 
+500 
+Mass Velocity (kg/m’s) 
+Figure 11.14. Thome, Kattan and Favrat [1997] microfin model showing enhancement 
+ratios as a function of mass velocity. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-20 
+
+
+=== PAGE 327 ===
+Engineering Data Book III 
+Engineering Thermal innovation™ 
+Since mass velocities in direct-expansion 
+evaporators 
+are normally from about 50 to 500 kg/m’s (36,790 
+to 367,900 Ib/hr ft’), this expression covers most applications. The value of Emr varies from as high as 
+2.36 at 100 kg/m’s (73,580 Ib/hr ft?) to as low as 1.21 at 500 kg/m’s (367,900 lb/hr ft’). A statistical 
+comparison to 362 local heat transfer coefficients gave a standard deviation, a mean deviation and an 
+average deviation for the R-134a data of 18.5%, 12.8% and 2.0%, respectively, while for R-123 the 
+corresponding values were 12.9%, 11.8% and 6.4%. Additional work is required to compare this method 
+to other microfin geometries and fluids. Presently, it covers vapor qualities up to 0.85, which can be 
+assumed to be the point of onset of dryout. For x > 0.85, it is recommended that the heat transfer 
+coefficient be prorated between its value at x = 0.85 and its vapor-phase heat transfer coefficient at x = 1, 
+the latter which is calculated with the Ravigururajan and Bergles (1985) single-phase correlation for 
+ribbed tubes. 
+In summary, enhancement of microfin flow boiling heat transfer coefficients relative to plain tube values 
+can be attributed to: 
+An increase in the convective contribution by the single-phase effect of the microfins; 
+A rise in the nucleate boiling contribution by the additional internal surface area; 
+Enhancement of annular film evaporation by the Gregorig effect; 
+Conversion of stratified-wavy flow (partially wetted tube perimeter) to annular flow (complete 
+wetting) at low mass velocities. 
+11.9 Correlation for Horizontal Tubes with Twisted Tape Insert 
+For evaporation inside horizontal tubes with twisted tape inserts, Kedzierski and Kim (1998) proposed a 
+correlation based on experimental data for one twisted tape (Y = 4.15) with five pure fluids and two 
+azeotropes (1401 data points) where Y is the twist ratio. The twist ratio Y is defined as the length along 
+the tube for a 180° turn of the tape divided by the internal tube diameter dj. Their correlation for the 
+twisted tape flow boiling heat transfer coefficient a, based on the plain tube internal diameter d; and 
+reduced pressure p, 1s: 
+a.,.d, 
+k, 
+The Swirl number Sw is: 
+_ Re, 
+11.9.2 
+The swirl Reynolds number Re, is defined as: 
+Sw 
+Re, = Re, -——
+[11.9.3] 
+Boiling Heat Transfer Inside Plain Tubes 
+11-21 
+
+
+=== PAGE 328 ===
+Engineering Data Book Ill 
+Engineering Thermal innovation 
+where the tape thickness is t. The Reynolds number Re;,; for the total flow as liquid is 
+md. 
+Re,, = Pum 
+[11.9.4] 
+Ly 
+Finally, the Boiling number is defined as 
+Bo=—1—
+[11.9.5] 
+mh, ¢ 
+where hyg is the latent heat, q is the local heat flux and m is the total mass velocity. The empirical 
+exponents are a function of vapor quality, x: 
+c, = 0.993-1.18 
+Ix +0.899x° 
+[11.9.6] 
+C, =—3.195+6.668x 
+[11.9.9] 
+Cs = 1.073—2.679x 
++1.443x° 
+[11.9.10] 
+Hence, they used 15 empirical constants in their correlation. Other than for statistical expediency, it is not 
+clear why the exponent on the liquid Prandtl number should be a function of vapor quality, ranging from a 
+value of c) = 1.108 at x = 0 for all liquid flow to only cz = 0.193 at x = 1 for all vapor. This method did 
+compared well to the data of Agrawal, Varma and Lal (1986) for R-12 at a twist ratio of 5.58. It is thus 
+okay to use but probably its values should be compared to a good plain tube method to see if the 
+enhancement ratio is reasonable or not. 
+Boiling Heat Transfer Inside Plain Tubes 
+11-22 
+
+

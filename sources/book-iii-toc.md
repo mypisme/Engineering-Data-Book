@@ -25,7 +25,7 @@
 | 8 | Condensation Inside Tubes | 管内冷凝 | 213-239 | 8-1 到 8-27 | P1 | 出版级二校完成 | 水平管、流型、微翅片管、混合物冷凝、过热蒸汽 |
 | 9 | Boiling Heat Transfer on External Surfaces | 外表面沸腾传热 | 240-277 | 9-1 到 9-38 | P2 | 出版级初校完成 | 池沸腾、管束沸腾、强化管、临界热通量 |
 | 10 | Boiling Heat Transfer Inside Plain Tubes | 光管管内沸腾传热 | 278-306 | 10-1 到 10-29 | P1 | 出版级独立复核完成 | 垂直管、水平管、蒸发、流型、混合物、局部换热系数 |
-| 11 | Boiling Heat Transfer Inside Enhanced Tubes | 强化管管内沸腾传热 | 307-328 | 11-1 到 11-22 | P2 | 未开始 | 微翅片管、扭带、波纹管、多孔涂层、强化蒸发 |
+| 11 | Boiling Heat Transfer Inside Enhanced Tubes | 强化管管内沸腾传热 | 307-328 | 11-1 到 11-22 | P2 | 出版级初校完成 | 微翅片管、扭带、波纹管、多孔涂层、强化蒸发 |
 | 12 | Two-Phase Flow Patterns | 两相流型 | 329-362 | 12-1 到 12-34 | P1 | 出版级独立二校完成 | 垂直管、水平管、流型图、环状流、分层流、流型转变 |
 | 13 | Two-Phase Pressure Drop | 两相压降 | 363-396 | 13-1 到 13-34 | P1 | 出版级独立二校完成 | 均相模型、分离流、Friedel、Lockhart-Martinelli、流型压降、壳侧 |
 | 14 | Falling Film Evaporation | 降膜蒸发 | 397-435 | 14-1 到 14-39 | P2 | 未开始 | 水平管束、壳侧降膜、制冷、石化再沸器、布液 |
