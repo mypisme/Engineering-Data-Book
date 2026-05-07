@@ -1,19 +1,41 @@
 ---
-title: '第 11 章 强化管管内沸腾传热'
-source: 'Engineering Data Book III, Chapter 11'
-pages: '11-1 to 11-22 (PDF 307-328)'
-status: '出版级二校完成'
-last_updated: '2026-05-07'
-formula_range: '[11.8.1]-[11.9.10]'
-figures: 'Fig. 11.1-11.14'
-tables: 'Table 11.1-11.3'
+book_id: engineering-data-book-iii
+source_file: "D:\\Knowledge-base\\books\\Engineering_Data_book\\第三部\\Engineering Data Book III OCR.pdf"
+chapter: 11
+chapter_title_en: Boiling Heat Transfer Inside Enhanced Tubes
+chapter_title_zh: 强化管管内沸腾传热
+source_pdf_pages: "307-328"
+source_book_pages: "11-1 到 11-22"
+status: publication_second_review_complete
+ocr_quality: prose_usable_formula_ocr_untrusted
+formula_check: all_23_numbered_equations_transcribed_against_source_pages
+figure_check: source_pages_retained_figure_crops_pending
+translation_scope: "第 11 章：强化管管内蒸发、微翅片管、扭带插入件、波纹管、多孔涂层、微翅片流动沸腾模型、扭带关联式"
 ---
+
+# Chapter 11 Boiling Heat Transfer Inside Enhanced Tubes
 
 # 第 11 章 强化管管内沸腾传热
 
-> **摘要**：本章描述强化管和管内插入件中的蒸发过程。涵盖垂直管和水平管中的蒸发。讨论的强化类型包括微翅片管、扭带插入件、波纹管和内部多孔涂层管。其他强化方式虽然存在，但已不再广泛使用（如铝星形插入件和内部高翅片管）、不适合强化沸腾传热，或缺乏充分的热性能文献。本章给出了微翅片管和扭带插入件的多种预测方法。
+## 来源追踪
+
+| 项目 | 内容 |
+|---|---|
+| 原书 | Engineering Data Book III |
+| 章节 | Chapter 11 |
+| PDF 页码 | 307-328 |
+| 书内页码 | 11-1 到 11-22 |
+| 进度记录 | [progress.md](./progress.md) |
+
+完整源页截图保留在 `assets/source-page-307.png` 到 `assets/source-page-328.png`，用于逐页二校和公式复核。正文只展示局部图表资产，避免整页原文图打断阅读。
+
+## 摘要
+
+本章描述强化管和管内插入件中的蒸发过程。涵盖垂直管和水平管中的蒸发。讨论的强化类型包括微翅片管、扭带插入件、波纹管和内部多孔涂层管。其他强化方式虽然存在，但已不再广泛使用（如铝星形插入件和内部高翅片管）、不适合强化沸腾传热，或缺乏充分的热性能文献。本章给出了微翅片管和扭带插入件的多种预测方法。
 
 ---
+
+## 11.1 Introduction
 
 ## 11.1 引言
 
@@ -26,6 +48,8 @@ tables: 'Table 11.1-11.3'
 **面积基准约定**：强化管内沸腾传热系数基于最大内径处的名义面积定义——对微翅片管即翅根直径，对扭带插入件即光管内表面。
 
 ---
+
+## 11.2 Types of Enhancement and Their Performance Ratios
 
 ## 11.2 强化类型与性能比
 
@@ -59,6 +83,8 @@ tables: 'Table 11.1-11.3'
 
 ---
 
+## 11.3 Flow Boiling in Vertical Microfin Tubes
+
 ## 11.3 垂直微翅片管流动沸腾
 
 Kattan, Thome and Favrat (1995) 对 R-134a 在一根微翅片管（最大内径 11.90 mm，螺旋角 18°，翅高 0.25 mm，60 翅片，面积比 1.74）中进行了垂直上升流和水平流的对比试验。采用热水加热和修正 Wilson 图法获取准局部传热数据。
@@ -72,6 +98,8 @@ Kattan, Thome and Favrat (1995) 对 R-134a 在一根微翅片管（最大内径 
 
 ---
 
+## 11.4 Flow Boiling with Twisted Tape Inserts in Vertical Tubes
+
 ## 11.4 垂直扭带插入件流动沸腾
 
 扭带插入件的独特优势是无需更换管束即可提高既有蒸发器的热能力。
@@ -79,6 +107,8 @@ Kattan, Thome and Favrat (1995) 对 R-134a 在一根微翅片管（最大内径 
 Jensen and Bensler (1986) 研究了不同扭曲比对 R-113 垂直上升流沸腾的影响（管内径 8.10 mm，电加热）。**图 11.7** 显示：高干度下强化可达 40%，低干度下约 10%。旋流效应在低质量通量和低热通量下预期更有效。
 
 ---
+
+## 11.5 Flow Boiling Inside Vertical Tubes with Internal Porous Coatings
 
 ## 11.5 垂直管内部多孔涂层流动沸腾
 
@@ -90,6 +120,8 @@ Jensen and Bensler (1986) 研究了不同扭曲比对 R-113 垂直上升流沸�
 - 池沸腾曲线与流动沸腾数据吻合良好 → 可用池沸腾数据设计垂直热虹吸再沸器
 
 ---
+
+## 11.6 Flow Boiling of Pure Fluids Inside Enhanced Horizontal Tubes
 
 ## 11.6 纯流体在强化水平管中的流动沸腾
 
@@ -117,6 +149,8 @@ Jensen and Bensler (1986) 研究了不同扭曲比对 R-113 垂直上升流沸�
 
 ---
 
+## 11.7 Flow Boiling of Zeotropic Mixtures Inside Enhanced Horizontal Tubes
+
 ## 11.7 非共沸混合物在强化水平管中的流动沸腾
 
 ### 数据处理注意事项
@@ -133,25 +167,39 @@ Jensen and Bensler (1986) 研究了不同扭曲比对 R-113 垂直上升流沸�
 
 ---
 
+## 11.8 Flow Boiling Models for Horizontal Microfin Tubes
+
 ## 11.8 水平微翅片管流动沸腾模型
 
 ### 11.8.1 Fujii 关联式
 
 Fujii et al. (1993) 提出以下微翅片关联式：
 
-$$\text{Nu}_{\text{mf}} = \frac{\alpha_{\text{mf}}\,d_{\text{mean}}}{k_L} = \text{Nu}_L\left(4.6/X_{tt}\right) \tag{11.8.1}$$
+$$
+\text{Nu}_{\text{mf}} = \frac{\alpha_{\text{mf}}\,d_{\text{mean}}}{k_L} = \text{Nu}_L\left(4.6/X_{tt}\right)
+\tag{11.8.1}
+$$
 
 其中液相 Nusselt 数 $\text{Nu}_L$ 的关联式为：
 
-$$\text{Nu}_L = 0.045\,\text{Re}_L^{0.8}\,\text{Pr}_L^{0.4} \tag{11.8.2}$$
+$$
+\text{Nu}_L = 0.045\,\text{Re}_L^{0.8}\,\text{Pr}_L^{0.4}
+\tag{11.8.2}
+$$
 
 液相 Reynolds 数基于液体质量分数：
 
-$$\text{Re}_L = \dot{m}(1 - x)\,d_{\text{mean}}/\mu_L \tag{11.8.3}$$
+$$
+\text{Re}_L = \dot{m}(1 - x)\,d_{\text{mean}}/\mu_L
+\tag{11.8.3}
+$$
 
 两相均湍流的 Martinelli 参数 $X_{tt}$：
 
-$$X_{tt} = \left(\frac{1-x}{x}\right)^{0.9}\left(\frac{\rho_G}{\rho_L}\right)^{0.5}\left(\frac{\mu_L}{\mu_G}\right)^{0.1} \tag{11.8.4}$$
+$$
+X_{tt} = \left(\frac{1-x}{x}\right)^{0.9}\left(\frac{\rho_G}{\rho_L}\right)^{0.5}\left(\frac{\mu_L}{\mu_G}\right)^{0.1}
+\tag{11.8.4}
+$$
 
 > **注意**：这些方程未使用最大内径，而是 $d_{\text{mean}}$（半翅高处的平均直径）。$\text{Nu}_L$ 中系数 0.045 是对该特定微翅片管拟合单相数据得到的（而非通用 Dittus-Boelter 系数 0.023）。因此**该方法不具通用性**，仅适用于该特定微翅片管几何。
 
@@ -161,13 +209,19 @@ Thome, Kattan and Favrat (1997) 提出了一个新的微翅片流动沸腾模型
 
 局部微翅片流动沸腾传热系数 $\alpha_{\text{mf}}$ 由渐近模型确定：
 
-$$\alpha_{\text{mf}} = E_{\text{mf}}\left[(\alpha_{\text{nb}})^3 + (E_{\text{RB}}\,\alpha_{\text{cb}})^3\right]^{1/3} \tag{11.8.5}$$
+$$
+\alpha_{\text{mf}} = E_{\text{mf}}\left[(\alpha_{\text{nb}})^3 + (E_{\text{RB}}\,\alpha_{\text{cb}})^3\right]^{1/3}
+\tag{11.8.5}
+$$
 
 #### 核态沸腾项
 
 $\alpha_{\text{nb}}$ 用 Cooper (1984) 有量纲核态池沸腾关联式（纯流体）计算：
 
-$$\alpha_{\text{nb}} = 55\,p_r^{0.12}\left(-\log_{10}p_r\right)^{-0.55}\,M^{-0.5}\,q^{0.67} \tag{11.8.6}$$
+$$
+\alpha_{\text{nb}} = 55\,p_r^{0.12}\left(-\log_{10}p_r\right)^{-0.55}\,M^{-0.5}\,q^{0.67}
+\tag{11.8.6}
+$$
 
 其中 $\alpha_{\text{nb}}$ 单位 W/m²K，$p_r$ 为对比压力，$M$ 为分子量，$q$ 为基于**全部内表面积**（非名义内径面积）的局部热通量（W/m²）。微翅片翅片效率假定为 100%。
 
@@ -175,13 +229,19 @@ $$\alpha_{\text{nb}} = 55\,p_r^{0.12}\left(-\log_{10}p_r\right)^{-0.55}\,M^{-0.5
 
 对流沸腾传热系数 $\alpha_{\text{cb}}$ 使用 Kattan, Thome and Favrat (1998c) 光管环状液膜湍流关联式：
 
-$$\alpha_{\text{cb}} = 0.0133\left(\text{Re}_L\right)_{\text{film}}^{0.69}\,\text{Pr}_L^{0.4}\left(k_L/\delta\right) \tag{11.8.7}$$
+$$
+\alpha_{\text{cb}} = 0.0133\left(\text{Re}_L\right)_{\text{film}}^{0.69}\,\text{Pr}_L^{0.4}\left(k_L/\delta\right)
+\tag{11.8.7}
+$$
 
 其中 $k_L$ 为液体热导率。常数 0.0133 和 0.69 为光管值（非微翅片数据拟合），已被证明可预测 R-123、R-134a、R-502、R-402A、R-404A、R-407C 和氨的流动沸腾数据。
 
 液膜 Reynolds 数由环状液膜中液体平均速度确定：
 
-$$\left(\text{Re}_L\right)_{\text{film}} = \frac{4\dot{m}(1-x)\delta}{(1-\varepsilon)\mu_L} \tag{11.8.8}$$
+$$
+\left(\text{Re}_L\right)_{\text{film}} = \frac{4\dot{m}(1-x)\delta}{(1-\varepsilon)\mu_L}
+\tag{11.8.8}
+$$
 
 其中 $\dot{m}$ 为总质量通量，$\varepsilon$ 为局部空隙率，$\delta$ 为局部液膜厚度（忽略微翅片影响），$x$ 为局部干度，$\mu_L$ 为液体动力粘度。
 
@@ -189,7 +249,10 @@ $$\left(\text{Re}_L\right)_{\text{film}} = \frac{4\dot{m}(1-x)\delta}{(1-\vareps
 
 局部空隙率使用 Rouhani and Axelsson (1970) 漂移流模型关联式：
 
-$$\varepsilon = \left(\frac{x}{\rho_G}\right)\left\{\left[1 + 0.12(1-x)\right]\left(\frac{x}{\rho_G} + \frac{1-x}{\rho_L}\right) + \frac{1.18(1-x)\left[g\sigma(\rho_L - \rho_G)\right]^{0.25}}{\dot{m}^2\,\rho_L^{0.5}}\right\}^{-1} \tag{11.8.9}$$
+$$
+\varepsilon = \left(\frac{x}{\rho_G}\right)\left\{\left[1 + 0.12(1-x)\right]\left(\frac{x}{\rho_G} + \frac{1-x}{\rho_L}\right) + \frac{1.18(1-x)\left[g\sigma(\rho_L - \rho_G)\right]^{0.25}}{\dot{m}^2\,\rho_L^{0.5}}\right\}^{-1}
+\tag{11.8.9}
+$$
 
 其中 $g$ 为重力加速度（9.81 m/s²），$\sigma$ 为表面张力（全部 SI 单位）。
 
@@ -197,7 +260,10 @@ $$\varepsilon = \left(\frac{x}{\rho_G}\right)\left\{\left[1 + 0.12(1-x)\right]\l
 
 局部环状液膜厚度由液相截面积计算，假定均匀分布、忽略微翅片：
 
-$$\delta = \frac{(1-\varepsilon)\,d_f}{4} \tag{11.8.10}$$
+$$
+\delta = \frac{(1-\varepsilon)\,d_f}{4}
+\tag{11.8.10}
+$$
 
 $d_f$ 为微翅片管翅根处最大内径。
 
@@ -205,17 +271,26 @@ $d_f$ 为微翅片管翅根处最大内径。
 
 引入 Ravigururajan and Bergles (1985) 单相湍流肋管强化因子 $E_{\text{RB}}$，以考虑微翅片对对流沸腾系数的强化效应：
 
-$$E_{\text{RB}} = \left\{1 + \left[2.64\,\text{Re}_{\text{RB}}^{0.036}\,\text{Pr}_L^{-0.024}\left(\frac{e_f}{d_f}\right)^{0.212}\left(\frac{p_f}{d_f}\right)^{-0.21}\left(\frac{\alpha_f}{90°}\right)^{0.29}\right]^7\right\}^{1/7} \tag{11.8.11}$$
+$$
+E_{\text{RB}} = \left\{1 + \left[2.64\,\text{Re}_{\text{RB}}^{0.036}\,\text{Pr}_L^{-0.024}\left(\frac{e_f}{d_f}\right)^{0.212}\left(\frac{p_f}{d_f}\right)^{-0.21}\left(\frac{\alpha_f}{90°}\right)^{0.29}\right]^7\right\}^{1/7}
+\tag{11.8.11}
+$$
 
 其中 $e_f$ 为微翅片高度（m），$p_f$ 为翅到翅的轴向节距（m），$\alpha_f$ 为微翅片螺旋角（°），$\text{Pr}_L$ 为液体 Prandtl 数。$\text{Re}_{\text{RB}}$ 为液相管流 Reynolds 数：
 
-$$\text{Re}_{\text{RB}} = \frac{\dot{m}(1-x)\,d_f}{\mu_L} \tag{11.8.12}$$
+$$
+\text{Re}_{\text{RB}} = \frac{\dot{m}(1-x)\,d_f}{\mu_L}
+\tag{11.8.12}
+$$
 
 #### 微翅片附加强化因子
 
 $E_{\text{RB}}$ 是管流（非液膜流）强化因子。为补偿 Gregorig 效应（液膜从翅顶向翅根汇聚加速蒸发）和质量通量效应，引入附加因子 $E_{\text{mf}}$（唯一基于微翅片试验数据拟合的因子）：
 
-$$E_{\text{mf}} = 1.89\left(\dot{m}/\dot{m}_{\text{ref}}\right)^2 - 3.7\left(\dot{m}/\dot{m}_{\text{ref}}\right) + 3.02 \tag{11.8.13}$$
+$$
+E_{\text{mf}} = 1.89\left(\dot{m}/\dot{m}_{\text{ref}}\right)^2 - 3.7\left(\dot{m}/\dot{m}_{\text{ref}}\right) + 3.02
+\tag{11.8.13}
+$$
 
 其中 $\dot{m}_{\text{ref}}$ 为用于无量纲化的参考值，取测试最大值 $\dot{m}_{\text{ref}} = 500$ kg/m²s。
 
@@ -241,43 +316,75 @@ $$E_{\text{mf}} = 1.89\left(\dot{m}/\dot{m}_{\text{ref}}\right)^2 - 3.7\left(\do
 
 ---
 
+## 11.9 Correlation for Horizontal Tubes with Twisted Tape Insert
+
 ## 11.9 水平扭带插入件关联式
 
 Kedzierski and Kim (1998) 基于一种扭带（$Y = 4.15$）的五种纯流体和两种共沸混合物的实验数据（1401 个数据点）提出了以下关联式。扭曲比 $Y$ 定义为带材旋转 180° 的管轴向长度除以管内径 $d_i$。
 
 扭带流动沸腾传热系数 $\alpha_{tt}$（基于光管内径 $d_i$）与对比压力 $p_r$ 的关联式：
 
-$$\frac{\alpha_{tt}\,d_i}{k_L} = 1.356\,\text{Sw}^{c_1}\,\text{Pr}_L^{c_2}\,p_r^{c_3}\left(-\log_{10}p_r\right)^{c_4}\,\text{Bo}^{c_5} \tag{11.9.1}$$
+$$
+\frac{\alpha_{tt}\,d_i}{k_L} = 1.356\,\text{Sw}^{c_1}\,\text{Pr}_L^{c_2}\,p_r^{c_3}\left(-\log_{10}p_r\right)^{c_4}\,\text{Bo}^{c_5}
+\tag{11.9.1}
+$$
 
 旋流数 Sw：
 
-$$\text{Sw} = \frac{\text{Re}_s}{\sqrt{Y}} \tag{11.9.2}$$
+$$
+\text{Sw} = \frac{\text{Re}_s}{\sqrt{Y}}
+\tag{11.9.2}
+$$
 
 旋流 Reynolds 数 $\text{Re}_s$：
 
-$$\text{Re}_s = \text{Re}_{L,t}\,\frac{\sqrt{1 + \left(\dfrac{\pi}{2Y}\right)^2}}{1 - \dfrac{4t}{\pi d_i}} \tag{11.9.3}$$
+$$
+\text{Re}_s = \text{Re}_{L,t}\,\frac{\sqrt{1 + \left(\dfrac{\pi}{2Y}\right)^2}}{1 - \dfrac{4t}{\pi d_i}}
+\tag{11.9.3}
+$$
 
 其中 $t$ 为扭带厚度。全液流 Reynolds 数 $\text{Re}_{L,t}$：
 
-$$\text{Re}_{L,t} = \frac{\rho_L\,\dot{m}\,d_i}{\mu_L} \tag{11.9.4}$$
+$$
+\text{Re}_{L,t} = \frac{\rho_L\,\dot{m}\,d_i}{\mu_L}
+\tag{11.9.4}
+$$
 
 沸腾数 Bo：
 
-$$\text{Bo} = \frac{q}{\dot{m}\,h_{LG}} \tag{11.9.5}$$
+$$
+\text{Bo} = \frac{q}{\dot{m}\,h_{LG}}
+\tag{11.9.5}
+$$
 
 其中 $h_{LG}$ 为潜热，$q$ 为局部热通量，$\dot{m}$ 为总质量通量。
 
 经验指数为干度 $x$ 的函数：
 
-$$c_1 = 0.993 - 1.18\,x + 0.899\,x^2 \tag{11.9.6}$$
+$$
+c_1 = 0.993 - 1.18\,x + 0.899\,x^2
+\tag{11.9.6}
+$$
 
-$$c_2 = 1.108 - 2.366\,x + 1.451\,x^2 \tag{11.9.7}$$
+$$
+c_2 = 1.108 - 2.366\,x + 1.451\,x^2
+\tag{11.9.7}
+$$
 
-$$c_3 = -2.383 + 5.255\,x - 1.791\,x^2 \tag{11.9.8}$$
+$$
+c_3 = -2.383 + 5.255\,x - 1.791\,x^2
+\tag{11.9.8}
+$$
 
-$$c_4 = -3.195 + 6.668\,x \tag{11.9.9}$$
+$$
+c_4 = -3.195 + 6.668\,x
+\tag{11.9.9}
+$$
 
-$$c_5 = 1.073 - 2.679\,x + 1.443\,x^2 \tag{11.9.10}$$
+$$
+c_5 = 1.073 - 2.679\,x + 1.443\,x^2
+\tag{11.9.10}
+$$
 
 共使用 **15 个经验常数**。该方法与 Agrawal, Varma and Lal (1986) 的 R-12 数据（扭曲比 5.58）吻合良好。
 

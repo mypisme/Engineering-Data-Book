@@ -1,25 +1,49 @@
 ---
-title: '第 9 章 外表面沸腾传热'
-source: 'Engineering Data Book III, Chapter 9'
-pages: '9-1 to 9-38 (PDF 240-277)'
-status: '出版级初校'
-last_updated: '2026-05-07'
-formula_range: '[9.3.1]-[9.6.19]'
-figures: 'Fig. 9.1-9.35'
-tables: 'Table 9.1-9.2'
+book_id: engineering-data-book-iii
+source_file: "D:\\Knowledge-base\\books\\Engineering_Data_book\\第三部\\Engineering Data Book III OCR.pdf"
+chapter: 9
+chapter_title_en: Boiling Heat Transfer on External Surfaces
+chapter_title_zh: 外表面沸腾传热
+source_pdf_pages: "240-277"
+source_book_pages: "9-1 到 9-38"
+status: publication_second_review_complete
+ocr_quality: prose_usable_formula_ocr_untrusted
+formula_check: all_40_numbered_equations_transcribed_against_source_pages
+figure_check: source_pages_retained_figure_crops_pending
+translation_scope: "第 9 章：池沸腾、核态沸腾关联式、临界热通量、混合物沸腾、强化管沸腾、管束沸腾预测"
 ---
+
+# Chapter 9 Boiling Heat Transfer on External Surfaces
 
 # 第 9 章 外表面沸腾传热
 
-> **摘要**：本章综述了管外沸腾传热。首先介绍核态池沸腾——一种类似于单相自然对流的两相过程，因为液池的唯一运动来自沸腾过程本身。然后讨论水平管束外侧的对流沸腾。涵盖的主题包括：池沸腾曲线、光管与强化管的传热机理、光管核态池沸腾关联式、核态沸腾临界热通量、混合物沸腾、强化管沸腾以及光管/低翅片管/Turbo-B 管束沸腾。
+## 来源追踪
+
+| 项目 | 内容 |
+|---|---|
+| 原书 | Engineering Data Book III |
+| 章节 | Chapter 9 |
+| PDF 页码 | 240-277 |
+| 书内页码 | 9-1 到 9-38 |
+| 进度记录 | [progress.md](./progress.md) |
+
+完整源页截图保留在 `assets/source-page-240.png` 到 `assets/source-page-277.png`，用于逐页二校和公式复核。正文只展示局部图表资产，避免整页原文图打断阅读。
+
+## 摘要
+
+本章综述了管外沸腾传热。首先介绍核态池沸腾——一种类似于单相自然对流的两相过程，因为液池的唯一运动来自沸腾过程本身。然后讨论水平管束外侧的对流沸腾。涵盖的主题包括：池沸腾曲线、光管与强化管的传热机理、光管核态池沸腾关联式、核态沸腾临界热通量、混合物沸腾、强化管沸腾以及光管/低翅片管/Turbo-B 管束沸腾。
 
 ---
+
+## 9.1 Introduction
 
 ## 9.1 引言
 
 本节讨论光管、强化管和管束沸腾的基本原理。其他全面的综述和论述可参考 Thome (1990)（强化沸腾）、Collier and Thome (1994) 或 van Stralen and Cole (1979)（沸腾基础），以及 Thome (1998) 关于 1990 年代沸腾传热研究的综述。
 
 ---
+
+## 9.2 Enhanced Boiling Surfaces
 
 ## 9.2 强化沸腾表面
 
@@ -28,6 +52,8 @@ tables: 'Table 9.1-9.2'
 通过对低翅片管进行机械变形，可以在管表面形成高密度的回流通道和孔隙，从而显著提高传热性能。**图 9.3** 展示了 Wolverine Tube Inc. 生产的 Turbo-B 管的多幅示意图，该管广泛用于制冷剂满液式蒸发器，其外部为强化沸腾几何结构，内部为螺旋翅片以增强冷冻水侧传热。**图 9.4** 展示了 Wolverine Tube Inc. 生产的各种版本 Turbo-B 管的照片。
 
 ---
+
+## 9.3 Nucleate Boiling on Plain Tubes
 
 ## 9.3 光管沸腾
 
@@ -68,7 +94,9 @@ tables: 'Table 9.1-9.2'
 
 热通量 $q$ 与壁面过热度 $\Delta T$ 的实验结果通常拟合为以下形式之一的指数方程：
 
-$$q \propto \Delta T^n, \quad \alpha_{\text{nb}} \propto \Delta T^n, \quad \text{或} \quad \alpha_{\text{nb}} \propto q^n$$
+$$
+q \propto \Delta T^n, \quad \alpha_{\text{nb}} \propto \Delta T^n, \quad \text{或} \quad \alpha_{\text{nb}} \propto q^n
+$$
 
 其中 $n$ 的数量级分别约为 3、2 或 0.7。以 $\alpha_{\text{nb}} \propto q^n$ 形式表示的关联式最易于应用。
 
@@ -78,25 +106,40 @@ $$q \propto \Delta T^n, \quad \alpha_{\text{nb}} \propto \Delta T^n, \quad \text
 
 Rohsenow (1962) 基于气泡扰动机理提出了最早的核态池沸腾关联式之一，按单相强制对流关联式的形式构建：
 
-$$\text{Nu} = C_1 \, \text{Re}^x \, \text{Pr}^y \tag{9.3.1}$$
+$$
+\text{Nu} = C_1 \, \text{Re}^x \, \text{Pr}^y
+\tag{9.3.1}
+$$
 
 沸腾 Nusselt 数定义如下（括号内的项为气泡脱离直径，用作特征长度）：
 
-$$\text{Nu} = \frac{\alpha_{\text{nb}}}{k_L} \left[\frac{\sigma}{g(\rho_L - \rho_G)}\right]^{1/2} \tag{9.3.2}$$
+$$
+\text{Nu} = \frac{\alpha_{\text{nb}}}{k_L} \left[\frac{\sigma}{g(\rho_L - \rho_G)}\right]^{1/2}
+\tag{9.3.2}
+$$
 
 其中 $\alpha_{\text{nb}}$ 为核态池沸腾传热系数，$k_L$ 为液体热导率，$\sigma$ 为表面张力，$g$ 为重力加速度，$\rho_L$ 和 $\rho_G$ 分别为液相和气相密度。
 
 Reynolds 数按液体表观速度定义为：
 
-$$\text{Re} = \frac{q}{h_{LG}\,\rho_L} \left[\frac{\sigma}{g(\rho_L - \rho_G)}\right]^{1/2} \frac{\rho_L}{\mu_L} \tag{9.3.3}$$
+$$
+\text{Re} = \frac{q}{h_{LG}\,\rho_L} \left[\frac{\sigma}{g(\rho_L - \rho_G)}\right]^{1/2} \frac{\rho_L}{\mu_L}
+\tag{9.3.3}
+$$
 
 其中 $h_{LG}$ 为潜热，$\mu_L$ 为液体动力粘度。引入经验常数 $C_{sf}$ 以考虑液体-表面组合的影响：
 
-$$\text{Nu} = \frac{1}{C_{sf}} \text{Re}^{(1-n)} \text{Pr}^{-m} \tag{9.3.4}$$
+$$
+\text{Nu} = \frac{1}{C_{sf}} \text{Re}^{(1-n)} \text{Pr}^{-m}
+\tag{9.3.4}
+$$
 
 Rohsenow 关联式通常表示为以下形式：
 
-$$\left[\frac{c_{pL}\,\Delta T}{h_{LG}}\right] = C_{sf} \left[\frac{q}{\mu_L\,h_{LG}} \left(\frac{\sigma}{g(\rho_L - \rho_G)}\right)^{1/2}\right]^n \text{Pr}_L^{m+1} \tag{9.3.5}$$
+$$
+\left[\frac{c_{pL}\,\Delta T}{h_{LG}}\right] = C_{sf} \left[\frac{q}{\mu_L\,h_{LG}} \left(\frac{\sigma}{g(\rho_L - \rho_G)}\right)^{1/2}\right]^n \text{Pr}_L^{m+1}
+\tag{9.3.5}
+$$
 
 液体比热为 $c_{pL}$，$\text{Pr}_L$ 为液体 Prandtl 数；$\alpha_{\text{nb}}$ 由传热系数定义 $\alpha_{\text{nb}} = q/\Delta T$ 求得。各指数值为 $m = 0.7$，$n = 0.33$（等价于 $q \propto \Delta T^3$），适用于除水以外的所有流体；对于水，Rohsenow 建议取 $m = 0$。
 
@@ -125,11 +168,17 @@ $$\left[\frac{c_{pL}\,\Delta T}{h_{LG}}\right] = C_{sf} \left[\frac{q}{\mu_L\,h_
 
 Mostinski (1963) 忽略表面效应，将对应态原理应用于核态池沸腾传热，以流体的对比压力 $p_r$ 和临界压力 $p_{\text{crit}}$ 为函数进行关联。其**有量纲**的对比压力关联式给出 $\alpha_{\text{nb}}$（单位 W/m²K）：
 
-$$\alpha_{\text{nb}} = 0.00417\,q^{0.7}\,p_{\text{crit}}^{0.69}\,F_P \tag{9.3.6}$$
+$$
+\alpha_{\text{nb}} = 0.00417\,q^{0.7}\,p_{\text{crit}}^{0.69}\,F_P
+\tag{9.3.6}
+$$
 
 该关联式须以 $q$（W/m²）和 $p_{\text{crit}}$（kN/m²，即 kPa）为单位使用。$F_P$ 是表征压力对核态沸腾影响的无量纲压力修正因子：
 
-$$F_P = 1.8\,p_r^{0.17} + 4\,p_r^{1.2} + 10\,p_r^{10} \tag{9.3.7}$$
+$$
+F_P = 1.8\,p_r^{0.17} + 4\,p_r^{1.2} + 10\,p_r^{10}
+\tag{9.3.7}
+$$
 
 ---
 
@@ -137,11 +186,17 @@ $$F_P = 1.8\,p_r^{0.17} + 4\,p_r^{1.2} + 10\,p_r^{10} \tag{9.3.7}$$
 
 Stephan and Abdelsalam (1980) 采用统计多元回归技术对水、有机物、制冷剂和低温流体四类流体分别提出了专用关联式。其**有机流体**关联式引用最广：
 
-$$\frac{\alpha_{\text{nb}}\,d_{\text{bub}}}{k_L} = 0.0546 \left[\left(\frac{\rho_G}{\rho_L}\right)^{1/2} \left(\frac{q\,d_{\text{bub}}}{k_L\,T_{\text{sat}}}\right)\right]^{0.67} \left(\frac{h_{LG}\,d_{\text{bub}}^2}{a_L^2}\right)^{0.248} \left(\frac{\rho_L - \rho_G}{\rho_L}\right)^{-4.33} \tag{9.3.8}$$
+$$
+\frac{\alpha_{\text{nb}}\,d_{\text{bub}}}{k_L} = 0.0546 \left[\left(\frac{\rho_G}{\rho_L}\right)^{1/2} \left(\frac{q\,d_{\text{bub}}}{k_L\,T_{\text{sat}}}\right)\right]^{0.67} \left(\frac{h_{LG}\,d_{\text{bub}}^2}{a_L^2}\right)^{0.248} \left(\frac{\rho_L - \rho_G}{\rho_L}\right)^{-4.33}
+\tag{9.3.8}
+$$
 
 等号左侧为 Nusselt 数，气泡脱离直径 $d_{\text{bub}}$ 由下式求得：
 
-$$d_{\text{bub}} = 0.0146\,\beta \left[\frac{2\sigma}{g(\rho_L - \rho_G)}\right]^{1/2} \tag{9.3.9}$$
+$$
+d_{\text{bub}} = 0.0146\,\beta \left[\frac{2\sigma}{g(\rho_L - \rho_G)}\right]^{1/2}
+\tag{9.3.9}
+$$
 
 其中接触角 $\beta$ 固定取 35°（不论流体种类），$T_{\text{sat}}$ 为饱和温度（K），$a_L$ 为液体热扩散率。
 
@@ -151,7 +206,10 @@ $$d_{\text{bub}} = 0.0146\,\beta \left[\frac{2\sigma}{g(\rho_L - \rho_G)}\right]
 
 Cooper (1984) 提出了一种新的对比压力形式的池沸腾关联式，将沸腾表面的粗糙度作为变量：
 
-$$\alpha_{\text{nb}} = 55\,p_r^{0.12 - 0.4343\ln R_p}\left(-0.4343\ln p_r\right)^{-0.55} M^{-0.5}\,q^{0.67} \tag{9.3.10}$$
+$$
+\alpha_{\text{nb}} = 55\,p_r^{0.12 - 0.4343\ln R_p}\left(-0.4343\ln p_r\right)^{-0.55} M^{-0.5}\,q^{0.67}
+\tag{9.3.10}
+$$
 
 这是一个**有量纲**关联式：$\alpha_{\text{nb}}$ 单位 W/m²K，热通量 $q$ 单位 W/m²，$M$ 为流体分子量，$R_p$ 为表面粗糙度（μm）。当 $R_p$ 未知时，取 $R_p = 1.0\;\mu\text{m}$。
 
@@ -165,21 +223,36 @@ Gorenflo (1993) 提出了一种**流体专用**的对比压力关联式，并包
 
 在其他压力、热通量和粗糙度条件下的核态沸腾传热系数 $\alpha_{\text{nb}}$ 相对于参考值计算：
 
-$$\alpha_{\text{nb}} = \alpha_o\,F_{PF}\left(q/q_o\right)^{nf}\left(R_p/R_{po}\right)^{0.133} \tag{9.3.11}$$
+$$
+\alpha_{\text{nb}} = \alpha_o\,F_{PF}\left(q/q_o\right)^{nf}\left(R_p/R_{po}\right)^{0.133}
+\tag{9.3.11}
+$$
 
 压力修正因子 $F_{PF}$（除水和氦以外的所有流体）：
 
-$$F_{PF} = 1.2\,p_r^{0.27} + 2.5\,p_r + \frac{p_r}{1 - p_r} \tag{9.3.12}$$
+$$
+F_{PF} = 1.2\,p_r^{0.27} + 2.5\,p_r + \frac{p_r}{1 - p_r}
+\tag{9.3.12}
+$$
 
 热通量指数 $nf$ 随对比压力的变化：
 
-$$nf = 0.9 - 0.3\,p_r^{0.3} \tag{9.3.13}$$
+$$
+nf = 0.9 - 0.3\,p_r^{0.3}
+\tag{9.3.13}
+$$
 
 对于**水**，相应方程为：
 
-$$F_{PF} = 1.73\,p_r^{0.27} + \left(6.1 + \frac{0.68}{1 - p_r}\right)p_r^2 \tag{9.3.14}$$
+$$
+F_{PF} = 1.73\,p_r^{0.27} + \left(6.1 + \frac{0.68}{1 - p_r}\right)p_r^2
+\tag{9.3.14}
+$$
 
-$$nf = 0.9 - 0.3\,p_r^{0.15} \tag{9.3.15}$$
+$$
+nf = 0.9 - 0.3\,p_r^{0.15}
+\tag{9.3.15}
+$$
 
 该方法适用于对比压力约 0.0005–0.95 的范围。对于列表中的流体，该方法在很宽的热通量和压力范围内给出准确结果，**可能是所述方法中最可靠的**。
 
@@ -189,11 +262,17 @@ $$nf = 0.9 - 0.3\,p_r^{0.15} \tag{9.3.15}$$
 >
 > $p_r = 1.01/33.7 = 0.030$
 >
-> $$F_{PF} = 1.73(0.030)^{0.27} + \left(6.1 + \frac{0.68}{1 - 0.030}\right)(0.030)^2 = 0.677$$
+> $$
+F_{PF} = 1.73(0.030)^{0.27} + \left(6.1 + \frac{0.68}{1 - 0.030}\right)(0.030)^2 = 0.677
+$$
 >
-> $$nf = 0.9 - 0.3(0.030)^{0.3} = 0.795$$
+> $$
+nf = 0.9 - 0.3(0.030)^{0.3} = 0.795
+$$
 >
-> $$\alpha_{\text{nb}} = 3400 \times 0.677 \times (30000/20000)^{0.795} \times (1.0/0.4)^{0.133} = 3590\;\text{W/m}^2\text{K}$$
+> $$
+\alpha_{\text{nb}} = 3400 \times 0.677 \times (30000/20000)^{0.795} \times (1.0/0.4)^{0.133} = 3590\;\text{W/m}^2\text{K}
+$$
 >
 > **⚠️ 校核注**：原文算例中对正戊烷使用了公式 [9.3.14]（$F_{PF}$ 系数 1.73，即水专用公式），而正戊烷应使用 [9.3.12]（系数 1.2）。此处忠实保留原文计算结果（$\alpha_{\text{nb}} = 3590$ W/m²K）。若使用 [9.3.12] 重新计算，$F_{PF} \approx 0.572$，最终结果约 **3040 W/m²K**。此差异已报告，供读者复核。
 
@@ -203,7 +282,10 @@ $$nf = 0.9 - 0.3\,p_r^{0.15} \tag{9.3.15}$$
 
 Ribatski and Saiz Jabardo (2003) 将表面粗糙度和材料效应引入了一个新的卤代烃制冷剂核态池沸腾关联式。水平铜管上的核态池沸腾传热系数可预测为：
 
-$$\alpha_{\text{nb}} = B\left(q^{0.9 - 0.3\,p_r^{0.2}}\right) p_r^{0.45} \left[-\log(p_r)\right]^{-0.8} R_p^{0.2}\,M^{-0.5} \tag{9.3.16}$$
+$$
+\alpha_{\text{nb}} = B\left(q^{0.9 - 0.3\,p_r^{0.2}}\right) p_r^{0.45} \left[-\log(p_r)\right]^{-0.8} R_p^{0.2}\,M^{-0.5}
+\tag{9.3.16}
+$$
 
 经验常数 $B$ 用于考虑壁面材料效应：铜 $B = 100$，黄铜 $B = 110$，不锈钢 $B = 85$。该有量纲关联式中热通量 $q$ 以 W/m² 输入，$\alpha_{\text{nb}}$ 单位 W/m²K，$R_p$ 按 ISO 4287/1:1984 标准的算术平均偏差，单位微米。对 10 根不同的商用铜管样品各取 10 个区域进行平均，平均粗糙度为 **0.6 微米**（实际值未知时推荐使用此值）。
 
@@ -222,15 +304,24 @@ $$\alpha_{\text{nb}} = B\left(q^{0.9 - 0.3\,p_r^{0.2}}\right) p_r^{0.45} \left[-
 
 Zuber 分析得到的 $q_{\text{DNB}}$ 表达式为：
 
-$$q_{\text{DNB}} = \rho_G\,h_{LG}\,\sqrt{\frac{2\pi\sigma}{\rho_G}} \cdot \frac{1}{2\pi\sqrt{3}} \cdot \sqrt{\frac{g(\rho_L - \rho_G)}{\sigma}} \cdot \frac{\pi}{16} \tag{9.3.17}$$
+$$
+q_{\text{DNB}} = \rho_G\,h_{LG}\,\sqrt{\frac{2\pi\sigma}{\rho_G}} \cdot \frac{1}{2\pi\sqrt{3}} \cdot \sqrt{\frac{g(\rho_L - \rho_G)}{\sigma}} \cdot \frac{\pi}{16}
+\tag{9.3.17}
+$$
 
 等价形式为：
 
-$$q_{\text{DNB}} = 0.149\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma} \tag{9.3.18}$$
+$$
+q_{\text{DNB}} = 0.149\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma}
+\tag{9.3.18}
+$$
 
 Kutateladze (1948) 已通过量纲分析得到几乎相同的表达式：
 
-$$q_{\text{DNB}} = C\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma} \tag{9.3.19}$$
+$$
+q_{\text{DNB}} = C\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma}
+\tag{9.3.19}
+$$
 
 其经验因子 $C$ 基于实验数据比较取 0.131。Zuber 分析给出 $C = \pi/24 = 0.1309$，与 Kutateladze 值几乎一致。Lienhard and Dhir 对朝上无限平面的解给出 $C = 0.149$（高 15%）。
 
@@ -239,8 +330,14 @@ $$q_{\text{DNB}} = C\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma}
 > **算例**：确定 1.01 bar 水在水平管上 DNB 处的热通量。物性参数：$\rho_L = 958.25\;\text{kg/m}^3$，$\rho_G = 0.6\;\text{kg/m}^3$，$h_{LG} = 2{,}256{,}120\;\text{J/kg}$，$\sigma = 0.05878\;\text{N/m}$。
 >
 > **解**：
-> $$q_{\text{DNB,tube}} = 0.9(\pi/24)(0.6)^{1/2}(2{,}256{,}120)\sqrt[4]{9.81(958.25 - 0.6)(0.05878)}$$
-> $$q_{\text{DNB,tube}} = 998{,}100\;\text{W/m}^2 \approx 998.1\;\text{kW/m}^2$$
+> $$
+q_{\text{DNB,tube}} = 0.9(\pi/24)(0.6)^{1/2}(2{,}256{,}120)\sqrt[4]{9.81(958.25 - 0.6)(0.05878)}
+$$
+> $$
+q_{\text{DNB,tube}} = 998{,}100\;\text{W/m}^2 \approx 998.1\;\text{kW/m}^2
+$$
+
+## 9.4 Nucleate Boiling of Mixtures
 
 ## 9.4 混合物的核态沸腾
 
@@ -254,26 +351,38 @@ $$q_{\text{DNB}} = C\,\rho_G^{1/2}\,h_{LG}\,\sqrt[4]{g(\rho_L - \rho_G)\,\sigma}
 
 在给定热通量下，混合物的沸腾过热度为 $\Delta T + \Delta\theta$，而具有相同物性的理想流体的过热度为 $\Delta T_I$。因此，混合物沸腾传热系数 $\alpha_{\text{nb}}$ 与理想传热系数 $\alpha_{\text{nb,I}}$ 在相同热通量下的比值为：
 
-$$\frac{\alpha_{\text{nb}}}{\alpha_{\text{nb,I}}} = \frac{\Delta T_I}{\Delta T_I + \Delta\theta} \tag{9.4.1}$$
+$$
+\frac{\alpha_{\text{nb}}}{\alpha_{\text{nb,I}}} = \frac{\Delta T_I}{\Delta T_I + \Delta\theta}
+\tag{9.4.1}
+$$
 
 $\Delta T_I$ 对应的壁面过热度由 $\alpha_{\text{nb,I}}$ 确定（例如使用 Cooper 关联式配合混合物的分子量和临界压力）。$\Delta\theta$ 的最大值为混合物的沸程 $\Delta\theta_{bp}$（露点温度与泡点温度之差）。
 
 基于蒸发气泡周围的传质平衡，得到以下混合物沸腾传热预测式：
 
-$$\frac{\alpha_{\text{nb}}}{\alpha_{\text{nb,I}}} = \left\{1 + \frac{\alpha_{\text{nb,I}}}{q}\,\Delta\theta_{bp}\left(1 - \exp\frac{-q}{\rho_L\,h_{LG}\,\beta_{mL}}\right)\right\}^{-1} \tag{9.4.2}$$
+$$
+\frac{\alpha_{\text{nb}}}{\alpha_{\text{nb,I}}} = \left\{1 + \frac{\alpha_{\text{nb,I}}}{q}\,\Delta\theta_{bp}\left(1 - \exp\frac{-q}{\rho_L\,h_{LG}\,\beta_{mL}}\right)\right\}^{-1}
+\tag{9.4.2}
+$$
 
 其中 $\beta_{mL}$ 为液体中的传质系数（固定取 0.0003 m/s）。$\alpha_{\text{nb,I}}$ 由前述纯流体关联式之一确定（但不包括 Gorenflo 方法，该方法未针对混合物做适配）。此方法由 Thome (1989) 发表，适用于有机物、制冷剂、水溶液、烃类和低温多组分混合物（两种或更多组分），沸程最大 30 K。
 
 > **算例**：假设理想传热系数 $\alpha_{\text{nb,I}} = 3000\;\text{W/m}^2\text{K}$，确定在 50 kW/m² 热通量下、沸程 15 K、液体密度 700 kg/m³、潜热 300,000 J/kg 的混合物沸腾系数。
 >
 > **解**：
-> $$\frac{\alpha_{\text{nb}}}{3000} = \left\{1 + \frac{3000}{50000}(15)\left(1 - \exp\frac{-50000}{700 \times 300000 \times 0.0003}\right)\right\}^{-1} = 0.670$$
+> $$
+\frac{\alpha_{\text{nb}}}{3000} = \left\{1 + \frac{3000}{50000}(15)\left(1 - \exp\frac{-50000}{700 \times 300000 \times 0.0003}\right)\right\}^{-1} = 0.670
+$$
 >
-> $$\alpha_{\text{nb}} = 0.67 \times 3000 = 2009\;\text{W/m}^2\text{K}$$
+> $$
+\alpha_{\text{nb}} = 0.67 \times 3000 = 2009\;\text{W/m}^2\text{K}
+$$
 >
 > 混合物的 $\alpha_{\text{nb}}$ 比等效纯流体低 33%。
 
 ---
+
+## 9.5 Enhanced Tube Boiling
 
 ## 9.5 强化管沸腾
 
@@ -308,6 +417,8 @@ Thome (1990) 归纳了强化表面高热性能的主要因素：
 - **图 9.19**：Ribatski and Thome (2006) — R-134a 在 Turbo-BII HP（沸腾管）和 Turbo-CSL（冷凝管）上三个饱和压力下的比较。高热通量下冷凝管性能略优于沸腾管。
 
 ---
+
+## 9.6 Bundle Boiling
 
 ## 9.6 管束沸腾
 
@@ -345,47 +456,74 @@ Thome and Robinson (2006) 针对光管、低翅片管和强化沸腾管分别提
 
 采用渐近法预测局部管束沸腾传热系数 $\alpha_{\text{bundle}}$：
 
-$$\alpha_{\text{bundle}} = \left(\alpha_{\text{nb}}^2 + \alpha_{\text{cb}}^2\right)^{1/2} \tag{9.6.1}$$
+$$
+\alpha_{\text{bundle}} = \left(\alpha_{\text{nb}}^2 + \alpha_{\text{cb}}^2\right)^{1/2}
+\tag{9.6.1}
+$$
 
 $\alpha_{\text{nb}}$ 用 Cooper (1984) 关联式 [9.3.10] 计算（含 1.7 铜管乘数，$R_p = 5.7\;\mu\text{m}$）。
 
 对流沸腾传热系数 $\alpha_{\text{cb}}$ 拟合为液膜对流表达式：
 
-$$\alpha_{\text{cb}} = 4.032\,\text{Re}_\delta^{0.236}\,\text{Pr}_L^{0.4}\left(\frac{k_L}{\delta}\right) \tag{9.6.2}$$
+$$
+\alpha_{\text{cb}} = 4.032\,\text{Re}_\delta^{0.236}\,\text{Pr}_L^{0.4}\left(\frac{k_L}{\delta}\right)
+\tag{9.6.2}
+$$
 
 液膜 Reynolds 数：
 
-$$\text{Re}_\delta = \frac{4\,\rho_L\,u_L\,\delta}{\mu_L} \tag{9.6.3}$$
+$$
+\text{Re}_\delta = \frac{4\,\rho_L\,u_L\,\delta}{\mu_L}
+\tag{9.6.3}
+$$
 
 液膜中平均液体速度：
 
-$$u_L = \frac{\dot{m}_{\text{total}}(1 - x)}{\rho_L(1 - \varepsilon)} \tag{9.6.4}$$
+$$
+u_L = \frac{\dot{m}_{\text{total}}(1 - x)}{\rho_L(1 - \varepsilon)}
+\tag{9.6.4}
+$$
 
 质量流速按管束最小截面积计算。液膜厚度 $\delta$ 通过在管布局上拟合六边形网格确定（**图 9.30**，每个六边形中心一根管）。
 
 六边形面积：
 
-$$A_{\text{hex}} = 6\left(\frac{L_{pp}}{3}\right)\left(\frac{L_{pn}}{2}\right) \tag{9.6.5}$$
+$$
+A_{\text{hex}} = 6\left(\frac{L_{pp}}{3}\right)\left(\frac{L_{pn}}{2}\right)
+\tag{9.6.5}
+$$
 
 其中 $L_{pp}$ 为垂直管间距，$L_{pn}$ 为水平管间距。
 
 适用空隙率的环形流通面积：
 
-$$A_{\text{cfl}} = A_{\text{hex}} - \frac{\pi D}{4} \tag{9.6.6}$$
+$$
+A_{\text{cfl}} = A_{\text{hex}} - \frac{\pi D}{4}
+\tag{9.6.6}
+$$
 
 > **校核注**：原文 [9.6.6] 写为 $A_{\text{cfl}} = A_{\text{hex}} - \pi D/4$。从物理意义看（六边形面积减去管截面积），应为 $A_{\text{cfl}} = A_{\text{hex}} - \pi D^2/4$。此处忠实保留原式，但标注此疑点供读者复核。
 
 六边形内饱和液体占据的面积：
 
-$$A_L = A_{\text{cfl}}(1 - \varepsilon) \tag{9.6.7}$$
+$$
+A_L = A_{\text{cfl}}(1 - \varepsilon)
+\tag{9.6.7}
+$$
 
 液膜形成的理想化液环直径：
 
-$$D_\delta = \sqrt{\frac{4A_L}{\pi} + D^2} \tag{9.6.8}$$
+$$
+D_\delta = \sqrt{\frac{4A_L}{\pi} + D^2}
+\tag{9.6.8}
+$$
 
 液膜厚度：
 
-$$\delta = \frac{D_\delta - D}{2} \tag{9.6.9}$$
+$$
+\delta = \frac{D_\delta - D}{2}
+\tag{9.6.9}
+$$
 
 **图 9.32** 显示该方法预测大部分光管管束数据在 ±20% 以内。数据库覆盖 R-134a、4.4°C，质量通量 5–41 kg/m²s，热通量 2–35 kW/m²，干度 10–87%。平均而言，**对流沸腾贡献为核态沸腾贡献的 63%**。
 
@@ -397,21 +535,33 @@ $$\delta = \frac{D_\delta - D}{2} \tag{9.6.9}$$
 
 R-507A：
 
-$$\alpha_{\text{nb}} = 93.35\,q^{0.44} \tag{9.6.10}$$
+$$
+\alpha_{\text{nb}} = 93.35\,q^{0.44}
+\tag{9.6.10}
+$$
 
 R-134a：
 
-$$\alpha_{\text{nb}} = 90.11\,q^{0.44} \tag{9.6.11}$$
+$$
+\alpha_{\text{nb}} = 90.11\,q^{0.44}
+\tag{9.6.11}
+$$
 
 > 热通量 $q$ 以 W/m² 输入，基于翅尖直径光管的名义面积。
 
 对流传热系数为翅间层流通道流动表达式：
 
-$$\frac{\alpha_{\text{cb}}\,d_h}{k_L} = 13.92 \tag{9.6.12}$$
+$$
+\frac{\alpha_{\text{cb}}\,d_h}{k_L} = 13.92
+\tag{9.6.12}
+$$
 
 水力直径：
 
-$$d_h = \frac{4\,A_{ff}}{P_w} \tag{9.6.13}$$
+$$
+d_h = \frac{4\,A_{ff}}{P_w}
+\tag{9.6.13}
+$$
 
 其中 $P_w = (s - t_{\text{root}}) + 2e$（$s$ 为翅距，$t_{\text{root}}$ 为翅根厚度，$e$ 为翅高），$A_{ff} = (s - t_{\text{root}})\,e$。
 
@@ -423,31 +573,51 @@ $$d_h = \frac{4\,A_{ff}}{P_w} \tag{9.6.13}$$
 
 由于 Turbo-Bii HP 的核态沸腾系数极高（~20–25 kW/m²K），光管和低翅片管的 $\alpha_{\text{cb}}$ 量级（~1 kW/m²K）相对微不足道。因此采用**管束沸腾因子法**：
 
-$$\alpha_{\text{bundle}} = \alpha_{\text{nb}}\,F_p\,F_\varepsilon \tag{9.6.14}$$
+$$
+\alpha_{\text{bundle}} = \alpha_{\text{nb}}\,F_p\,F_\varepsilon
+\tag{9.6.14}
+$$
 
 实验核态池沸腾曲线：
 
-$$\text{R-134a:} \quad \alpha_{\text{nb}} = 30944\,q^{-0.042} \tag{9.6.15}$$
+$$
+\text{R-134a:} \quad \alpha_{\text{nb}} = 30944\,q^{-0.042}
+\tag{9.6.15}
+$$
 
-$$\text{R-507A:} \quad \alpha_{\text{nb}} = 37334\,q^{-0.055} \tag{9.6.16}$$
+$$
+\text{R-507A:} \quad \alpha_{\text{nb}} = 37334\,q^{-0.055}
+\tag{9.6.16}
+$$
 
-$$\text{R-410A:} \quad \alpha_{\text{nb}} = 43520\,q^{-0.063} \tag{9.6.17}$$
+$$
+\text{R-410A:} \quad \alpha_{\text{nb}} = 43520\,q^{-0.063}
+\tag{9.6.17}
+$$
 
 > **注**：$\alpha_{\text{nb}}$ 对热通量几乎不敏感（指数接近零）。
 
 对比压力修正因子：
 
-$$F_p = 1.41 - 2.66\,p_r \tag{9.6.18}$$
+$$
+F_p = 1.41 - 2.66\,p_r
+\tag{9.6.18}
+$$
 
 空隙率修正因子：
 
-$$F_\varepsilon = 1.15 - 2(0.4 - \varepsilon)^2 \tag{9.6.19}$$
+$$
+F_\varepsilon = 1.15 - 2(0.4 - \varepsilon)^2
+\tag{9.6.19}
+$$
 
 空隙率用 Feenstra, Weaver and Judd (2000) 方法计算。实验中空隙率范围 0.16–0.85，对比压力 0.084–0.2。三种流体的管束效应均在 $\varepsilon \approx 0.4$ 时达到最大值。
 
 **图 9.34** 显示（排除底部管排后两个测点后）大部分数据预测在 ±20% 以内。
 
 ---
+
+## 9.7 Bundle Boiling Dryout Mechanisms
 
 ## 9.7 管束沸腾干涸机理
 
