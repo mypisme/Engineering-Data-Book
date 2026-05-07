@@ -2,7 +2,7 @@
 title: '第 11 章 强化管管内沸腾传热'
 source: 'Engineering Data Book III, Chapter 11'
 pages: '11-1 to 11-22 (PDF 307-328)'
-status: '出版级初校'
+status: '出版级二校完成'
 last_updated: '2026-05-07'
 formula_range: '[11.8.1]-[11.9.10]'
 figures: 'Fig. 11.1-11.14'
@@ -281,4 +281,4 @@ $$c_5 = 1.073 - 2.679\,x + 1.443\,x^2 \tag{11.9.10}$$
 
 共使用 **15 个经验常数**。该方法与 Agrawal, Varma and Lal (1986) 的 R-12 数据（扭曲比 5.58）吻合良好。
 
-> **校核注**：OCR 将 [11.9.4] 读为 "$\text{Re}_{L,t} = \rho_L \dot{m} d_i / \mu_L$"，但从物理意义和 [11.9.3] 的定义链看，全液流 Re 数应为 $\text{Re}_{L,t} = \dot{m}\,d_i / \mu_L$。原文源页 328 中公式图像清晰显示分子仅有 $\dot{m}\,d_i$。OCR 中 "$\rho_L$" 可能为页眉 "$\rho_L$" 误入。此处以源页图像为准，但保留提示供读者复核。
+> **校核注 [11.9.4]**：源页 328 公式图像**清晰显示** $\text{Re}_{L,t} = \rho_L \dot{m} d_i / \mu_L$，ρ_L 确实存在于分子中，并非 OCR 误读。译文忠实保留原书写法。但需注意：若 $\dot{m}$ 为质量通量（kg/m²s），则 $\rho_L \dot{m} d_i / \mu_L$ 的量纲为 [kg/m³ · kg/(m²·s) · m / (Pa·s)] = [kg/(m·s)]，**不是无量纲 Reynolds 数**。推测原书中 $\dot{m}$ 在此式可能实际表示的是体积通量或平均速度（m/s），使得 $\rho_L \dot{m} d_i / \mu_L$ 量纲正确。读者实施时应参照 Kedzierski and Kim (1998) 原论文确认定义。
